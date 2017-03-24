@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bemcho/Projects/stansandbox/" . "src/")
+ ("/home/bemcho/Projects/home-ai-reloaded-cmake/" . "homeai/")
+ ("/home/bemcho/.emacs.d/" . "cling/")
+ ("/home/bemcho/Projects/" . "home-ai-reloaded-cmake/")
+ ("/home/bemcho/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bemcho/"
+ "/home/bemcho/Projects/stansandbox/src/"
+ "/home/bemcho/.emacs.d/cling/"
+ "/home/bemcho/Projects/stansandbox/"
+ "/home/bemcho/.emacs.d/"
+ "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "vtkSandbox.cpp"
+ "cling.el"
+ "vktSandbox.cpp"
+ "main.cpp"
+ "clingroot.h"
+ "ac-comphist.dat"
+ "Annotation.hpp"
+ "clingmetaclipboard.cpp"
+ "clingmetaclipboar"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bemcho/" (22717 47265 837200 839000) "Desktop/" ".cache/" ".Xauthority" "ci/" ".steampid" "gizmo.avi" ".emacs.d/" "Music/" ".xsession-errors" "Public/" ".radeon-profile-settings" ".emacs" "Books/" ".bash_logout" ".java/" ".cmake/" ".gstreamer-0.10/" ".pki/" ".subversion/" "mencoder.conf" ".xscreensaver" ".texmf-var/" ".gitconfig" ".x-plane/" ".gnupg/" ".AMD/" ".dbus/" "Projects/" "Apps/" ".profile" ".bash_history" "Pictures/" ".asoundrc" "MNIST/" "Downloads/" ".radeon-profile-auxstuff" "./" ".config/" ".gconf/" "Templates/" ".visualvm/" ".gnome2/" "Movies/" ".bashrc" ".pulse-cookie" "alllibs.txt" ".thumbnails/" ".openra/" ".mono/" ".ICEauthority" ".m2/" "mac_fonts.tar.gz" ".wine64/" ".gksu.lock" ".kde/" ".mplayer/" ".gnome2_private/" ".mozilla/" "vtk.txt" "../" ".emacs~" ".CLion2016.3/" ".IdeaIC2016.3/" ".javacpp/" ".dmrc" ".aptitude/" ".local/" ".cling_history" ".steampath" "Videos/" ".steam/" ".valkyrie/" ".oracle_jre_usage/" ".fehbg" "Documents/" ".gimp-2.8/" ".ssh/" ".gnome/" "gizmocounterclockwise.webm" ".fluxbox/")
+
+ ("/home/bemcho/.emacs.d/cling/" (22720 23558 570745 213000) "cling.el" "./" ".#cling.el" "../")
+
+ ("/home/bemcho/Projects/stansandbox/src/" (22717 49585 205167 898000) "./" "main.cpp" "vtkSandbox.cpp" "../" "vktSandbox.cpp")
+
+ ("/home/bemcho/Projects/stansandbox/" (22717 49231 737172 918000) "clingmetaclipboard.cpp" "clingroot.h" ".idea/" ".gitignore" "src/" "deps/" "LICENSE" "include/" "cmake-build-debug/" "README.md" "./" ".git/" "../" "CMakeLists.txt" "airboat.obj" "cmake-build-release/" "cmake/")
+
+ ("/home/bemcho/.emacs.d/" (22717 44077 701246 119000) "ac-comphist.dat" ".emacs.desktop.lock" ".emacs.desktop" "./" "../" "cling/" "ido.last" "elpa/" "auto-save-list/")
+
+ ("/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/" (22705 58995 895275 726000) "ClipsAdapter.hpp" "./" "Annotation.hpp" "../" "VisualREPL.hpp" "VisualContextAnnotator.hpp")
+
+ ("/home/bemcho/Projects/home-ai-reloaded-cmake/" (22716 3290 862756 171000) "clingroot.h" ".idea/" "lbphFaceRecognizer.7z" ".gitignore" "bvlc_googlenet.prototxt" "src/" "tessdata/" "lbphFaceRecognizer.xml" "visualcontextrules.clp" "LICENSE" "synset_words.txt" "cmake-build-debug/" "README.md" "clingmetaclipboar" "./" "bvlc_googlenet.caffemodel" ".git/" "../" "cascade_frontalface.xml" "homeai/" "CMakeLists.txt" "deadlock.cfg" "cmake-build-release/" "cmake/")
+
+ ("/home/bemcho/Projects/" (22716 4642 718736 971000) "sundials-2.7.0/" "tesseract/" "opencv-master/" "dl4j-examples/" "radeon-profile-daemon/" "Guake-Color-Schemes/" "ogdf/" "cvode-2.9.0/" "clips_core_source_610/" "cmake-3.7.2/" "home-ai-distributed/" "home-ai-reloaded/" "eigen-eigen-67e894c6cd8f/" "llvm/" "leptonica/" "1" "cmake-3.7.2.tar.gz" "./" "untitled/" "clean_ogre_cmake_project.zip" "stansandbox/" "stan/" "home-ai-reloaded-cmake/" "3d-scanner/" "Java/" "poco-1.7.7-all/" "guake-color-palettes/" "../" "VTK-7.1.0/" "actor-framework/" "boost_1_63_0/" "sandbox/" "hlsl2glslfork/" "cling/" "radeon-profile/" "caffe/" "opencv-contrib/" ".directory" "tulip-4.10.0/" "guake-colors-solarized/" "glsl-optimizer/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

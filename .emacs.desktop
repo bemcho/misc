@@ -1,0 +1,107 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Mar 22 22:10:33 2017
+;; Desktop file format version 206
+;; Emacs version 26.0.50
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22738 55865 466248 29000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#839496") (background-color . "#002b36") (mouse-color . "#141312") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "#141312") (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . fullwidth) (display-type . color) (background-mode . dark) (cursor-color . "#839496") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 53) (width . 201) (left . 61) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1843) (pixel-height . 952) (total-width . 204) (total-height . 52) (normal-height . 1.0) (normal-width . 1.0) (buffer "Annotation.hpp" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 1663) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("lisp" "cling"))
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . "switch-to-buffer")))
+(setq file-name-history '("/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
+  "Annotation.hpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  1663
+  '(1663 nil)
+  nil
+  nil
+  '((buffer-display-time 22734 33867 961748 123000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp"
+  "clingmetaclipboard.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  418
+  '(27 nil)
+  nil
+  nil
+  '((buffer-display-time 22731 3234 237608 193000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
+  "comint.el.gz"
+  'emacs-lisp-mode
+  '(auto-complete-mode rainbow-delimiters-mode)
+  95262
+  '(95019 nil)
+  t
+  nil
+  '((buffer-display-time 22731 3235 487748 298000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(auto-complete-mode rainbow-delimiters-mode)
+  1564
+  '(1589 nil)
+  nil
+  nil
+  '((buffer-display-time 22731 3235 509374 518000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/src/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  42
+  '(337 nil)
+  nil
+  nil
+  '((buffer-display-time 22731 3239 137547 913000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/share/emacs/26.0.50/lisp/window.el.gz"
+  "window.el.gz"
+  'emacs-lisp-mode
+  '(auto-complete-mode rainbow-delimiters-mode)
+  307517
+  '(301340 nil)
+  t
+  nil
+  '((buffer-display-time 22731 3243 576215 552000) (buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp"
+  "vtkSandbox.cpp"
+  'c++-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  973
+  '(329 nil)
+  nil
+  nil
+  '((buffer-display-time 22731 3243 957086 63000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/clingroot.h"
+  "clingroot.h"
+  'c-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  244
+  '(237 nil)
+  nil
+  nil
+  '((buffer-display-time 22734 33867 961052 8000) (buffer-file-coding-system . undecided-unix)))
+
