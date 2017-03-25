@@ -6,7 +6,7 @@
 (defvar cling-cxx-flags "-std=c++14")
 
 (defun cling-display-buffer-hook ()
-  (display-buffer-at-bottom (get-buffer cling-buffer-name) '(inhibit-switch-frame t)))
+  (display-buffer (get-buffer cling-buffer-name)))
 
 (defun cling-get-or-create-process ()
   (or (get-process cling-process-name)  (cling)))
