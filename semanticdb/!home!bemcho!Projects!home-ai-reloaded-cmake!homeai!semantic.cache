@@ -1,0 +1,502 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("string" include (:system-flag t) nil [15 31])
+            ("vector" include (:system-flag t) nil [32 49])
+            ("memory" include (:system-flag t) nil [50 67])
+            ("fstream" include (:system-flag t) nil [68 86])
+            ("iostream" include (:system-flag t) nil [87 106])
+            ("opencv2/dnn.hpp" include (:system-flag t) nil [108 134])
+            ("opencv2/core.hpp" include nil nil [135 162])
+            ("opencv2/objdetect.hpp" include nil nil [163 195])
+            ("opencv2/features2d.hpp" include nil nil [196 229])
+            ("opencv2/face.hpp" include nil nil [230 257])
+            ("opencv2/videoio.hpp" include nil nil [258 288])
+            ("opencv2/highgui.hpp" include nil nil [289 319])
+            ("opencv2/imgproc.hpp" include nil nil [320 350])
+            ("Annotation.hpp" include nil nil [351 376])
+            ("tesseract/baseapi.h" include nil nil [377 407])
+            ("tbb/blocked_range.h" include nil nil [408 438])
+            ("tbb/parallel_for.h" include nil nil [439 468])
+            ("mutex" include (:system-flag t) nil [469 485])
+            ("hai" type
+               (:members 
+                  ( ("std" using (:type ("std" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [507 527])
+                    ("cv" using (:type ("cv" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [532 551])
+                    ("VisualContextAnnotator" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [592 599])
+                            ("VisualContextAnnotator" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("VisualContextAnnotator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [608 633])
+                            ("VisualContextAnnotator" function
+                               (:prototype-flag t
+                                :destructor-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [643 677])
+                            ("loadCascadeClassifier" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("cascadeClassifierPath" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [714 749]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [687 750])
+                            ("loadLBPModel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("path" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [778 796])
+                                    ("maxDistance" variable
+                                       (:default-value "65.0"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [797 822]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [760 824])
+                            ("loadCAFFEModel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("modelBinPath" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [854 880])
+                                    ("modelProtoTextPath" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [881 913])
+                                    ("synthWordPath" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [914 941]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [834 942])
+                            ("loadTESSERACTModel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("dataPath" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [976 999])
+                                    ("lang" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1000 1019])
+                                    ("ocrMode" variable
+                                       (:default-value "tesseract"
+                                        :type ("tesseract::OcrEngineMode" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [1052 1096])
+                                    ("" variable (:type ("OEM_TESSERACT_CUBE_COMBINED" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1098 1126]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [952 1127])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1201 1210])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1285 1294])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1396 1405])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1587 1596])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1727 1736])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1874 1883])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [1949 1958])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2090 2099])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2225 2234])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2319 2328])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2419 2428])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2512 2521])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2597 2606])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2710 2719])
+                            ("noexcept" variable (:type "int") (reparse-symbol classsubparts) [2813 2822])
+                            ("private" label nil (reparse-symbol classsubparts) [2828 2836])
+                            ("model" variable (:type ("Ptr" type
+                                 (:template-specifier 
+                                    ( ("face::FaceRecognizer" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2845 2877])
+                            ("cascade_classifier" variable (:type ("unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("CascadeClassifier" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2886 2935])
+                            ("tess" variable (:type ("unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("tesseract::TessBaseAPI" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2944 2984])
+                            ("net" variable (:type ("unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("dnn::Net" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2993 3018])
+                            ("cascadeClassLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("lbpLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("lbp2Lock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("lbpInRectLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("caffeLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("caffe2Lock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("caffeInRectLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("tessLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("tess2Lock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("tessInRectLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("morphGradientLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("contoursWithCannyLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("objectsWithCannyLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("training" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("training2" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3027 3251])
+                            ("maxDistance" variable (:type "double") (reparse-symbol classsubparts) [3261 3280])
+                            ("lbpModelPath" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3289 3309])
+                            ("getMaxClass" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("probBlob" variable
+                                       (:reference 1
+                                        :type ("dnn::Blob" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3336 3356])
+                                    ("classId" variable
+                                       (:reference 1
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [3357 3370])
+                                    ("classProb" variable
+                                       (:reference 1
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [3371 3389]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [3319 3390])
+                            ("readClassNames" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3435 3457]))                                  
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("String" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3400 3458])
+                            ("classNames" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("String" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [3468 3499]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [557 3506]))                  
+                :type "namespace")
+                nil [487 3508]))          
+      :file "VisualContextAnnotator.hpp"
+      :pointmax 3509
+      :fsize 3508
+      :lastmodtime '(22705 56469 999311 600000)
+      :unmatched-syntax '((semantic-list 2771 . 2812) (symbol 2740 . 2771) (symbol 2729 . 2739) (semantic-list 2655 . 2709) (symbol 2635 . 2655) (punctuation 2633 . 2634) (symbol 2623 . 2633) (punctuation 2622 . 2623) (symbol 2616 . 2622) (semantic-list 2570 . 2596) (symbol 2550 . 2570) (punctuation 2548 . 2549) (symbol 2538 . 2548) (punctuation 2537 . 2538) (symbol 2531 . 2537) (semantic-list 2476 . 2512) (symbol 2449 . 2476) (symbol 2438 . 2448) (semantic-list 2373 . 2418) (symbol 2357 . 2373) (punctuation 2355 . 2356) (symbol 2345 . 2355) (punctuation 2344 . 2345) (symbol 2338 . 2344) (semantic-list 2279 . 2318) (symbol 2263 . 2279) (punctuation 2261 . 2262) (symbol 2251 . 2261) (punctuation 2250 . 2251) (symbol 2244 . 2250) (semantic-list 2153 . 2224) (symbol 2128 . 2153) (symbol 2109 . 2119) (semantic-list 2009 . 2089) (symbol 1995 . 2009) (punctuation 1985 . 1986) (symbol 1975 . 1985) (punctuation 1974 . 1975) (symbol 1968 . 1974) (semantic-list 1926 . 1948) (symbol 1912 . 1926) (punctuation 1910 . 1911) (symbol 1900 . 1910) (punctuation 1899 . 1900) (symbol 1893 . 1899) (semantic-list 1796 . 1873) (symbol 1773 . 1796) (punctuation 1763 . 1764) (symbol 1753 . 1763) (punctuation 1752 . 1753) (symbol 1746 . 1752) (semantic-list 1649 . 1726) (symbol 1627 . 1649) (punctuation 1617 . 1618) (symbol 1613 . 1617) (punctuation 1612 . 1613) (symbol 1606 . 1612) (semantic-list 1459 . 1586) (symbol 1428 . 1459) (punctuation 1426 . 1427) (symbol 1422 . 1426) (punctuation 1421 . 1422) (symbol 1415 . 1421) (semantic-list 1344 . 1395) (symbol 1317 . 1344) (punctuation 1315 . 1316) (symbol 1311 . 1315) (punctuation 1310 . 1311) (symbol 1304 . 1310) (semantic-list 1231 . 1284) (symbol 1225 . 1231) (VOID 1220 . 1224) (semantic-list 1147 . 1200) (symbol 1142 . 1147) (VOID 1137 . 1141) (punctuation 1097 . 1098) (punctuation 1096 . 1097) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("string" include (:system-flag t) nil [15 32])
+            ("functional" include (:system-flag t) nil [33 54])
+            ("memory" include (:system-flag t) nil [55 72])
+            ("mutex" include (:system-flag t) nil [73 89])
+            ("chrono" include (:system-flag t) nil [90 107])
+            ("opencv2/core.hpp" include nil nil [108 135])
+            ("Annotation.hpp" include nil nil [136 161])
+            ("EnvReset" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [761 767]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [747 768])
+            ("EnvLoad" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [725 731])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [732 738]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [713 739])
+            ("EnvBuild" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [691 697])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [698 704]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [678 705])
+            ("CreateEnvironment" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [644 670])
+            ("DestroyEnvironment" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("intBool" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [628 634]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [601 635])
+            ("EnvPutFactSlot" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("intBool" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [557 563])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [564 570])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [571 577])
+                    ("" variable
+                       (:pointer 1
+                        :type ("DATA_OBJECT" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [578 591]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [534 592])
+            ("EnvAssignFactSlotDefaults" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("intBool" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [512 518])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [519 525]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [478 526])
+            ("EnvAddLong" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [456 462])
+                    ("" variable (:type "long") (reparse-symbol arg-sub-list) [463 468]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [439 469])
+            ("EnvCreateMultifield" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [409 415])
+                    ("" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [416 430]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [383 431])
+            ("EnvAssert" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [361 367])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [368 374]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [345 375])
+            ("EnvAddSymbol" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [323 329])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [330 336]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [304 337])
+            ("EnvCreateFact" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("fact" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [282 288])
+                    ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [289 295]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [255 296])
+            ("EnvFindDeftemplate" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [233 239])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [240 246]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [208 247])
+            ("clips/clips.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [176 200])
+            ("hai" type
+               (:members 
+                  ( ("ClipsAdapter" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [817 824])
+                            ("ClipsAdapter" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("aRulesFilePath" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [846 874]))                                  
+                                :type ("ClipsAdapter" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [833 1163])
+                            ("ClipsAdapter" function
+                               (:destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [1173 1225])
+                            ("private" label nil (reparse-symbol classsubparts) [2447 2455])
+                            ("createOneFactLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2464 2525])
+                            ("createFactsLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2464 2525])
+                            ("globalEnvLock" variable (:type ("std::mutex" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2464 2525])
+                            ("theCLIPSEnv" variable (:type ("cv::Ptr" type
+                                 (:template-specifier 
+                                    ( ("void" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2534 2560])
+                            ("rulesFilePath" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2569 2590]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [792 7957]))                  
+                :type "namespace")
+                nil [772 7959]))          
+      :file "ClipsAdapter.hpp"
+      :pointmax 7960
+      :fsize 7959
+      :lastmodtime '(22742 18757 459331 406000)
+      :unmatched-syntax '((semantic-list 3041 . 7950) (symbol 3032 . 3040) (semantic-list 2971 . 3031) (symbol 2957 . 2971) (VOID 2952 . 2956) (semantic-list 2649 . 2942) (symbol 2640 . 2648) (CONST 2634 . 2639) (semantic-list 2627 . 2633) (symbol 2607 . 2627) (symbol 2600 . 2606) (semantic-list 2338 . 2441) (symbol 2329 . 2337) (semantic-list 2326 . 2328) (symbol 2318 . 2326) (VOID 2313 . 2317) (INLINE 2306 . 2312) (semantic-list 2140 . 2296) (symbol 2131 . 2139) (semantic-list 2088 . 2130) (symbol 2081 . 2088) (VOID 2076 . 2080) (INLINE 2069 . 2075) (semantic-list 1950 . 2059) (symbol 1941 . 1949) (semantic-list 1938 . 1940) (symbol 1932 . 1938) (VOID 1927 . 1931) (INLINE 1920 . 1926) (semantic-list 1803 . 1910) (symbol 1794 . 1802) (semantic-list 1791 . 1793) (symbol 1783 . 1791) (VOID 1778 . 1782) (INLINE 1771 . 1777) (semantic-list 1571 . 1761) (symbol 1562 . 1570) (semantic-list 1502 . 1561) (symbol 1486 . 1502) (VOID 1481 . 1485) (INLINE 1474 . 1480) (semantic-list 1323 . 1464) (symbol 1314 . 1322) (semantic-list 1263 . 1313) (symbol 1247 . 1263) (VOID 1242 . 1246) (INLINE 1235 . 1241) (symbol 740 . 746) (symbol 706 . 712) (symbol 671 . 677) (symbol 637 . 643) (symbol 594 . 600) (symbol 527 . 533) (symbol 471 . 477) (symbol 432 . 438) (symbol 376 . 382) (symbol 338 . 344) (symbol 297 . 303) (symbol 248 . 254) (symbol 201 . 207) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("string" include (:system-flag t) nil [15 31])
+            ("opencv2/core.hpp" include (:system-flag t) nil [32 59])
+            ("hai" type
+               (:members 
+                  ( ("Annotation" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [105 112])
+                            ("Annotation" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("rect" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("cv::Rect" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [595 616])
+                                    ("desc" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [617 641])
+                                    ("aType" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [642 667]))                                  
+                                :type ("Annotation" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [584 908])
+                            ("Annotation" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("cv::Rect" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [929 939])
+                                    ("" variable (:type ("rect" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [940 945])
+                                    ("" variable
+                                       (:reference 1
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [946 959])
+                                    ("" variable (:type ("desc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [960 965])
+                                    ("" variable
+                                       (:reference 1
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [966 979])
+                                    ("" variable (:type ("aType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [980 986]))                                  
+                                :type ("Annotation" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [918 1230])
+                            ("private" label nil (reparse-symbol classsubparts) [1554 1562])
+                            ("rectangle" variable (:type ("cv::Rect" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1571 1590])
+                            ("contour" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("cv::Point" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [1599 1630])
+                            ("description" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1639 1663])
+                            ("type" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1672 1689]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [81 1696]))                  
+                :type "namespace")
+                nil [61 1698]))          
+      :file "Annotation.hpp"
+      :pointmax 1700
+      :fsize 1699
+      :lastmodtime '(22705 38755 19712 432000)
+      :unmatched-syntax '((semantic-list 1529 . 1548) (symbol 1520 . 1528) (semantic-list 1517 . 1519) (symbol 1507 . 1517) (punctuation 1505 . 1506) (symbol 1500 . 1505) (punctuation 1499 . 1500) (punctuation 1498 . 1499) (symbol 1496 . 1498) (punctuation 1495 . 1496) (symbol 1489 . 1495) (punctuation 1488 . 1489) (punctuation 1487 . 1488) (symbol 1484 . 1487) (CONST 1478 . 1483) (INLINE 1471 . 1477) (semantic-list 1440 . 1461) (symbol 1431 . 1439) (semantic-list 1428 . 1430) (symbol 1416 . 1428) (symbol 1411 . 1415) (punctuation 1410 . 1411) (punctuation 1409 . 1410) (symbol 1407 . 1409) (CONST 1401 . 1406) (INLINE 1394 . 1400) (semantic-list 1368 . 1384) (symbol 1359 . 1367) (semantic-list 1356 . 1358) (symbol 1349 . 1356) (symbol 1342 . 1348) (punctuation 1341 . 1342) (punctuation 1340 . 1341) (symbol 1337 . 1340) (CONST 1331 . 1336) (INLINE 1324 . 1330) (semantic-list 1291 . 1314) (symbol 1282 . 1290) (semantic-list 1279 . 1281) (symbol 1265 . 1279) (symbol 1258 . 1264) (punctuation 1257 . 1258) (punctuation 1256 . 1257) (symbol 1253 . 1256) (CONST 1247 . 1252) (INLINE 1240 . 1246) (punctuation 978 . 979) (punctuation 958 . 959) (punctuation 938 . 939) (semantic-list 572 . 574) (semantic-list 564 . 571) (symbol 560 . 564) (punctuation 457 . 458) (semantic-list 450 . 457) (symbol 439 . 450) (punctuation 336 . 337) (semantic-list 326 . 336) (symbol 319 . 326) (punctuation 317 . 318) (symbol 308 . 316) (semantic-list 236 . 307) (symbol 226 . 236) (semantic-list 214 . 216) (semantic-list 204 . 213) (symbol 200 . 204) (punctuation 198 . 199) (semantic-list 189 . 198) (symbol 178 . 189) (punctuation 176 . 177) (semantic-list 154 . 176) (symbol 145 . 154) (punctuation 143 . 144) (symbol 134 . 142) (semantic-list 131 . 133) (symbol 121 . 131) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!bemcho!Projects!home-ai-reloaded-cmake!homeai!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

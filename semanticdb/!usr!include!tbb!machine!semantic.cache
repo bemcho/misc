@@ -1,0 +1,339 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("directly" variable (:type ("file" type (:type "class") nil nil)) nil [1494 1508])
+            ("__TBB_machine_linux_intel64_H" variable (:constant-flag t) nil [1557 1586])
+            ("stdint.h" include (:system-flag t) nil [1588 1607])
+            ("gcc_ia32_common.h" include nil nil [1608 1636])
+            ("__TBB_WORDSIZE" variable (:constant-flag t) nil [1646 1660])
+            ("__TBB_ENDIANNESS" variable (:constant-flag t) nil [1671 1687])
+            ("__TBB_compiler_fence" variable (:constant-flag t) nil [1717 1737])
+            ("__TBB_control_consistency_helper" variable (:constant-flag t) nil [1786 1818])
+            ("__TBB_acquire_consistency_helper" variable (:constant-flag t) nil [1852 1884])
+            ("__TBB_release_consistency_helper" variable (:constant-flag t) nil [1918 1950])
+            ("__TBB_full_memory_fence" variable (:constant-flag t) nil [2017 2040])
+            ("__TBB_MACHINE_DEFINE_ATOMICS" variable (:constant-flag t) nil [2103 2131])
+            ("__TBB_machine_cmpswp1" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil)
+                    ("comparand" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int8_t" type (:type "class") nil nil))
+                nil [4793 4834])
+            ("__TBB_machine_fetchadd1" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("addend" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int8_t" type (:type "class") nil nil))
+                nil [4793 4834])
+            ("__TBB_machine_fetchstore1" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int8_t" type (:type "class") nil nil))
+                nil [4793 4834])
+            ("__TBB_machine_cmpswp2" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil)
+                    ("comparand" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int16_t" type (:type "class") nil nil))
+                nil [4835 4877])
+            ("__TBB_machine_fetchadd2" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("addend" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int16_t" type (:type "class") nil nil))
+                nil [4835 4877])
+            ("__TBB_machine_fetchstore2" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int16_t" type (:type "class") nil nil))
+                nil [4835 4877])
+            ("__TBB_machine_cmpswp4" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil)
+                    ("comparand" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [4878 4920])
+            ("__TBB_machine_fetchadd4" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("addend" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [4878 4920])
+            ("__TBB_machine_fetchstore4" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [4878 4920])
+            ("__TBB_machine_cmpswp8" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil)
+                    ("comparand" variable (:type ("int64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int64_t" type (:type "class") nil nil))
+                nil [4921 4964])
+            ("__TBB_machine_fetchadd8" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("addend" variable (:type ("int64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int64_t" type (:type "class") nil nil))
+                nil [4921 4964])
+            ("__TBB_machine_fetchstore8" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) nil)
+                    ("value" variable (:type ("int64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type ("int64_t" type (:type "class") nil nil))
+                nil [4921 4964])
+            ("__TBB_machine_or" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [5040 5059])
+                    ("value" variable (:type ("uint64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5060 5076]))                  
+                :type "void")
+                nil [5003 5213])
+            ("__TBB_machine_and" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("ptr" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [5253 5272])
+                    ("value" variable (:type ("uint64_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5273 5289]))                  
+                :type "void")
+                nil [5215 5427])
+            ("__TBB_AtomicOR" variable (:constant-flag t) nil [5437 5451])
+            ("__TBB_AtomicAND" variable (:constant-flag t) nil [5487 5502])
+            ("__TBB_USE_FETCHSTORE_AS_FULL_FENCED_STORE" variable (:constant-flag t) nil [5540 5581])
+            ("__TBB_USE_GENERIC_HALF_FENCED_LOAD_STORE" variable (:constant-flag t) nil [5602 5642])
+            ("__TBB_USE_GENERIC_RELAXED_LOAD_STORE" variable (:constant-flag t) nil [5664 5700])
+            ("__TBB_USE_GENERIC_SEQUENTIAL_CONSISTENCY_LOAD_STORE" variable (:constant-flag t) nil [5726 5777]))          
+      :file "linux_intel64.h"
+      :pointmax 5781
+      :fsize 5780
+      :lastmodtime '(21242 9638 0 0)
+      :unmatched-syntax '((punctuation 1539 . 1540) (symbol 1532 . 1539) (symbol 1524 . 1531) (symbol 1520 . 1523) (PUBLIC 1513 . 1519) (symbol 1509 . 1512) (symbol 1485 . 1493) (symbol 1480 . 1484) (symbol 1472 . 1479) (punctuation 1471 . 1472) (symbol 1467 . 1470) (symbol 1464 . 1466) (symbol 1458 . 1463) (punctuation 1457 . 1458))
+      :lexical-table 
+        '(("__TBB_USE_GENERIC_HALF_FENCED_LOAD_STORE" . ((number "1" 5654 . 5655)))
+          ("__TBB_WORDSIZE" . ((number "8" 1661 . 1662)))
+          ("__TBB_ENDIANNESS" . ((symbol "__TBB_ENDIAN_LITTLE" 1688 . 1707)))
+          ("__TBB_control_consistency_helper" (spp-arg-list nil 1818 . 1820) . ((symbol "__TBB_compiler_fence" 1821 . 1841) (semantic-list "()" 1841 . 1843)))
+          ("__TBB_compiler_fence" (spp-arg-list nil 1737 . 1739) . 
+              ((symbol "__asm__" 1740 . 1747) (symbol "__volatile__" 1748 . 1760) (semantic-list "(\"\": : :\"memory\")" 1760 . 1777)))
+          ("__TBB_AtomicAND" (spp-arg-list ("P" "V") 5502 . 5507) . ((symbol "__TBB_machine_and" 5508 . 5525) (semantic-list "(P,V)" 5525 . 5530)))
+          ("__TBB_acquire_consistency_helper" (spp-arg-list nil 1884 . 1886) . ((symbol "__TBB_compiler_fence" 1887 . 1907) (semantic-list "()" 1907 . 1909)))
+          ("__TBB_release_consistency_helper" (spp-arg-list nil 1950 . 1952) . ((symbol "__TBB_compiler_fence" 1953 . 1973) (semantic-list "()" 1973 . 1975)))
+          ("__TBB_full_memory_fence" (spp-arg-list nil 2040 . 2042) . 
+              ((symbol "__asm__" 2043 . 2050) (symbol "__volatile__" 2051 . 2063) (semantic-list "(\"mfence\": : :\"memory\")" 2063 . 2086)))
+          ("__TBB_USE_GENERIC_SEQUENTIAL_CONSISTENCY_LOAD_STORE" . ((number "1" 5778 . 5779)))
+          ("__TBB_AtomicOR" (spp-arg-list ("P" "V") 5451 . 5456) . ((symbol "__TBB_machine_or" 5457 . 5473) (semantic-list "(P,V)" 5473 . 5478)))
+          ("__TBB_USE_GENERIC_RELAXED_LOAD_STORE" . ((number "1" 5716 . 5717)))
+          ("__TBB_machine_linux_intel64_H")
+          ("__TBB_USE_FETCHSTORE_AS_FULL_FENCED_STORE" . ((number "1" 5592 . 5593)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("directly" variable (:type ("file" type (:type "class") nil nil)) nil [1446 1460])
+            ("sched.h" include (:system-flag t) nil [1501 1519])
+            ("__TBB_Yield" variable (:constant-flag t) nil [1528 1539])
+            ("unistd.h" include (:system-flag t) nil [1558 1577])
+            ("sys/syscall.h" include (:system-flag t) nil [1602 1626]))          
+      :file "linux_common.h"
+      :pointmax 2966
+      :fsize 2965
+      :lastmodtime '(21242 9638 0 0)
+      :unmatched-syntax '((punctuation 1491 . 1492) (symbol 1484 . 1491) (symbol 1476 . 1483) (symbol 1472 . 1475) (PUBLIC 1465 . 1471) (symbol 1461 . 1464) (symbol 1437 . 1445) (symbol 1432 . 1436) (symbol 1424 . 1431) (punctuation 1423 . 1424) (symbol 1419 . 1422) (symbol 1416 . 1418) (symbol 1410 . 1415) (punctuation 1409 . 1410))
+      :lexical-table 
+        '(("__TBB_Yield" (spp-arg-list nil 1539 . 1541) . ((symbol "sched_yield" 1543 . 1554) (semantic-list "()" 1554 . 1556)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__TBB_machine_gcc_ia32_common_H" variable (:constant-flag t) nil [1433 1464])
+            ("__TBB_machine_lg" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("x" variable (:type ("uintptr_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1802 1815]))                  
+                :type ("intptr_t" type (:type "class") nil nil))
+                nil [1761 1944])
+            ("__TBB_Log2" variable (:constant-flag t) nil [1953 1963])
+            ("__TBB_machine_pause" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("delay" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2711 2726]))                  
+                :type "void")
+                nil [2671 2829])
+            ("__TBB_Pause" variable (:constant-flag t) nil [2838 2849])
+            ("__TBB_CPU_CTL_ENV_PRESENT" variable (:constant-flag t) nil [2991 3016])
+            ("__TBB_cpu_ctl_env_t" type
+               (:members 
+                  ( ("mxcsr" variable (:type "int") (reparse-symbol classsubparts) [3053 3067])
+                    ("x87cw" variable (:type "short") (reparse-symbol classsubparts) [3072 3086]))                  
+                :type "struct")
+                nil [3020 3089])
+            ("__TBB_get_cpu_ctl_env" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("ctl" variable
+                       (:pointer 1
+                        :type ("__TBB_cpu_ctl_env_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3126 3152]))                  
+                :type "void")
+                nil [3090 3538])
+            ("__TBB_set_cpu_ctl_env" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("ctl" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__TBB_cpu_ctl_env_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3575 3607]))                  
+                :type "void")
+                nil [3539 3746])
+            ("gcc_itsx.h" include nil nil [3788 3809]))          
+      :file "gcc_ia32_common.h"
+      :pointmax 3856
+      :fsize 3855
+      :lastmodtime '(21242 9638 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__TBB_machine_gcc_ia32_common_H")
+          ("__TBB_CPU_CTL_ENV_PRESENT" . ((number "1" 3017 . 3018)))
+          ("__TBB_Log2" (spp-arg-list ("V") 1963 . 1966) . ((symbol "__TBB_machine_lg" 1968 . 1984) (semantic-list "(V)" 1984 . 1987)))
+          ("__TBB_Pause" (spp-arg-list ("V") 2849 . 2852) . ((symbol "__TBB_machine_pause" 2853 . 2872) (semantic-list "(V)" 2872 . 2875)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("directly" variable (:type ("file" type (:type "class") nil nil)) nil [1489 1503])
+            ("__TBB_machine_gcc_itsx_H" variable (:constant-flag t) nil [1552 1576])
+            ("__TBB_OP_XACQUIRE" variable (:constant-flag t) nil [1586 1603])
+            ("__TBB_OP_XRELEASE" variable (:constant-flag t) nil [1617 1634])
+            ("__TBB_OP_LOCK" variable (:constant-flag t) nil [1648 1661])
+            ("__TBB_STRINGIZE_INTERNAL" variable (:constant-flag t) nil [1680 1704])
+            ("__TBB_STRINGIZE" variable (:constant-flag t) nil [1723 1738])
+            ("__TBB_r_out" variable (:constant-flag t) nil [1834 1845])
+            ("__TBB_machine_try_lock_elided" function
+               (:typemodifiers ("inline" "static")
+                :arguments 
+                  ( ("lk" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1912 1934]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1859 2171])
+            ("__TBB_machine_try_lock_elided_cancel" function
+               (:typemodifiers ("inline" "static")
+                :type "void")
+                nil [2173 2339])
+            ("__TBB_machine_unlock_elided" function
+               (:typemodifiers ("inline" "static")
+                :arguments 
+                  ( ("lk" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2389 2411]))                  
+                :type "void")
+                nil [2341 2556])
+            ("__TBB_machine_is_in_transaction" function
+               (:typemodifiers ("inline" "static")
+                :type "bool")
+                nil [2742 3111]))          
+      :file "gcc_itsx.h"
+      :pointmax 4991
+      :fsize 4990
+      :lastmodtime '(21242 9638 0 0)
+      :unmatched-syntax '((punctuation 1534 . 1535) (symbol 1527 . 1534) (symbol 1519 . 1526) (symbol 1515 . 1518) (PUBLIC 1508 . 1514) (symbol 1504 . 1507) (symbol 1480 . 1488) (symbol 1475 . 1479) (symbol 1467 . 1474) (punctuation 1466 . 1467) (symbol 1462 . 1465) (symbol 1459 . 1461) (symbol 1453 . 1458) (punctuation 1452 . 1453))
+      :lexical-table 
+        '(("__TBB_STRINGIZE_INTERNAL" (spp-arg-list ("arg") 1704 . 1709) . ((punctuation "#" 1710 . 1711) (symbol "arg" 1711 . 1714)))
+          ("__TBB_STRINGIZE" (spp-arg-list ("arg") 1738 . 1743) . ((symbol "__TBB_STRINGIZE_INTERNAL" 1744 . 1768) (semantic-list "(arg)" 1768 . 1773)))
+          ("__TBB_OP_LOCK" . ((number "0xF0" 1666 . 1670)))
+          ("__TBB_machine_gcc_itsx_H")
+          ("__TBB_OP_XACQUIRE" . ((number "0xF2" 1604 . 1608)))
+          ("__TBB_OP_XRELEASE" . ((number "0xF3" 1635 . 1639)))
+          ("__TBB_r_out" . ((string "\"=q\"" 1846 . 1850)))
+          )
+))
+  :file "!usr!include!tbb!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

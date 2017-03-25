@@ -1,0 +1,399 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("../homeai/VisualContextAnnotator.hpp" include nil nil [1 48])
+            ("hai" type
+               (:members 
+                  ( ("VisualContextAnnotator" function
+                       (:constructor-flag t
+                        :parent "VisualContextAnnotator"
+                        :type ("VisualContextAnnotator" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [71 334])
+                    ("VisualContextAnnotator" function
+                       (:destructor-flag t
+                        :parent "VisualContextAnnotator"
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [341 508])
+                    ("loadCascadeClassifier" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("cascadeClassifierPath" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [565 600]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [514 804])
+                    ("loadLBPModel" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("path" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [852 870])
+                            ("aMaxDistance" variable (:type "double") (reparse-symbol arg-sub-list) [871 891]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [810 1003])
+                    ("loadTESSERACTModel" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("dataPath" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1057 1080])
+                            ("lang" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1081 1100])
+                            ("ocrMode" variable (:type ("tesseract::OcrEngineMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1153 1186]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1009 1255])
+                    ("loadCAFFEModel" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("modelBinPath" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1973 1999])
+                            ("modelProtoTextPath" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2000 2032])
+                            ("synthWordPath" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2081 2108]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1929 3089])
+                    ("PredictWithLBPBody" type
+                       (:members 
+                          ( ("vca_" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9810 9839])
+                            ("detects_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Rect" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [9848 9870])
+                            ("frame_gray_" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9879 9895])
+                            ("result_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [9904 9931])
+                            ("resultRef_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [9940 9971])
+                            ("annotationType" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9980 10008])
+                            ("PredictWithLBPBody" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("u" variable
+                                       (:reference 1
+                                        :type ("VisualContextAnnotator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10037 10063])
+                                    ("detects" variable
+                                       (:constant-flag t
+                                        :type ("vector" type
+                                             (:template-specifier 
+                                                ( ("Rect" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10064 10091])
+                                    ("frame_gray" variable
+                                       (:constant-flag t
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10092 10113])
+                                    ("aAnnotationType" variable
+                                       (:constant-flag t
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10141 10170]))                                  
+                                :type ("PredictWithLBPBody" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [10018 10562])
+                            ("()" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("range" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("tbb::blocked_range" type
+                                             (:template-specifier 
+                                                ( ("size_t" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [10588 10628]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [10572 10824]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [9774 10831])
+                    ("PredictWithCAFFEBody" type
+                       (:members 
+                          ( ("vca_" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13362 13391])
+                            ("detects_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Rect" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13400 13422])
+                            ("frame_" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13431 13442])
+                            ("result_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13451 13478])
+                            ("resultRef_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [13487 13518])
+                            ("PredictWithCAFFEBody" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("u" variable
+                                       (:reference 1
+                                        :type ("VisualContextAnnotator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13549 13575])
+                                    ("detects" variable (:type ("vector" type
+                                         (:template-specifier 
+                                            ( ("Rect" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [13576 13597])
+                                    ("frame" variable
+                                       (:constant-flag t
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13598 13623]))                                  
+                                :type ("PredictWithCAFFEBody" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [13528 13770])
+                            ("()" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("range" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("tbb::blocked_range" type
+                                             (:template-specifier 
+                                                ( ("size_t" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [13796 13836]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [13780 14029]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [13324 14036])
+                    ("getMaxClass" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("probBlob" variable
+                               (:reference 1
+                                :type ("dnn::Blob" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15493 15513])
+                            ("classId" variable
+                               (:reference 1
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [15514 15527])
+                            ("classProb" variable
+                               (:reference 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [15528 15546]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [15452 15776])
+                    ("readClassNames" function
+                       (:parent "VisualContextAnnotator"
+                        :arguments 
+                          ( ("filename" variable
+                               (:constant-flag t
+                                :default-value "\"synset_words.txt\""
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15841 15883]))                          
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("String" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [15782 16383])
+                    ("PredictWithTESSERACTBody" type
+                       (:members 
+                          ( ("vca_" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17390 17419])
+                            ("detects_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Rect" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [17428 17450])
+                            ("frame_gray_" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17459 17475])
+                            ("result_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [17484 17511])
+                            ("resultRef_" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("Annotation" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [17520 17551])
+                            ("PredictWithTESSERACTBody" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("u" variable
+                                       (:reference 1
+                                        :type ("VisualContextAnnotator" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17586 17612])
+                                    ("detects" variable (:type ("vector" type
+                                         (:template-specifier 
+                                            ( ("Rect" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [17613 17634])
+                                    ("frame_gray" variable
+                                       (:constant-flag t
+                                        :type ("Mat" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17635 17656]))                                  
+                                :type ("PredictWithTESSERACTBody" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [17561 17813])
+                            ("()" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("range" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("tbb::blocked_range" type
+                                             (:template-specifier 
+                                                ( ("size_t" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [17839 17879]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17823 18081]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [17348 18088]))                  
+                :type "namespace")
+                nil [50 19506]))          
+      :file "VisualContextAnnotator.cpp"
+      :pointmax 19507
+      :fsize 19506
+      :lastmodtime '(22742 22637 179276 304000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("tbb/parallel_invoke.h" include nil nil [1 33])
+            ("../homeai/Annotation.hpp" include nil nil [34 69])
+            ("../homeai/VisualContextAnnotator.hpp" include nil nil [70 117])
+            ("../homeai/ClipsAdapter.hpp" include nil nil [118 155])
+            ("../homeai/VisualREPL.hpp" include nil nil [156 191])
+            ("homeaiapp" type
+               (:members 
+                  ( ("hai" using (:type ("hai" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [220 240])
+                    ("face_cascade_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [246 303])
+                    ("window_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [308 343])
+                    ("lbp_recognizer_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [348 406])
+                    ("clips_vca_rules" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [411 465])
+                    ("clips" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("clips_vca_rules" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [491 507]))                          
+                        :type ("ClipsAdapter" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [472 508])
+                    ("cameras" variable (:type ("vector" type
+                         (:template-specifier 
+                            ( ("shared_ptr" type (:template-specifier 
+                                ( ("VisualREPL" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [514 553])
+                    ("faceAnnotator" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [558 595])
+                    ("textAnnotator" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [600 637])
+                    ("objectsAnnotator" variable (:type ("VisualContextAnnotator" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [642 682])
+                    ("MAX_CAMERAS" variable
+                       (:default-value "5"
+                        :type ("std::size_t" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [688 716])
+                    ("WINDOW_SHOW" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [721 745])
+                    ("annotateFaceContoursFN" function
+                       (:arguments 
+                          ( ("f" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [793 799])
+                            ("f_g" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [800 808]))                          
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("Annotation" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [751 1690])
+                    ("annotateObjectsFN" function
+                       (:arguments 
+                          ( ("f" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1733 1739])
+                            ("f_g" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1740 1748]))                          
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("Annotation" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [1696 2964])
+                    ("annotateTextContoursFN" function
+                       (:arguments 
+                          ( ("f" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3011 3017])
+                            ("f_g" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3018 3026]))                          
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("Annotation" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [2969 3633])
+                    ("updateLBPModelFN" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("samples" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("cv::Mat" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [3668 3692])
+                            ("label" variable (:type "int") (reparse-symbol arg-sub-list) [3693 3703])
+                            ("ontology" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3704 3720])
+                            ("aTInProgress" variable
+                               (:reference 1
+                                :type "bool")
+                                (reparse-symbol arg-sub-list) [3721 3740]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [3639 3960])
+                    ("main" function
+                       (:arguments 
+                          ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [3999 4008])
+                            ("argv" variable
+                               (:pointer 2
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [4009 4021]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [3990 7405]))                  
+                :type "namespace")
+                nil [193 7407])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [7418 7427])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [7428 7440]))                  
+                :type "int")
+                nil [7409 7484]))          
+      :file "home_ai_visual_repl.cpp"
+      :pointmax 7488
+      :fsize 7487
+      :lastmodtime '(22705 59308 603271 284000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!home-ai-reloaded-cmake!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

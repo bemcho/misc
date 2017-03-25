@@ -109,7 +109,7 @@
     (define-key map (kbd "C-c d") 'cling-wrap-defun-and-send)
     (define-key map (kbd "C-c b") 'cling-send-buffer)
     ;; let's bind the new command to a keycombo
-    (define-key map (kbd "C-c C-c") 'cling-clear-buffer)
+    (define-key map (kbd "C-c c") 'cling-clear-buffer)
 
     map))
 

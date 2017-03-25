@@ -1,0 +1,43 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags nil
+      :file "clingmetaclipboard.cpp"
+      :pointmax 675
+      :fsize 674
+      :lastmodtime '(22742 12972 59413 573000)
+      :unmatched-syntax '((symbol 671 . 672) (punctuation 670 . 671) (symbol 661 . 670) (symbol 659 . 660) (punctuation 658 . 659) (symbol 652 . 655) (punctuation 651 . 652) (symbol 648 . 651) (punctuation 647 . 648) (symbol 644 . 647) (punctuation 643 . 644) (symbol 636 . 643) (punctuation 635 . 636) (symbol 630 . 635) (punctuation 629 . 630) (symbol 626 . 629) (punctuation 625 . 626) (symbol 623 . 624) (punctuation 622 . 623) (symbol 617 . 619) (punctuation 616 . 617) (symbol 607 . 616) (punctuation 606 . 607) (symbol 603 . 606) (punctuation 602 . 603) (symbol "1" 597 . 602) (punctuation 596 . 597) (symbol 590 . 596) (punctuation 589 . 590) (symbol 586 . 589) (punctuation 585 . 586) (symbol 582 . 585) (punctuation 581 . 582) (symbol 579 . 580) (punctuation 578 . 579) (symbol 575 . 577) (punctuation 574 . 575) (symbol 562 . 574) (punctuation 561 . 562) (symbol 558 . 561) (punctuation 557 . 558) (symbol 552 . 557) (punctuation 551 . 552) (symbol 548 . 551) (punctuation 547 . 548) (symbol 545 . 546) (punctuation 544 . 545) (number 541 . 543) (number 539 . 541) (number 537 . 539) (symbol 535 . 537) (punctuation 534 . 535) (symbol 521 . 534) (punctuation 520 . 521) (symbol 517 . 520) (punctuation 516 . 517) (symbol 511 . 516) (punctuation 510 . 511) (symbol 507 . 510) (punctuation 506 . 507) (symbol 504 . 505) (punctuation 503 . 504) (number 500 . 502) (number 498 . 500) (number 496 . 498) (symbol 494 . 496) (punctuation 493 . 494) (symbol 479 . 493) (punctuation 478 . 479) (symbol 475 . 478) (punctuation 474 . 475) (symbol 469 . 474) (punctuation 468 . 469) (symbol 465 . 468) (punctuation 464 . 465) (symbol 462 . 463) (punctuation 461 . 462) (number 458 . 460) (number 456 . 458) (number 454 . 456) (symbol 452 . 454) (punctuation 451 . 452) (symbol 434 . 451) (punctuation 433 . 434) (symbol 430 . 433) (punctuation 429 . 430) (symbol 424 . 429) (punctuation 423 . 424) (symbol 420 . 423) (punctuation 419 . 420) (symbol 417 . 418) (punctuation 416 . 417) (number 413 . 415) (number 411 . 413) (number 409 . 411) (symbol 407 . 409) (punctuation 406 . 407) (symbol 392 . 406) (punctuation 391 . 392) (symbol 388 . 391) (punctuation 387 . 388) (symbol 382 . 387) (punctuation 381 . 382) (symbol 378 . 381) (punctuation 377 . 378) (symbol 375 . 376) (punctuation 374 . 375) (number 371 . 373) (number 369 . 371) (number 367 . 369) (symbol 365 . 367) (punctuation 364 . 365) (symbol 347 . 364) (punctuation 346 . 347) (symbol 343 . 346) (punctuation 342 . 343) (symbol 337 . 342) (punctuation 336 . 337) (symbol 333 . 336) (punctuation 332 . 333) (symbol 330 . 331) (punctuation 329 . 330) (symbol 325 . 326) (punctuation 324 . 325) (symbol 319 . 324) (punctuation 318 . 319) (symbol 313 . 318) (punctuation 312 . 313) (symbol 305 . 312) (punctuation 304 . 305) (symbol 299 . 304) (punctuation 298 . 299) (symbol 295 . 298) (punctuation 294 . 295) (symbol 292 . 293) (punctuation 291 . 292) (symbol 285 . 290) (punctuation 284 . 285) (symbol 279 . 284) (punctuation 278 . 279) (symbol 272 . 278) (punctuation 271 . 272) (symbol 264 . 271) (punctuation 263 . 264) (symbol 258 . 263) (punctuation 257 . 258) (symbol 254 . 257) (punctuation 253 . 254) (symbol 251 . 252) (punctuation 250 . 251) (symbol 246 . 249) (punctuation 245 . 246) (symbol 235 . 245) (punctuation 234 . 235) (symbol 229 . 234) (punctuation 228 . 229) (symbol 221 . 228) (punctuation 220 . 221) (symbol 215 . 220) (punctuation 214 . 215) (symbol 211 . 214) (punctuation 210 . 211) (symbol 208 . 209) (punctuation 207 . 208) (punctuation 204 . 205) (symbol 201 . 204) (punctuation 200 . 201) (symbol 196 . 200) (punctuation 195 . 196) (symbol 189 . 195) (punctuation 188 . 189) (symbol 186 . 187) (punctuation 185 . 186) (symbol 181 . 184) (punctuation 180 . 181) (symbol 169 . 180) (punctuation 168 . 169) (symbol 160 . 168) (punctuation 159 . 160) (symbol 153 . 159) (punctuation 152 . 153) (symbol 148 . 152) (punctuation 147 . 148) (symbol 145 . 146) (punctuation 144 . 145) (symbol 136 . 143) (punctuation 135 . 136) (symbol 128 . 135) (punctuation 127 . 128) (symbol 122 . 127) (punctuation 121 . 122) (symbol 118 . 121) (punctuation 117 . 118) (symbol 115 . 116) (punctuation 114 . 115) (symbol 108 . 112) (punctuation 107 . 108) (symbol 100 . 107) (punctuation 99 . 100) (symbol 94 . 99) (punctuation 93 . 94) (symbol 90 . 93) (punctuation 89 . 90) (symbol 87 . 88) (punctuation 86 . 87) (symbol 79 . 84) (punctuation 78 . 79) (symbol 71 . 78) (punctuation 70 . 71) (symbol 65 . 70) (punctuation 64 . 65) (symbol 61 . 64) (symbol 59 . 60) (punctuation 58 . 59) (symbol 51 . 57) (punctuation 50 . 51) (symbol 43 . 50) (punctuation 42 . 43) (symbol 37 . 42) (punctuation 36 . 37) (symbol 33 . 36) (punctuation 32 . 33) (symbol 30 . 31) (punctuation 29 . 30) (symbol 23 . 28) (punctuation 22 . 23) (symbol 15 . 22) (punctuation 14 . 15) (symbol 9 . 14) (punctuation 8 . 9) (symbol 5 . 8) (punctuation 4 . 5) (symbol 2 . 3) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("memory" include (:system-flag t) nil [39 56])
+            ("numeric" include (:system-flag t) nil [57 75])
+            ("algorithm" include (:system-flag t) nil [76 96])
+            ("string" include (:system-flag t) nil [97 114])
+            ("opencv2/core.hpp" include (:system-flag t) nil [115 142])
+            ("opencv2/videoio.hpp" include (:system-flag t) nil [143 173])
+            ("opencv2/highgui.hpp" include (:system-flag t) nil [174 204])
+            ("showFrame" function
+               (:arguments 
+                  ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [221 238])
+                    ("frame" variable (:type ("cv::Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [239 253]))                  
+                :type "void")
+                nil [206 284])
+            ("startVisualLoop" function
+               (:arguments 
+                  ( ("camIndex" variable (:type "int") (reparse-symbol arg-sub-list) [307 320])
+                    ("windowName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [321 344]))                  
+                :type "void")
+                nil [286 600]))          
+      :file "clingroot.h"
+      :pointmax 606
+      :fsize 605
+      :lastmodtime '(22724 50084 254645 376000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!stansandbox!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,127 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("__OPENCV_PREDICT_COLLECTOR_HPP__" variable (:constant-flag t) nil [2281 2313])
+            ("vector" include (:system-flag t) nil [2315 2332])
+            ("map" include (:system-flag t) nil [2333 2347])
+            ("utility" include (:system-flag t) nil [2348 2366])
+            ("cfloat" include (:system-flag t) nil [2367 2384])
+            ("opencv2/core/cvstd.hpp" include nil nil [2386 2419])
+            ("cv" type
+               (:members 
+                  ( ("face" type
+                       (:members 
+                          ( ("PredictCollector" variable (:type ("CV_EXPORTS_W" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [2564 3107])
+                            ("PredictCollector" variable (:type "int") (reparse-symbol namespacesubparts) [3293 4621]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2436 4631]))                  
+                :type "namespace")
+                nil [2421 4633]))          
+      :file "predict_collector.hpp"
+      :pointmax 4642
+      :fsize 4641
+      :lastmodtime '(22580 41788 0 0)
+      :unmatched-syntax '((PUBLIC 3286 . 3292) (punctuation 3284 . 3285) (symbol 3266 . 3283) (symbol 3253 . 3265) (CLASS 3247 . 3252))
+      :lexical-table 
+        '(("__OPENCV_PREDICT_COLLECTOR_HPP__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("__OPENCV_FACEREC_HPP__" variable (:constant-flag t) nil [372 394])
+            ("opencv2/face.hpp" include nil nil [396 423])
+            ("opencv2/core.hpp" include nil nil [424 451])
+            ("cv" type
+               (:members 
+                  ( ("face" type
+                       (:members 
+                          ( ("FaceRecognizer" variable (:type "int") (reparse-symbol namespacesubparts) [587 1290])
+                            ("createEigenFaceRecognizer" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("num_components" variable
+                                       (:default-value "0"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [2836 2858])
+                                    ("threshold" variable
+                                       (:default-value "DBL_MAX"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [2860 2886]))                                  
+                                :type ("Ptr" type
+                                     (:template-specifier 
+                                        ( ("BasicFaceRecognizer" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [2785 2888])
+                            ("createFisherFaceRecognizer" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("num_components" variable
+                                       (:default-value "0"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [4502 4524])
+                                    ("threshold" variable
+                                       (:default-value "DBL_MAX"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [4526 4552]))                                  
+                                :type ("Ptr" type
+                                     (:template-specifier 
+                                        ( ("BasicFaceRecognizer" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [4450 4554])
+                            ("FaceRecognizer" variable (:type "int") (reparse-symbol namespacesubparts) [4603 5620])
+                            ("createLBPHFaceRecognizer" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("radius" variable
+                                       (:default-value "1"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [7241 7253])
+                                    ("neighbors" variable
+                                       (:default-value "8"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [7255 7270])
+                                    ("grid_x" variable
+                                       (:default-value "8"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [7272 7284])
+                                    ("grid_y" variable
+                                       (:default-value "8"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [7286 7298])
+                                    ("threshold" variable
+                                       (:default-value "DBL_MAX"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [7300 7326]))                                  
+                                :type ("Ptr" type
+                                     (:template-specifier 
+                                        ( ("LBPHFaceRecognizer" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [7192 7328]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [468 7339]))                  
+                :type "namespace")
+                nil [453 7340]))          
+      :file "facerec.hpp"
+      :pointmax 7395
+      :fsize 7394
+      :lastmodtime '(22580 41788 0 0)
+      :unmatched-syntax '((symbol 7179 . 7191) (PUBLIC 4596 . 4602) (punctuation 4594 . 4595) (symbol 4575 . 4593) (symbol 4562 . 4574) (CLASS 4556 . 4561) (symbol 4437 . 4449) (symbol 2772 . 2784) (PUBLIC 580 . 586) (punctuation 578 . 579) (symbol 558 . 577) (symbol 545 . 557) (CLASS 539 . 544))
+      :lexical-table 
+        '(("__OPENCV_FACEREC_HPP__")
+          )
+))
+  :file "!usr!local!include!opencv2!face!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

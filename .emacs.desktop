@@ -2,106 +2,205 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Mar 22 22:10:33 2017
+;; Created Sat Mar 25 15:02:57 2017
 ;; Desktop file format version 206
 ;; Emacs version 26.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22738 55865 466248 29000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#839496") (background-color . "#002b36") (mouse-color . "#141312") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "#141312") (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . fullwidth) (display-type . color) (background-mode . dark) (cursor-color . "#839496") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 53) (width . 201) (left . 61) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1843) (pixel-height . 952) (total-width . 204) (total-height . 52) (normal-height . 1.0) (normal-width . 1.0) (buffer "Annotation.hpp" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 1663) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (22742 27265 12543 53000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1870) (pixel-height . 1017) (total-width . 207) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 9248) (start . 7729))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("lisp" "cling"))
+(setq search-ring '("company-c-headers-path-system" " company-c-headers-path-system" "company-c-he" "helm" "lisp" "cling"))
 (setq regexp-search-ring nil)
-(setq register-alist '((48 . "switch-to-buffer")))
-(setq file-name-history '("/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
+(setq register-alist '((48 . "(package-initialize)\n(add-to-list 'package-archives\n             '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n\n    \n(custom-set-variables\n ;; custom-set-variables was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n '(ansi-color-faces-vector\n   [default default default italic underline success warning error])\n '(auto-save-default nil)\n '(backup-inhibited t t)\n '(column-number-mode t)\n '(cua-mode t nil (cua-base))\n '(cursor-type (quote bar))\n '(custom-enabled-themes (quote (solarized-dark)))\n '(custom-safe-themes\n   (quote\n    (\"8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4\" \"d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879\" default)))\n '(delete-selection-mode t)\n '(inhibit-startup-screen t)\n '(initial-scratch-message nil)\n '(package-selected-packages\n   (quote\n    (helm solarized-theme rainbow-delimiters exec-path-from-shell auto-complete-clang)))\n '(show-paren-mode t)\n '(tool-bar-mode nil))\n     \n    ;; Package.el customization\n    (package-initialize)\n    (add-to-list 'package-archives\n                 '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n     \n    ;; rainbow delimiters\n    (setq rainbow-delimiters-mode t)\n\n;; turn off bell\n (setq visible-bell t)\n\n    ;; paredit\n   ;; (add-hook 'clojure-mode-hook 'paredit-mode)\n    ;;(add-hook 'nrepl-mode-hook 'paredit-mode)\n    ;;(global-set-key [f7] 'paredit-mode)\n     \n    ;; clojure-mode\n    ;;(global-set-key [f9] 'nrepl-jack-in)\n     \n    ;; nrepl\n    ;;(add-hook 'nrepl-interaction-mode-hook 'nrepl-turn-on-eldoc-mode)\n    ;(setq nrepl-popup-stacktraces nil)\n    ;(add-to-list 'same-window-buffer-names \"*nrepl*\")\n    ;(add-hook 'nrepl-mode-hook 'paredit-mode)\n     \n    ;; Auto complete\n    (require 'auto-complete-config)\n    (ac-config-default)\n(define-key ac-completing-map \"\\M-/\" 'ac-stop)\n\n\n\n(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)\n\n\n\n;; ac-nrepl\n					;(require 'ac-nrepl)\n					; (add-hook 'nrepl-mode-hook 'ac-nrepl-setup)\n					; (add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)\n					; (eval-after-load \"auto-complete\" '(add-to-list 'ac-modes 'nrepl-mode))\n\n;; theme\n(load-theme 'solarized-dark t)\n(desktop-save-mode t)\n(ido-mode )\n;;(clojure-mode)\n\n;(put 'upcase-region 'disabled nil)\n;\n(defun nrepl-reset ()\n ; (interactive)\n  ;(save-some-buffers)\n  ;(set-buffer \"*nrepl*\")\n  ;(goto-char (point-max))\n  ;(insert \"(user/reset)\")\n  ;(nrepl-return)\n  )\n\n;;(add-to-list 'load-path \"/Users/bemcho/Projects/slime-master\")\n;;(require 'slime)\n;;(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))\n;;(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))\n;; Optionally, specify the lisp program you are using. Default is \"lisp\"\n;;(setq inferior-lisp-program \"/usr/local/bin/sbcl\")\n\n(exec-path-from-shell-initialize)\n\n;;;;Clang Cling REPL\n(add-to-list 'load-path \"~/.emacs.d/cling/\")\n(require 'cling)\n\n(custom-set-faces\n ;; custom-set-faces was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n )\n\n    ;; ;; Use variable width font faces in current buffer\n    (defun my-buffer-face-mode-variable ()\n    ;;   \"Set font to a variable width (proportional) fonts in current buffer\"\n      (interactive)\n      (setq buffer-face-mode-face '(:family \"Menlo For Powerline\" :height 100))\n      (text-scale-adjust 1)\n       (buffer-face-mode))\n\n    (setq system-uses-terminfo nil)\n    (add-hook 'term-mode-hook\n              '(lambda ()\n                 (linum-mode 0)\n                 (term-set-escape-char ?\\C-z)\n                 (term-set-escape-char ?\\C-x)\n                 (define-key term-raw-map \"\\C-c\" 'term-interrupt-subjob)\n                 (define-key term-raw-map (kbd \"M-x\") 'execute-extended-command)\n                 (setq autopair-dont-activate t)\n                 (setq ac-auto-start nil)\n                 (visual-line-mode -1)\n                 ;; (my-buffer-face-mode-variable)\n                 ))\nA\n    (defun my-term-paste (&optional string)\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (if string string (current-kill 0))))\n\n    (defun my-term-pasteboard-paste ()\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (ns-get-pasteboard)))\n\n    (add-hook 'term-exec-hook '(lambda ()\n                                 (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)\n                                 (goto-address-mode)\n                                 (define-key term-raw-map (kbd \"C-y\") 'my-term-paste)\n                                 (define-key term-raw-map (kbd \"s-v\") 'my-term-pasteboard-paste)\n                                 (let ((base03 \"#002b36\")\n                                       (base02 \"#073642\")\n                                       (base01 \"#586e75\")\n                                       (base00 \"#657b83\")\n                                       (base0 \"#839496\")\n                                       (base1 \"#93a1a1\")\n                                       (base2 \"#eee8d5\")\n                                       (base3 \"#fdf6e3\")\n                                       (yellow \"#b58900\")\n                                       (orange \"#cb4b16\")\n                                       (red \"#dc322f\")\n                                       (magenta \"#d33682\")\n                                       (violet \"#6c71c4\")\n                                       (blue \"#268bd2\")\n                                       (cyan \"#2aa198\")\n                                       (green \"#859900\"))\n                                   (setq ansi-term-color-vector\n                                         (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue\n                                                                ,magenta ,cyan ,base2))))))\n(setq-default mode-line-buffer-identification\n              '(:eval default-directory))\n")))
+(setq file-name-history '("~/.emacs.d/init.el" "~/.bashrc" "~/Projects/home-ai-reloaded-cmake" "~/Projects/GTAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp" "~/Projects/" "~/Projects/home-ai-reloaded-cmake/" "TAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.bashrc" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.xinitrc" "/home/bemcho/.emacs.d/init.el" "TAGS" "/home/bemcho/.emacs" "~/.emacs.d/.emacs" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
-  "Annotation.hpp"
+  "/home/bemcho/.emacs.d/init.el"
+  "init.el"
+  'compilation-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  9248
+  '(6976 nil)
+  t
+  nil
+  '((buffer-display-time 22742 27028 573708 759000) (buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/src/home_ai_visual_repl.cpp"
+  "home_ai_visual_repl.cpp"
   'c++-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
-  1663
-  '(1663 nil)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  5165
+  '(nil nil)
   nil
   nil
-  '((buffer-display-time 22734 33867 961748 123000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 25744 991443 600000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  3135
+  '(3869 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 25014 403046 442000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/src/VisualContextAnnotator.cpp"
+  "VisualContextAnnotator.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  79
+  '(79 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 24896 754805 91000) (buffer-file-coding-system . undecided-unix) (fill-column . 13)))
+
+(desktop-create-buffer 206
+  nil
+  "llvm"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  172
+  '(nil nil)
+  t
+  '("/usr/local/include/llvm/")
+  '((buffer-display-time 22742 23868 438351 917000)))
+
+(desktop-create-buffer 206
+  nil
+  "include"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  1636
+  '(nil nil)
+  t
+  '("/usr/local/include/")
+  '((buffer-display-time 22742 23763 715449 683000)))
+
+(desktop-create-buffer 206
+  nil
+  "llvm-c"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  176
+  '(nil nil)
+  t
+  '("/usr/local/include/llvm-c/")
+  '((buffer-display-time 22742 23761 576904 395000)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp"
+  "VisualContextAnnotator.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  944
+  '(1645 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 23070 21961 568000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp"
+  "ClipsAdapter.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  2965
+  '(2075 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 22669 777135 38000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp"
   "clingmetaclipboard.cpp"
   'c++-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
-  418
-  '(27 nil)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  660
+  '(185 nil)
   nil
   nil
-  '((buffer-display-time 22731 3234 237608 193000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 18124 175785 933000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
-  "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
-  "comint.el.gz"
-  'emacs-lisp-mode
-  '(auto-complete-mode rainbow-delimiters-mode)
-  95262
-  '(95019 nil)
+  "/home/bemcho/.xinitrc"
+  ".xinitrc"
+  'sh-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  5
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 15105 325488 848000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  1523968
+  '(nil nil)
   t
-  nil
-  '((buffer-display-time 22731 3235 487748 298000) (buffer-file-coding-system . utf-8-unix)))
+  '("/usr/local/share/info/emacs" "Variables" ((history ("/usr/local/share/info/emacs" "Easy Customization" 1496862))))
+  '((tab-width . 8) (buffer-display-time 22742 12048 530375 213000) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
 
 (desktop-create-buffer 206
-  "/home/bemcho/.emacs"
-  ".emacs"
+  "/home/bemcho/.emacs.d/cling/cling.el"
+  "cling.el"
   'emacs-lisp-mode
-  '(auto-complete-mode rainbow-delimiters-mode)
-  1564
-  '(1589 nil)
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  4088
+  '(4082 nil)
   nil
   nil
-  '((buffer-display-time 22731 3235 509374 518000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/stansandbox/src/main.cpp"
-  "main.cpp"
-  'c++-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
-  42
-  '(337 nil)
-  nil
-  nil
-  '((buffer-display-time 22731 3239 137547 913000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/usr/local/share/emacs/26.0.50/lisp/window.el.gz"
-  "window.el.gz"
-  'emacs-lisp-mode
-  '(auto-complete-mode rainbow-delimiters-mode)
-  307517
-  '(301340 nil)
-  t
-  nil
-  '((buffer-display-time 22731 3243 576215 552000) (buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp"
-  "vtkSandbox.cpp"
-  'c++-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
-  973
-  '(329 nil)
-  nil
-  nil
-  '((buffer-display-time 22731 3243 957086 63000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10696 345055 501000) (buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/stansandbox/clingroot.h"
   "clingroot.h"
   'c-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
   244
   '(237 nil)
   nil
   nil
-  '((buffer-display-time 22734 33867 961052 8000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10464 871665 36000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
+  "Annotation.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  1663
+  '(1663 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22739 29345 165225 209000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
+  "comint.el.gz"
+  'emacs-lisp-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  95262
+  '(95019 nil)
+  t
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 13412 458232 910000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/src/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  42
+  '(337 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 27028 573591 697000) (buffer-file-coding-system . undecided-unix)))
 

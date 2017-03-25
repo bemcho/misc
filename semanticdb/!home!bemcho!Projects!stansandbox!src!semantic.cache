@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [3 22])
+            ("stan/math/math.hpp" include (:system-flag t) nil [23 52])
+            ("stansandbox" type
+               (:members 
+                  ( ("main" function (:type "int") (reparse-symbol namespacesubparts) [89 267]))                  
+                :type "namespace")
+                nil [54 269])
+            ("main" function
+               (:arguments 
+                  ( ("argvc" variable (:type "int") (reparse-symbol arg-sub-list) [279 289])
+                    ("argc" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [290 302]))                  
+                :type "int")
+                nil [270 337]))          
+      :file "main.cpp"
+      :pointmax 338
+      :fsize 337
+      :lastmodtime '(22720 18877 962811 689000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!stansandbox!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

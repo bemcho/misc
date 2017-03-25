@@ -1,0 +1,341 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("OPENCV_OBJDETECT_DBT_HPP" variable (:constant-flag t) nil [2261 2285]))          
+      :file "detection_based_tracker.hpp"
+      :pointmax 7685
+      :fsize 7684
+      :lastmodtime '(22580 41836 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("OPENCV_OBJDETECT_DBT_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("OPENCV_OBJDETECT_C_H" variable (:constant-flag t) nil [2257 2277])
+            ("opencv2/core/core_c.h" include nil nil [2279 2311])
+            ("deque" include (:system-flag t) nil [2332 2348])
+            ("vector" include (:system-flag t) nil [2349 2366])
+            ("cvRunHaarClassifierCascade" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("cascade" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5284 5323])
+                    ("pt" variable (:type ("CvPoint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5363 5374])
+                    ("start_stage" variable (:type "int") (reparse-symbol arg-sub-list) [5375 5401])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5391 5404]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5256 5406])
+            ("cvSetImagesForHaarClassifierCascade" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("cascade" variable
+                       (:pointer 1
+                        :type ("CvHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4988 5021])
+                    ("sum" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5070 5087])
+                    ("sqsum" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5088 5107])
+                    ("tilted_sum" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5156 5180])
+                    ("scale" variable (:type "double") (reparse-symbol arg-sub-list) [5181 5195]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4951 5196])
+            ("cvHaarDetectObjects" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("image" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4553 4572])
+                    ("cascade" variable
+                       (:pointer 1
+                        :type ("CvHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4594 4627])
+                    ("storage" variable
+                       (:pointer 1
+                        :type ("CvMemStorage" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4628 4650])
+                    ("scale_factor" variable (:type "double") (reparse-symbol arg-sub-list) [4672 4702])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4692 4707])
+                    ("min_neighbors" variable (:type "int") (reparse-symbol arg-sub-list) [4730 4758])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4748 4761])
+                    ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [4763 4783])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4773 4786])
+                    ("min_size" variable (:type ("CvSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4809 4835])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4825 4848])
+                    ("max_size" variable (:type ("CvSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4850 4876])
+                    ("" variable (:type ("CV_DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4866 4889]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4532 4891])
+            ("CV_HAAR_DO_ROUGH_SEARCH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4487 4510])
+            ("CV_HAAR_FIND_BIGGEST_OBJECT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4449 4476])
+            ("CV_HAAR_SCALE_IMAGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4411 4430])
+            ("CV_HAAR_DO_CANNY_PRUNING" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4373 4397])
+            ("cvReleaseHaarClassifierCascade" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("cascade" variable
+                       (:pointer 2
+                        :type ("CvHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4327 4362]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4295 4363])
+            ("cvLoadHaarClassifierCascade" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("directory" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4233 4255])
+                    ("orig_window_size" variable (:type ("CvSize" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4256 4280]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4184 4281])
+            ("CvAvgComp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvAvgComp" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [3951 4026])
+            ("CvAvgComp" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("rect" variable (:type ("CvRect" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3982 3994])
+                    ("neighbors" variable (:type "int") (reparse-symbol classsubparts) [3999 4013]))                  )
+                (reparse-symbol extern-c-contents) [3951 4026])
+            ("CvHaarClassifierCascade" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvHaarClassifierCascade" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [3684 3949])
+            ("CvHaarClassifierCascade" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("flags" variable (:type "int") (reparse-symbol classsubparts) [3729 3740])
+                    ("count" variable (:type "int") (reparse-symbol classsubparts) [3745 3756])
+                    ("orig_window_size" variable (:type ("CvSize" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3761 3785])
+                    ("real_window_size" variable (:type ("CvSize" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3790 3814])
+                    ("scale" variable (:type "double") (reparse-symbol classsubparts) [3819 3832])
+                    ("stage_classifier" variable
+                       (:pointer 1
+                        :type ("CvHaarStageClassifier" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3837 3877])
+                    ("hid_cascade" variable
+                       (:pointer 1
+                        :type ("CvHidHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3882 3922]))                  )
+                (reparse-symbol extern-c-contents) [3684 3949])
+            ("CvHidHaarClassifierCascade" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvHidHaarClassifierCascade" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [3613 3682])
+            ("CvHaarStageClassifier" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvHaarStageClassifier" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [3431 3611])
+            ("CvHaarStageClassifier" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("count" variable (:type "int") (reparse-symbol classsubparts) [3474 3485])
+                    ("threshold" variable (:type "float") (reparse-symbol classsubparts) [3490 3506])
+                    ("classifier" variable
+                       (:pointer 1
+                        :type ("CvHaarClassifier" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3511 3540])
+                    ("next" variable (:type "int") (reparse-symbol classsubparts) [3546 3555])
+                    ("child" variable (:type "int") (reparse-symbol classsubparts) [3560 3570])
+                    ("parent" variable (:type "int") (reparse-symbol classsubparts) [3575 3586]))                  )
+                (reparse-symbol extern-c-contents) [3431 3611])
+            ("CvHaarClassifier" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvHaarClassifier" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [3257 3429])
+            ("CvHaarClassifier" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("count" variable (:type "int") (reparse-symbol classsubparts) [3295 3305])
+                    ("haar_feature" variable
+                       (:pointer 1
+                        :type ("CvHaarFeature" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3310 3338])
+                    ("threshold" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [3343 3360])
+                    ("left" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [3365 3375])
+                    ("right" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [3380 3391])
+                    ("alpha" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [3396 3409]))                  )
+                (reparse-symbol extern-c-contents) [3257 3429])
+            ("CvHaarFeature" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("CvHaarFeature" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [3102 3255])
+            ("CvHaarFeature" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("tilted" variable (:type "int") (reparse-symbol classsubparts) [3137 3148])
+                    ("rect" variable
+                       (:dereference 1
+                        :type ("" type
+                             (:members 
+                                ( ("r" variable (:type ("CvRect" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3174 3183])
+                                  ("weight" variable (:type "float") (reparse-symbol classsubparts) [3192 3205]))                                
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [3153 3238]))                  )
+                (reparse-symbol extern-c-contents) [3102 3255])
+            ("CV_HAAR_FEATURE_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3078 3097])
+            ("CV_IS_HAAR_CLASSIFIER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2805 2826])
+            ("CV_TYPE_NAME_HAAR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2750 2767])
+            ("CV_HAAR_MAGIC_VAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2710 2727])
+            ("cvHaarDetectObjectsForROC" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("image" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("CvArr" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5498 5517])
+                    ("cascade" variable
+                       (:pointer 1
+                        :type ("CvHaarClassifierCascade" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5539 5572])
+                    ("storage" variable
+                       (:pointer 1
+                        :type ("CvMemStorage" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5573 5595])
+                    ("rejectLevels" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5617 5648])
+                    ("levelWeightds" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5649 5684])
+                    ("scale_factor" variable
+                       (:default-value "1.1"
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [5706 5731])
+                    ("min_neighbors" variable
+                       (:default-value "3"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5754 5775])
+                    ("flags" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5777 5790])
+                    ("min_size" variable
+                       (:default-value "cvSize(0, 0)"
+                        :type ("CvSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5813 5843])
+                    ("max_size" variable
+                       (:default-value "cvSize(0, 0)"
+                        :type ("CvSize" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5845 5875])
+                    ("outputRejectLevels" variable
+                       (:default-value "false"
+                        :type "bool")
+                        (reparse-symbol arg-sub-list) [5898 5929]))                  
+                :type ("CvSeq" type (:type "class") nil nil))
+                nil [5464 5932]))          
+      :file "objdetect_c.h"
+      :pointmax 5976
+      :fsize 5975
+      :lastmodtime '(22580 41836 0 0)
+      :unmatched-syntax '((symbol 5453 . 5463) (semantic-list 5401 . 5404) (semantic-list 5250 . 5255) (symbol 5245 . 5250) (semantic-list 4944 . 4950) (symbol 4939 . 4944) (semantic-list 4876 . 4889) (semantic-list 4835 . 4848) (semantic-list 4783 . 4786) (semantic-list 4758 . 4761) (semantic-list 4702 . 4707) (semantic-list 4523 . 4531) (symbol 4518 . 4523) (semantic-list 4288 . 4294) (symbol 4283 . 4288) (semantic-list 4157 . 4183) (symbol 4152 . 4157))
+      :lexical-table 
+        '(("CV_HAAR_FEATURE_MAX" . ((number "3" 3099 . 3100)))
+          ("CV_HAAR_MAGIC_VAL" . ((number "0x42500000" 2731 . 2741)))
+          ("CV_TYPE_NAME_HAAR" . ((string "\"opencv-haar-classifier\"" 2771 . 2795)))
+          ("CV_HAAR_DO_CANNY_PRUNING" . ((number "1" 4401 . 4402)))
+          ("CV_HAAR_DO_ROUGH_SEARCH" . ((number "8" 4515 . 4516)))
+          ("CV_HAAR_FIND_BIGGEST_OBJECT" . ((number "4" 4477 . 4478)))
+          ("CV_IS_HAAR_CLASSIFIER" (spp-arg-list ("haar") 2826 . 2834) . ((semantic-list "((haar) != NULL &&                                                                   \\
+    (((const CvHaarClassifierCascade*)(haar))->flags & CV_MAGIC_MASK)==CV_HAAR_MAGIC_VAL)" 2892 . 3068)))
+          ("OPENCV_OBJDETECT_C_H")
+          ("CV_HAAR_SCALE_IMAGE" . ((number "2" 4439 . 4440)))
+          )
+))
+  :file "!usr!local!include!opencv2!objdetect!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
