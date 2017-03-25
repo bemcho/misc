@@ -41,7 +41,7 @@
     ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
  '(package-selected-packages
    (quote
-    (toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+    (cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -182,7 +182,9 @@
 
 (setq-local imenu-create-index-function #'ggtags-build-imenu-index)
 
+(require 'speedbar)
 (setq speedbar-show-unknown-files t)
+(global-set-key (kbd "C-c C-t") 'sr-speedbar-toggle)
 
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
@@ -250,7 +252,7 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
-  ;; Package: smartparens
+;; Package: smartparens
 (require 'smartparens-config)
 (show-smartparens-global-mode +1)
 (smartparens-global-mode 1)
@@ -261,19 +263,81 @@
   (sp-local-pair "{" nil :post-handlers '(("||\n[i]" "RET")))
   (sp-local-pair "/*" "*/" :post-handlers '((" | " "SPC")
                                             ("* ||\n[i]" "RET"))))
-                                            
-                                            (global-set-key (kbd "<f5>") (lambda ()
+
+(global-set-key (kbd "<f5>") (lambda ()
                                (interactive)
                                (setq-local compilation-read-command nil)
                                (call-interactively 'compile)))
-                               
-                               (setq
+
+
+(setq
  ;; use gdb-many-windows by default
  gdb-many-windows t
 
  ;; Non-nil means display source file containing the main routine at startup
  gdb-show-main t
  )
- 
+
 ;; SHOW FILE PATH IN FRAME TITLE
 (setq-default frame-title-format "%b (%f)")
+
+(defun toggle-window-split ()
+  (interactive)
+  (if (= (count-windows) 2)
+      (let* ((this-win-buffer (window-buffer))
+             (next-win-buffer (window-buffer (next-window)))
+             (this-win-edges (window-edges (selected-window)))
+             (next-win-edges (window-edges (next-window)))
+             (this-win-2nd (not (and (<= (car this-win-edges)
+                                         (car next-win-edges))
+                                     (<= (cadr this-win-edges)
+                                         (cadr next-win-edges)))))
+             (splitter
+              (if (= (car this-win-edges)
+                     (car (window-edges (next-window))))
+                  'split-window-horizontally
+                'split-window-vertically)))
+        (delete-other-windows)
+        (let ((first-win (selected-window)))
+          (funcall splitter)
+          (if this-win-2nd (other-window 1))
+          (set-window-buffer (selected-window) this-win-buffer)
+          (set-window-buffer (next-window) next-win-buffer)
+          (select-window first-win)
+          (if this-win-2nd (other-window 1))))))
+
+(defun window-toggle-split-direction ()
+  "Switch window split from horizontally to vertically, or vice versa.
+
+i.e. change right window to bottom, or change bottom window to right."
+  (interactive)
+  (require 'windmove)
+  (let ((done))
+    (dolist (dirs '((right . down) (down . right)))
+      (unless done
+        (let* ((win (selected-window))
+               (nextdir (car dirs))
+               (neighbour-dir (cdr dirs))
+               (next-win (windmove-find-other-window nextdir win))
+               (neighbour1 (windmove-find-other-window neighbour-dir win))
+               (neighbour2 (if next-win (with-selected-window next-win
+                                          (windmove-find-other-window neighbour-dir next-win)))))
+          ;;(message "win: %s\nnext-win: %s\nneighbour1: %s\nneighbour2:%s" win next-win neighbour1 neighbour2)
+          (setq done (and (eq neighbour1 neighbour2)
+                          (not (eq (minibuffer-window) next-win))))
+          (if done
+              (let* ((other-buf (window-buffer next-win)))
+                (delete-window next-win)
+                (if (eq nextdir 'right)
+                    (split-window-vertically)
+                  (split-window-horizontally))
+                (set-window-buffer (windmove-find-other-window neighbour-dir) other-buf))))))))
+
+(global-set-key (kbd "C-x 5") 'window-toggle-split-direction)
+(global-set-key (kbd "C-x 4") 'toggle-window-split)
+
+(require 'cua)
+(cua-mode t)
+(setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
+(transient-mark-mode 1) ;; No region when it is not highlighted
+(setq cua-keep-region-after-copy t) ;; Standard Windows behaviour

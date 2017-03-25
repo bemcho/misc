@@ -1,1 +1,1 @@
-("~/Projects/stansandbox/" "~/Projects/home-ai-reloaded-cmake/" "~/.emacs.d/" "~/")
+("~/.emacs.d/" "~/Projects/stansandbox/" "~/Projects/home-ai-reloaded-cmake/" "~/")

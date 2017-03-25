@@ -41,7 +41,7 @@
     ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
  '(package-selected-packages
    (quote
-    (toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+    (cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -335,3 +335,9 @@ i.e. change right window to bottom, or change bottom window to right."
 
 (global-set-key (kbd "C-x 5") 'window-toggle-split-direction)
 (global-set-key (kbd "C-x 4") 'toggle-window-split)
+
+(require 'cua-base)
+(cua-mode t)
+(setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
+(transient-mark-mode 1) ;; No region when it is not highlighted
+(setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
