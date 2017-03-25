@@ -1,4 +1,8 @@
-((("define" .
+((("toggle-window-split" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("window-toggle-split-direction" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("define" .
    [1 0 0 0 0 0])
   ("global-set-key" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
@@ -61,7 +65,7 @@
   ("car" .
    [7 0 0])
   ("require" .
-   [1 0 0 0 0 0 0])
+   [2 0 0 0 0 0 0])
   ("setq" .
    [5 0 0 0])
   ("inferior-cling" .

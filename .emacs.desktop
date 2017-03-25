@@ -2,31 +2,64 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Mar 25 15:02:57 2017
+;; Created Sat Mar 25 15:43:55 2017
 ;; Desktop file format version 206
 ;; Emacs version 26.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22742 27265 12543 53000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1870) (pixel-height . 1017) (total-width . 207) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 9248) (start . 7729))))])
+(setq desktop-saved-frameset [frameset 1 (22742 29723 681608 915000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1870) (pixel-height . 1017) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1503) (pixel-height . 1017) (total-width . 167) (total-height . 57) (normal-height . 1.0) (normal-width . 0.8037433155080214) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 6765) (start . 6544))) (leaf (last . t) (pixel-width . 367) (pixel-height . 1017) (total-width . 41) (total-height . 57) (normal-height . 1.0) (normal-width . 0.1962566844919786) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated . t) (point . 237) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("company-c-headers-path-system" " company-c-headers-path-system" "company-c-he" "helm" "lisp" "cling"))
+(setq search-ring '("speed" "speedbar" "company-c-headers-path-system" " company-c-headers-path-system" "company-c-he" "helm" "lisp" "cling"))
 (setq regexp-search-ring nil)
-(setq register-alist '((48 . "(package-initialize)\n(add-to-list 'package-archives\n             '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n\n    \n(custom-set-variables\n ;; custom-set-variables was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n '(ansi-color-faces-vector\n   [default default default italic underline success warning error])\n '(auto-save-default nil)\n '(backup-inhibited t t)\n '(column-number-mode t)\n '(cua-mode t nil (cua-base))\n '(cursor-type (quote bar))\n '(custom-enabled-themes (quote (solarized-dark)))\n '(custom-safe-themes\n   (quote\n    (\"8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4\" \"d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879\" default)))\n '(delete-selection-mode t)\n '(inhibit-startup-screen t)\n '(initial-scratch-message nil)\n '(package-selected-packages\n   (quote\n    (helm solarized-theme rainbow-delimiters exec-path-from-shell auto-complete-clang)))\n '(show-paren-mode t)\n '(tool-bar-mode nil))\n     \n    ;; Package.el customization\n    (package-initialize)\n    (add-to-list 'package-archives\n                 '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n     \n    ;; rainbow delimiters\n    (setq rainbow-delimiters-mode t)\n\n;; turn off bell\n (setq visible-bell t)\n\n    ;; paredit\n   ;; (add-hook 'clojure-mode-hook 'paredit-mode)\n    ;;(add-hook 'nrepl-mode-hook 'paredit-mode)\n    ;;(global-set-key [f7] 'paredit-mode)\n     \n    ;; clojure-mode\n    ;;(global-set-key [f9] 'nrepl-jack-in)\n     \n    ;; nrepl\n    ;;(add-hook 'nrepl-interaction-mode-hook 'nrepl-turn-on-eldoc-mode)\n    ;(setq nrepl-popup-stacktraces nil)\n    ;(add-to-list 'same-window-buffer-names \"*nrepl*\")\n    ;(add-hook 'nrepl-mode-hook 'paredit-mode)\n     \n    ;; Auto complete\n    (require 'auto-complete-config)\n    (ac-config-default)\n(define-key ac-completing-map \"\\M-/\" 'ac-stop)\n\n\n\n(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)\n\n\n\n;; ac-nrepl\n					;(require 'ac-nrepl)\n					; (add-hook 'nrepl-mode-hook 'ac-nrepl-setup)\n					; (add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)\n					; (eval-after-load \"auto-complete\" '(add-to-list 'ac-modes 'nrepl-mode))\n\n;; theme\n(load-theme 'solarized-dark t)\n(desktop-save-mode t)\n(ido-mode )\n;;(clojure-mode)\n\n;(put 'upcase-region 'disabled nil)\n;\n(defun nrepl-reset ()\n ; (interactive)\n  ;(save-some-buffers)\n  ;(set-buffer \"*nrepl*\")\n  ;(goto-char (point-max))\n  ;(insert \"(user/reset)\")\n  ;(nrepl-return)\n  )\n\n;;(add-to-list 'load-path \"/Users/bemcho/Projects/slime-master\")\n;;(require 'slime)\n;;(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))\n;;(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))\n;; Optionally, specify the lisp program you are using. Default is \"lisp\"\n;;(setq inferior-lisp-program \"/usr/local/bin/sbcl\")\n\n(exec-path-from-shell-initialize)\n\n;;;;Clang Cling REPL\n(add-to-list 'load-path \"~/.emacs.d/cling/\")\n(require 'cling)\n\n(custom-set-faces\n ;; custom-set-faces was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n )\n\n    ;; ;; Use variable width font faces in current buffer\n    (defun my-buffer-face-mode-variable ()\n    ;;   \"Set font to a variable width (proportional) fonts in current buffer\"\n      (interactive)\n      (setq buffer-face-mode-face '(:family \"Menlo For Powerline\" :height 100))\n      (text-scale-adjust 1)\n       (buffer-face-mode))\n\n    (setq system-uses-terminfo nil)\n    (add-hook 'term-mode-hook\n              '(lambda ()\n                 (linum-mode 0)\n                 (term-set-escape-char ?\\C-z)\n                 (term-set-escape-char ?\\C-x)\n                 (define-key term-raw-map \"\\C-c\" 'term-interrupt-subjob)\n                 (define-key term-raw-map (kbd \"M-x\") 'execute-extended-command)\n                 (setq autopair-dont-activate t)\n                 (setq ac-auto-start nil)\n                 (visual-line-mode -1)\n                 ;; (my-buffer-face-mode-variable)\n                 ))\nA\n    (defun my-term-paste (&optional string)\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (if string string (current-kill 0))))\n\n    (defun my-term-pasteboard-paste ()\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (ns-get-pasteboard)))\n\n    (add-hook 'term-exec-hook '(lambda ()\n                                 (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)\n                                 (goto-address-mode)\n                                 (define-key term-raw-map (kbd \"C-y\") 'my-term-paste)\n                                 (define-key term-raw-map (kbd \"s-v\") 'my-term-pasteboard-paste)\n                                 (let ((base03 \"#002b36\")\n                                       (base02 \"#073642\")\n                                       (base01 \"#586e75\")\n                                       (base00 \"#657b83\")\n                                       (base0 \"#839496\")\n                                       (base1 \"#93a1a1\")\n                                       (base2 \"#eee8d5\")\n                                       (base3 \"#fdf6e3\")\n                                       (yellow \"#b58900\")\n                                       (orange \"#cb4b16\")\n                                       (red \"#dc322f\")\n                                       (magenta \"#d33682\")\n                                       (violet \"#6c71c4\")\n                                       (blue \"#268bd2\")\n                                       (cyan \"#2aa198\")\n                                       (green \"#859900\"))\n                                   (setq ansi-term-color-vector\n                                         (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue\n                                                                ,magenta ,cyan ,base2))))))\n(setq-default mode-line-buffer-identification\n              '(:eval default-directory))\n")))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,6765 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . "(package-initialize)\n(add-to-list 'package-archives\n             '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n\n    \n(custom-set-variables\n ;; custom-set-variables was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n '(ansi-color-faces-vector\n   [default default default italic underline success warning error])\n '(auto-save-default nil)\n '(backup-inhibited t t)\n '(column-number-mode t)\n '(cua-mode t nil (cua-base))\n '(cursor-type (quote bar))\n '(custom-enabled-themes (quote (solarized-dark)))\n '(custom-safe-themes\n   (quote\n    (\"8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4\" \"d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879\" default)))\n '(delete-selection-mode t)\n '(inhibit-startup-screen t)\n '(initial-scratch-message nil)\n '(package-selected-packages\n   (quote\n    (helm solarized-theme rainbow-delimiters exec-path-from-shell auto-complete-clang)))\n '(show-paren-mode t)\n '(tool-bar-mode nil))\n     \n    ;; Package.el customization\n    (package-initialize)\n    (add-to-list 'package-archives\n                 '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)\n     \n    ;; rainbow delimiters\n    (setq rainbow-delimiters-mode t)\n\n;; turn off bell\n (setq visible-bell t)\n\n    ;; paredit\n   ;; (add-hook 'clojure-mode-hook 'paredit-mode)\n    ;;(add-hook 'nrepl-mode-hook 'paredit-mode)\n    ;;(global-set-key [f7] 'paredit-mode)\n     \n    ;; clojure-mode\n    ;;(global-set-key [f9] 'nrepl-jack-in)\n     \n    ;; nrepl\n    ;;(add-hook 'nrepl-interaction-mode-hook 'nrepl-turn-on-eldoc-mode)\n    ;(setq nrepl-popup-stacktraces nil)\n    ;(add-to-list 'same-window-buffer-names \"*nrepl*\")\n    ;(add-hook 'nrepl-mode-hook 'paredit-mode)\n     \n    ;; Auto complete\n    (require 'auto-complete-config)\n    (ac-config-default)\n(define-key ac-completing-map \"\\M-/\" 'ac-stop)\n\n\n\n(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)\n\n\n\n;; ac-nrepl\n					;(require 'ac-nrepl)\n					; (add-hook 'nrepl-mode-hook 'ac-nrepl-setup)\n					; (add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)\n					; (eval-after-load \"auto-complete\" '(add-to-list 'ac-modes 'nrepl-mode))\n\n;; theme\n(load-theme 'solarized-dark t)\n(desktop-save-mode t)\n(ido-mode )\n;;(clojure-mode)\n\n;(put 'upcase-region 'disabled nil)\n;\n(defun nrepl-reset ()\n ; (interactive)\n  ;(save-some-buffers)\n  ;(set-buffer \"*nrepl*\")\n  ;(goto-char (point-max))\n  ;(insert \"(user/reset)\")\n  ;(nrepl-return)\n  )\n\n;;(add-to-list 'load-path \"/Users/bemcho/Projects/slime-master\")\n;;(require 'slime)\n;;(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))\n;;(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))\n;; Optionally, specify the lisp program you are using. Default is \"lisp\"\n;;(setq inferior-lisp-program \"/usr/local/bin/sbcl\")\n\n(exec-path-from-shell-initialize)\n\n;;;;Clang Cling REPL\n(add-to-list 'load-path \"~/.emacs.d/cling/\")\n(require 'cling)\n\n(custom-set-faces\n ;; custom-set-faces was added by Custom.\n ;; If you edit it by hand, you could mess it up, so be careful.\n ;; Your init file should contain only one such instance.\n ;; If there is more than one, they won't work right.\n )\n\n    ;; ;; Use variable width font faces in current buffer\n    (defun my-buffer-face-mode-variable ()\n    ;;   \"Set font to a variable width (proportional) fonts in current buffer\"\n      (interactive)\n      (setq buffer-face-mode-face '(:family \"Menlo For Powerline\" :height 100))\n      (text-scale-adjust 1)\n       (buffer-face-mode))\n\n    (setq system-uses-terminfo nil)\n    (add-hook 'term-mode-hook\n              '(lambda ()\n                 (linum-mode 0)\n                 (term-set-escape-char ?\\C-z)\n                 (term-set-escape-char ?\\C-x)\n                 (define-key term-raw-map \"\\C-c\" 'term-interrupt-subjob)\n                 (define-key term-raw-map (kbd \"M-x\") 'execute-extended-command)\n                 (setq autopair-dont-activate t)\n                 (setq ac-auto-start nil)\n                 (visual-line-mode -1)\n                 ;; (my-buffer-face-mode-variable)\n                 ))\nA\n    (defun my-term-paste (&optional string)\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (if string string (current-kill 0))))\n\n    (defun my-term-pasteboard-paste ()\n      (interactive)\n      (process-send-string\n       (get-buffer-process (current-buffer))\n       (ns-get-pasteboard)))\n\n    (add-hook 'term-exec-hook '(lambda ()\n                                 (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)\n                                 (goto-address-mode)\n                                 (define-key term-raw-map (kbd \"C-y\") 'my-term-paste)\n                                 (define-key term-raw-map (kbd \"s-v\") 'my-term-pasteboard-paste)\n                                 (let ((base03 \"#002b36\")\n                                       (base02 \"#073642\")\n                                       (base01 \"#586e75\")\n                                       (base00 \"#657b83\")\n                                       (base0 \"#839496\")\n                                       (base1 \"#93a1a1\")\n                                       (base2 \"#eee8d5\")\n                                       (base3 \"#fdf6e3\")\n                                       (yellow \"#b58900\")\n                                       (orange \"#cb4b16\")\n                                       (red \"#dc322f\")\n                                       (magenta \"#d33682\")\n                                       (violet \"#6c71c4\")\n                                       (blue \"#268bd2\")\n                                       (cyan \"#2aa198\")\n                                       (green \"#859900\"))\n                                   (setq ansi-term-color-vector\n                                         (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue\n                                                                ,magenta ,cyan ,base2))))))\n(setq-default mode-line-buffer-identification\n              '(:eval default-directory))\n")))
 (setq file-name-history '("~/.emacs.d/init.el" "~/.bashrc" "~/Projects/home-ai-reloaded-cmake" "~/Projects/GTAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp" "~/Projects/" "~/Projects/home-ai-reloaded-cmake/" "TAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.bashrc" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.xinitrc" "/home/bemcho/.emacs.d/init.el" "TAGS" "/home/bemcho/.emacs" "~/.emacs.d/.emacs" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
   "/home/bemcho/.emacs.d/init.el"
   "init.el"
-  'compilation-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  9248
-  '(6976 nil)
-  t
+  'emacs-lisp-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  6765
+  '(6713 nil)
   nil
-  '((buffer-display-time 22742 27028 573708 759000) (buffer-file-coding-system . prefer-utf-8-unix)))
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29689 667110 628000) (buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 22742 29439 134485 939000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/src/VisualContextAnnotator.cpp"
+  "VisualContextAnnotator.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  979
+  '(942 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29179 332450 737000) (buffer-file-coding-system . undecided-unix) (fill-column . 13)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp"
+  "ClipsAdapter.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  4451
+  '(2075 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29082 359512 802000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/home-ai-reloaded-cmake/src/home_ai_visual_repl.cpp"
@@ -37,7 +70,7 @@
   '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 25744 991443 600000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 27312 658493 250000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/.bashrc"
@@ -48,18 +81,7 @@
   '(3869 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 25014 403046 442000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/src/VisualContextAnnotator.cpp"
-  "VisualContextAnnotator.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
-  79
-  '(79 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 24896 754805 91000) (buffer-file-coding-system . undecided-unix) (fill-column . 13)))
+  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 25046 780419 103000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   nil
@@ -70,7 +92,7 @@
   '(nil nil)
   t
   '("/usr/local/include/llvm/")
-  '((buffer-display-time 22742 23868 438351 917000)))
+  '((buffer-display-time 22742 23901 175142 33000)))
 
 (desktop-create-buffer 206
   nil
@@ -81,7 +103,7 @@
   '(nil nil)
   t
   '("/usr/local/include/")
-  '((buffer-display-time 22742 23763 715449 683000)))
+  '((buffer-display-time 22742 23796 505491 273000)))
 
 (desktop-create-buffer 206
   nil
@@ -92,7 +114,7 @@
   '(nil nil)
   t
   '("/usr/local/include/llvm-c/")
-  '((buffer-display-time 22742 23761 576904 395000)))
+  '((buffer-display-time 22742 23794 419951 73000)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp"
@@ -103,18 +125,7 @@
   '(1645 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 23070 21961 568000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp"
-  "ClipsAdapter.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
-  2965
-  '(2075 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 22669 777135 38000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 23103 512333 259000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp"
@@ -125,7 +136,7 @@
   '(185 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 18124 175785 933000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 18158 106145 920000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/.xinitrc"
@@ -136,7 +147,7 @@
   '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 15105 325488 848000) (buffer-file-coding-system . utf-8-unix)))
+  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 15139 533307 750000) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   nil
@@ -147,7 +158,7 @@
   '(nil nil)
   t
   '("/usr/local/share/info/emacs" "Variables" ((history ("/usr/local/share/info/emacs" "Easy Customization" 1496862))))
-  '((tab-width . 8) (buffer-display-time 22742 12048 530375 213000) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+  '((tab-width . 8) (buffer-display-time 22742 12083 998022 547000) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
 
 (desktop-create-buffer 206
   "/home/bemcho/.emacs.d/cling/cling.el"
@@ -158,7 +169,7 @@
   '(4082 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10696 345055 501000) (buffer-file-coding-system . prefer-utf-8-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10732 95963 509000) (buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/stansandbox/clingroot.h"
@@ -169,7 +180,7 @@
   '(237 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10464 871665 36000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10501 254104 39000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
@@ -180,7 +191,7 @@
   '(1663 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22739 29345 165225 209000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22739 29382 100790 750000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
@@ -191,7 +202,7 @@
   '(95019 nil)
   t
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 13412 458232 910000) (buffer-file-coding-system . utf-8-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 13449 906627 193000) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/stansandbox/src/main.cpp"
@@ -202,5 +213,16 @@
   '(337 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 27028 573591 697000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 27302 974571 391000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.9/bits/stl_vector.h"
+  "stl_vector.h"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  6844
+  '(nil nil)
+  t
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29597 493881 338000) (buffer-file-coding-system . undecided-unix)))
 
