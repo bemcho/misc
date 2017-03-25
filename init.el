@@ -336,8 +336,16 @@ i.e. change right window to bottom, or change bottom window to right."
 (global-set-key (kbd "C-x 5") 'window-toggle-split-direction)
 (global-set-key (kbd "C-x 4") 'toggle-window-split)
 
-(require 'cua-base)
 (cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1) ;; No region when it is not highlighted
 (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
+
+(add-to-list 'load-path "~/.emacs.d/msearch/")
+(require 'msearch)
+
+(setq-default major-mode 'text-mode)
+(add-hook 'text-mode-hook  'cua-mode)
+(add-hook 'cua-mode-hook 'msearch-mode)
+
+(line-number-mode t)
