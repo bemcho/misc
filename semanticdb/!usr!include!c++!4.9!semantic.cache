@@ -19114,6 +19114,28 @@
       :lexical-table 
         '(("_GLIBCXX_CWCTYPE" . ((number "1" 1823 . 1824)))
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "iomanip"
+      :fsize 15849
+      :lastmodtime '(21660 28447 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_LIST" variable (:constant-flag t) nil [2270 2283])
+            ("bits/stl_algobase.h" include (:system-flag t) nil [2314 2344])
+            ("bits/allocator.h" include (:system-flag t) nil [2345 2372])
+            ("bits/range_access.h" include (:system-flag t) nil [2373 2403])
+            ("bits/stl_list.h" include (:system-flag t) nil [2404 2430])
+            ("bits/list.tcc" include (:system-flag t) nil [2431 2455]))          
+      :file "list"
+      :pointmax 2595
+      :fsize 2594
+      :lastmodtime '(21660 28447 0 0)
+      :unmatched-syntax '((symbol 2299 . 2312) (symbol 2295 . 2298) (symbol 2288 . 2294) (punctuation 2287 . 2288))
+      :lexical-table 
+        '(("_GLIBCXX_LIST" . ((number "1" 2284 . 2285)))
+          )
 ))
   :file "!usr!include!c++!4.9!semantic.cache"
   :semantic-tag-version "2.0"

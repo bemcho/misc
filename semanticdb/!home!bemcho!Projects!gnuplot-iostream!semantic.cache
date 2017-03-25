@@ -1,0 +1,2176 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GNUPLOT_IOSTREAM_H" variable (:constant-flag t) nil [1775 1793])
+            ("GNUPLOT_IOSTREAM_VERSION" variable (:constant-flag t) nil [1833 1857])
+            ("GNUPLOT_ENABLE_CXX11" variable (:constant-flag t) nil [1899 1919])
+            ("cstdio" include (:system-flag t) nil [1973 1990])
+            ("fstream" include (:system-flag t) nil [2180 2198])
+            ("iostream" include (:system-flag t) nil [2199 2218])
+            ("sstream" include (:system-flag t) nil [2219 2237])
+            ("stdexcept" include (:system-flag t) nil [2238 2258])
+            ("string" include (:system-flag t) nil [2259 2276])
+            ("utility" include (:system-flag t) nil [2277 2295])
+            ("iomanip" include (:system-flag t) nil [2296 2314])
+            ("vector" include (:system-flag t) nil [2315 2332])
+            ("complex" include (:system-flag t) nil [2333 2351])
+            ("cstdlib" include (:system-flag t) nil [2352 2370])
+            ("cmath" include (:system-flag t) nil [2371 2387])
+            ("boost/iostreams/device/file_descriptor.hpp" include (:system-flag t) nil [2440 2493])
+            ("boost/iostreams/stream.hpp" include (:system-flag t) nil [2494 2531])
+            ("boost/version.hpp" include (:system-flag t) nil [2532 2560])
+            ("boost/utility.hpp" include (:system-flag t) nil [2561 2589])
+            ("boost/tuple/tuple.hpp" include (:system-flag t) nil [2590 2622])
+            ("boost/mpl/bool.hpp" include (:system-flag t) nil [2623 2652])
+            ("boost/cstdint.hpp" include (:system-flag t) nil [2907 2935])
+            ("GNUPLOT_STATIC_ASSERT_MSG" variable (:constant-flag t) nil [3330 3355])
+            ("GNUPLOT_DEPRECATE" variable (:constant-flag t) nil [3729 3746])
+            ("GNUPLOT_PCLOSE" variable (:constant-flag t) nil [3944 3958])
+            ("GNUPLOT_POPEN" variable (:constant-flag t) nil [3975 3988])
+            ("GNUPLOT_FILENO" variable (:constant-flag t) nil [4005 4019])
+            ("GNUPLOT_ISNAN" variable (:constant-flag t) nil [4272 4285])
+            ("GNUPLOT_MSVC_WARNING_4996_PUSH" variable (:constant-flag t) nil [4851 4881])
+            ("GNUPLOT_MSVC_WARNING_4996_POP" variable (:constant-flag t) nil [4891 4920])
+            ("GNUPLOT_DEFAULT_COMMAND" variable (:constant-flag t) nil [5410 5433])
+            ("gnuplotio" type
+               (:members 
+                  ( ("dont_treat_as_stl_container" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("type" type
+                               (:typedef ("boost::mpl::bool_" type
+                                     (:template-specifier 
+                                        ( ("false" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [5817 5855]))                          )
+                        (reparse-symbol namespacesubparts) [5757 5858])
+                    ("is_like_stl_container" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [6160 6165])
+                            ("type::value" variable (:type "int") (reparse-symbol classsubparts) [6193 6205]))                          )
+                        (reparse-symbol namespacesubparts) [5945 6208])
+                    ("is_boost_tuple_nulltype" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("value" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [6266 6298])
+                            ("type" type
+                               (:typedef ("boost::mpl::bool_" type
+                                     (:template-specifier 
+                                        ( ("value" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [6300 6338]))                          )
+                        (reparse-symbol namespacesubparts) [6210 6341])
+                    ("is_boost_tuple_nulltype" type
+                       (:type "struct"
+                        :members 
+                          ( ("value" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "true"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [6415 6446])
+                            ("type" type
+                               (:typedef ("boost::mpl::bool_" type
+                                     (:template-specifier 
+                                        ( ("value" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [6448 6486]))                          
+                        :template-specifier 
+                          ( ("boost::tuples::null_type" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [6343 6489])
+                    ("is_boost_tuple" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("type" variable (:type "int") (reparse-symbol classsubparts) [6718 6723])
+                            ("type::value" variable (:type "int") (reparse-symbol classsubparts) [6751 6763]))                          )
+                        (reparse-symbol namespacesubparts) [6570 6766])
+                    ("GnuplotFeedback" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [8899 8906])
+                            ("GnuplotFeedback" function
+                               (:constructor-flag t
+                                :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8908 8929])
+                            ("GnuplotFeedback" function
+                               (:destructor-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [8931 8961])
+                            ("filename" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8963 9004])
+                            ("handle" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :pointer 1
+                                :typemodifiers ("virtual")
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9006 9039])
+                            ("private" label nil (reparse-symbol classsubparts) [9041 9049])
+                            ("GnuplotFeedback" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [9083 9107]))                                  
+                                :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9067 9108])
+                            ("=" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :constant-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [9143 9167]))                                  
+                                :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9110 9168]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [8875 9171])
+                    ("TextSender" type
+                       (:members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12953 12974])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12975 12986]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [12936 13006]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [12915 13009])
+                    ("BinarySender" type
+                       (:members 
+                          ( ("BOOST_STATIC_ASSERT" function
+                               (:prototype-flag t
+                                :type "int")
+                                (reparse-symbol classsubparts) [13132 13228])
+                            ("send" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13333 13354])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13355 13366]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [13316 13367]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [13109 13370])
+                    ("FlatBinarySender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13621 13642])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13643 13654]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [13604 13722]))                          )
+                        (reparse-symbol namespacesubparts) [13555 13725])
+                    ("BinfmtSender" type
+                       (:members 
+                          ( ("BOOST_STATIC_ASSERT" function
+                               (:prototype-flag t
+                                :type "int")
+                                (reparse-symbol classsubparts) [13848 13944])
+                            ("send" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14049 14064]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14032 14065]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [13825 14068])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14282 14303]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14265 14328]))                          
+                        :template-specifier 
+                          ( ("float" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14224 14331])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14390 14411]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14373 14436]))                          
+                        :template-specifier 
+                          ( ("double" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14332 14439])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14507 14528]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14490 14553]))                          
+                        :template-specifier 
+                          ( ("boost::int8_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14440 14556])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14624 14645]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14607 14670]))                          
+                        :template-specifier 
+                          ( ("boost::uint8_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14557 14673])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14741 14762]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14724 14787]))                          
+                        :template-specifier 
+                          ( ("boost::int16_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14674 14790])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14858 14879]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14841 14904]))                          
+                        :template-specifier 
+                          ( ("boost::uint16_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14791 14907])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14975 14996]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [14958 15021]))                          
+                        :template-specifier 
+                          ( ("boost::int32_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [14908 15024])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15092 15113]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [15075 15138]))                          
+                        :template-specifier 
+                          ( ("boost::uint32_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15025 15141])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15209 15230]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [15192 15255]))                          
+                        :template-specifier 
+                          ( ("boost::int64_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15142 15258])
+                    ("BinfmtSender" type
+                       (:type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15326 15347]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [15309 15372]))                          
+                        :template-specifier 
+                          ( ("boost::uint64_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15259 15375])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("float" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15558 15635])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("double" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15636 15713])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::int8_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15714 15809])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::uint8_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15810 15905])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::int16_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [15906 16001])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::uint16_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16002 16097])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::int32_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16098 16193])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::uint32_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16194 16289])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::int64_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16290 16385])
+                    ("BinarySender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FlatBinarySender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("boost::uint64_t" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16386 16481])
+                    ("CastIntTextSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16607 16628])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16629 16640]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [16590 16665]))                          )
+                        (reparse-symbol namespacesubparts) [16540 16668])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("CastIntTextSender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("char" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16669 16761])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("CastIntTextSender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("signed char" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16762 16854])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("CastIntTextSender" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("unsigned char" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [16855 16947])
+                    ("FloatTextSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17090 17111])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17112 17123]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17073 17194]))                          )
+                        (reparse-symbol namespacesubparts) [17025 17197])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FloatTextSender" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("float" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17198 17275])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FloatTextSender" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("double" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17276 17353])
+                    ("TextSender" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("FloatTextSender" type
+                               (:protection "unspecified"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("long double" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17354 17431])
+                    ("TextSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("U" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17559 17580])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::pair" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil)
+                                                  ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [17581 17606]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17542 17709]))                          
+                        :template-specifier 
+                          ( ("std::pair" type (:template-specifier 
+                              ( ("T" type nil nil nil)
+                                ("U" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17469 17712])
+                    ("BinfmtSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("U" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17806 17827]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17789 17898]))                          
+                        :template-specifier 
+                          ( ("std::pair" type (:template-specifier 
+                              ( ("T" type nil nil nil)
+                                ("U" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17714 17901])
+                    ("BinarySender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("U" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [17995 18016])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::pair" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil)
+                                                  ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18017 18042]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [17978 18132]))                          
+                        :template-specifier 
+                          ( ("std::pair" type (:template-specifier 
+                              ( ("T" type nil nil nil)
+                                ("U" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [17903 18135])
+                    ("TextSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [18254 18275])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::complex" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18276 18301]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [18237 18405]))                          
+                        :template-specifier 
+                          ( ("std::complex" type (:template-specifier 
+                              ( ("T" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [18176 18408])
+                    ("BinfmtSender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [18490 18511]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [18473 18582]))                          
+                        :template-specifier 
+                          ( ("std::complex" type (:template-specifier 
+                              ( ("T" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [18410 18585])
+                    ("BinarySender" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("send" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("stream" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [18667 18688])
+                                    ("v" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::complex" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [18689 18714]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [18650 18805]))                          
+                        :template-specifier 
+                          ( ("std::complex" type (:template-specifier 
+                              ( ("T" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [18587 18808])
+                    ("Error_WasNotContainer" type
+                       (:members 
+                          ( ("subiter_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [27278 27304]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [27067 27307])
+                    ("Error_InappropriateDeref" type (:type "struct") (reparse-symbol namespacesubparts) [27418 27454])
+                    ("ArrayTraits" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [27610 27617])
+                            ("value_type" type
+                               (:typedef ("Error_WasNotContainer" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [27712 27753])
+                            ("range_type" type
+                               (:typedef ("Error_WasNotContainer" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [27827 27868])
+                            ("is_container" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [27919 27958])
+                            ("allow_auto_unwrap" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [28249 28293])
+                            ("depth" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [28377 28407])
+                            ("get_range" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [28485 28495]))                                  
+                                :type ("range_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [28457 28661]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [27590 28664])
+                    ("ArrayTraitsDefaults" type
+                       (:template 
+                          ( ("V" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [28844 28851])
+                            ("value_type" type
+                               (:typedef ("V" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [28853 28874])
+                            ("is_container" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "true"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [28877 28915])
+                            ("allow_auto_unwrap" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "true"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [28917 28960]))                          )
+                        (reparse-symbol namespacesubparts) [28794 29019])
+                    ("ArrayTraits" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :superclasses 
+                          ( ("ArrayTraits" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("T" type (:reference 1) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [29271 29343])
+                    ("IteratorRange" type
+                       (:template 
+                          ( ("TI" type (:type "class") nil nil)
+                            ("TV" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [29641 29648])
+                            ("IteratorRange" function
+                               (:constructor-flag t
+                                :type ("IteratorRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [29650 29669])
+                            ("IteratorRange" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_it" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("TI" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [29685 29699])
+                                    ("_end" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("TI" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [29700 29715]))                                  
+                                :type ("IteratorRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [29671 29740])
+                            ("ArrayTraits::is_container" variable (:type "int") (reparse-symbol classsubparts) [29776 29806])
+                            ("value_type" type
+                               (:typedef ("boost::mpl::if_c::type" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [29808 29906])
+                            ("subiter_type" variable (:type ("range_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [29942 29966])
+                            ("is_end" function
+                               (:methodconst-flag t
+                                :type "bool")
+                                (reparse-symbol classsubparts) [29969 30010])
+                            ("inc" function (:type "void") (reparse-symbol classsubparts) [30013 30033])
+                            ("deref" function
+                               (:methodconst-flag t
+                                :type ("value_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [30036 30274])
+                            ("deref_subiter" function
+                               (:methodconst-flag t
+                                :type ("subiter_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [30277 30564])
+                            ("private" label nil (reparse-symbol classsubparts) [30566 30574])
+                            ("it" variable (:type ("TI" type (:type "class") nil nil)) (reparse-symbol classsubparts) [30576 30587])
+                            ("end" variable (:type ("TI" type (:type "class") nil nil)) (reparse-symbol classsubparts) [30576 30587]))                          )
+                        (reparse-symbol namespacesubparts) [29583 30590])
+                    ("ArrayTraitsDefaults" variable (:type "int") (reparse-symbol namespacesubparts) [31050 31220])
+                    ("PairOfRange" type
+                       (:template 
+                          ( ("RT" type (:type "class") nil nil)
+                            ("RU" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("deref_and_print" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("U" type (:type "class") nil nil)
+                                    ("PrintMode" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [31398 31413])
+                                    ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("PairOfRange" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil)
+                                                  ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [31414 31440])
+                                    ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [31441 31451]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [31315 31452])
+                            ("public" label nil (reparse-symbol classsubparts) [31454 31461])
+                            ("PairOfRange" function
+                               (:constructor-flag t
+                                :type ("PairOfRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [31463 31480])
+                            ("PairOfRange" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_l" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("RT" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [31494 31507])
+                                    ("_r" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("RU" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [31508 31521]))                                  
+                                :type ("PairOfRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [31482 31540])
+                            ("RU::is_container" variable (:type ("RT::is_container" type (:type "class") nil nil)) (reparse-symbol classsubparts) [31576 31613])
+                            ("value_type" variable (:type "int") (reparse-symbol classsubparts) [31684 31695])
+                            ("subiter_type" variable (:type "int") (reparse-symbol classsubparts) [31771 31784])
+                            ("is_end" function
+                               (:methodconst-flag t
+                                :type "bool")
+                                (reparse-symbol classsubparts) [31787 31955])
+                            ("inc" function (:type "void") (reparse-symbol classsubparts) [31958 31995])
+                            ("deref" function
+                               (:methodconst-flag t
+                                :type ("value_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [31998 32074])
+                            ("deref_subiter" function
+                               (:methodconst-flag t
+                                :type ("subiter_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [32077 32177])
+                            ("private" label nil (reparse-symbol classsubparts) [32179 32187])
+                            ("l" variable (:type ("RT" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32189 32194])
+                            ("r" variable (:type ("RU" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32196 32201]))                          )
+                        (reparse-symbol namespacesubparts) [31258 32204])
+                    ("ArrayTraits" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("U" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [32278 32285])
+                            ("range_type" variable (:type "int") (reparse-symbol classsubparts) [32381 32392])
+                            ("value_type" variable (:type "int") (reparse-symbol classsubparts) [32486 32497])
+                            ("ArrayTraits::is_container" variable (:type ("is_container" type (:type "class") nil nil)) (reparse-symbol classsubparts) [32548 32593])
+                            ("allow_auto_unwrap" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [32647 32691])
+                            ("ArrayTraits::depth" variable (:type "int") (reparse-symbol classsubparts) [32858 32880])
+                            ("ArrayTraits::depth" variable (:type "int") (reparse-symbol classsubparts) [32912 32934])
+                            ("depth" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "(l_depth < r_depth) ? l_depth : r_depth"
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [32936 33004])
+                            ("get_range" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::pair" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil)
+                                                  ("U" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [33035 33062]))                                  
+                                :type ("range_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [33007 33175]))                          
+                        :template-specifier 
+                          ( ("std::pair" type (:template-specifier 
+                              ( ("T" type nil nil nil)
+                                ("U" type nil nil nil))                              ) nil nil))                          )
+                        (reparse-symbol namespacesubparts) [32206 33178])
+                    ("VecOfRange" type
+                       (:template 
+                          ( ("RT" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("deref_and_print" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("PrintMode" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :type ("std::ostream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [35986 36001])
+                                    ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("VecOfRange" type
+                                             (:template-specifier 
+                                                ( ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [36002 36024])
+                                    ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36025 36035]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [35915 36036])
+                            ("public" label nil (reparse-symbol classsubparts) [36038 36045])
+                            ("VecOfRange" function
+                               (:constructor-flag t
+                                :type ("VecOfRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [36047 36063])
+                            ("VecOfRange" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_rvec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("RT" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [36085 36114]))                                  
+                                :type ("VecOfRange" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [36074 36132])
+                            ("RT::is_container" variable (:type "int") (reparse-symbol classsubparts) [36168 36185])
+                            ("allow_auto_unwrap" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "false"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [36239 36283])
+                            ("value_type" variable (:type "int") (reparse-symbol classsubparts) [36331 36342])
+                            ("subiter_type" variable (:type "int") (reparse-symbol classsubparts) [36390 36403])
+                            ("is_end" function
+                               (:methodconst-flag t
+                                :type "bool")
+                                (reparse-symbol classsubparts) [36406 36652])
+                            ("inc" function (:type "void") (reparse-symbol classsubparts) [36655 36732])
+                            ("deref" function
+                               (:methodconst-flag t
+                                :type ("value_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [36735 36882])
+                            ("deref_subiter" function
+                               (:methodconst-flag t
+                                :type ("subiter_type" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [36885 37101])
+                            ("private" label nil (reparse-symbol classsubparts) [37103 37111])
+                            ("rvec" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("RT" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [37113 37134]))                          )
+                        (reparse-symbol namespacesubparts) [35872 37137])
+                    ("get_columns_range" function
+                       (:arguments 
+                          ( ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [37241 37254]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [37223 37543])
+                    ("debug_array_print" variable
+                       (:typemodifiers ("static")
+                        :default-value "0"
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [38193 38227])
+                    ("plotting_empty_container" type
+                       (:superclasses 
+                          ( ("std::length_error" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [38430 38437])
+                            ("plotting_empty_container" function
+                               (:constructor-flag t
+                                :type ("plotting_empty_container" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [38439 38517]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [38370 38520])
+                    ("ModeText" type
+                       (:members 
+                          ( ("is_text" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "1"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39072 39102])
+                            ("is_binfmt" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39103 39135])
+                            ("is_size" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39136 39166]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [39052 39169])
+                    ("ModeBinary" type
+                       (:members 
+                          ( ("is_text" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39190 39220])
+                            ("is_binfmt" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39221 39253])
+                            ("is_size" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39254 39284]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [39170 39287])
+                    ("ModeBinfmt" type
+                       (:members 
+                          ( ("is_text" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39308 39338])
+                            ("is_binfmt" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "1"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39339 39371])
+                            ("is_size" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39372 39402]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [39288 39405])
+                    ("ModeSize" type
+                       (:members 
+                          ( ("is_text" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39426 39456])
+                            ("is_binfmt" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "0"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39457 39489])
+                            ("is_size" variable
+                               (:typemodifiers ("static")
+                                :constant-flag t
+                                :default-value "1"
+                                :type "bool")
+                                (reparse-symbol classsubparts) [39490 39520]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [39406 39523])
+                    ("ColUnwrapNo" type (:type "struct") (reparse-symbol namespacesubparts) [39619 39643])
+                    ("ColUnwrapYes" type (:type "struct") (reparse-symbol namespacesubparts) [39644 39668])
+                    ("Mode1D" type
+                       (:members 
+                          ( ("class_name" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [39960 40018]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [39938 40021])
+                    ("Mode2D" type
+                       (:members 
+                          ( ("class_name" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [40044 40102]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [40022 40105])
+                    ("Mode1DUnwrap" type
+                       (:members 
+                          ( ("class_name" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [40128 40186]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [40106 40189])
+                    ("Mode2DUnwrap" type
+                       (:members 
+                          ( ("class_name" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [40212 40270]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [40190 40273])
+                    ("ModeAuto" type
+                       (:members 
+                          ( ("class_name" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [40390 40448]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [40368 40451])
+                    ("ModeAutoDecoder" type (:type "struct") (reparse-symbol namespacesubparts) [40873 40900])
+                    ("send_scalar" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42702 42723])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42724 42737])
+                            ("" variable (:type ("ModeText" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42738 42747]))                          )
+                        (reparse-symbol namespacesubparts) [42663 42786])
+                    ("send_scalar" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42827 42848])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42849 42862])
+                            ("" variable (:type ("ModeBinary" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42863 42874]))                          )
+                        (reparse-symbol namespacesubparts) [42788 42915])
+                    ("send_scalar" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42956 42977])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [42978 42988])
+                            ("" variable (:type ("ModeBinfmt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42989 43000]))                          )
+                        (reparse-symbol namespacesubparts) [42917 43036])
+                    ("deref_and_print" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type ("boost::disable_if_c::type" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [43501 43522])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [43523 43536])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43537 43547]))                          
+                        :typemodifiers ("typename"))
+                        (reparse-symbol namespacesubparts) [43391 43637])
+                    ("deref_and_print" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type ("boost::enable_if_c::type" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [43977 43998])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [43999 44012])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44013 44023]))                          
+                        :typemodifiers ("typename"))
+                        (reparse-symbol namespacesubparts) [43868 44525])
+                    ("deref_and_print" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("U" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [44684 44705])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("PairOfRange" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil)
+                                          ("U" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [44706 44735])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44736 44746]))                          )
+                        (reparse-symbol namespacesubparts) [44609 44881])
+                    ("deref_and_print" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [45027 45048])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("VecOfRange" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [45049 45074])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [45075 45085]))                          )
+                        (reparse-symbol namespacesubparts) [44964 45313])
+                    ("print_block" function
+                       (:arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [46609 46630])
+                            ("arg" variable
+                               (:reference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [46631 46638])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46639 46649]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [46592 47022])
+                    ("print_block" function
+                       (:arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [47302 47323])
+                            ("arg" variable
+                               (:reference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [47324 47331])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [47332 47342]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [47285 47945])
+                    ("get_range_size" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("size_t" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48076 48089]))                          )
+                        (reparse-symbol namespacesubparts) [48032 48237])
+                    ("print_block" function
+                       (:arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48436 48457])
+                            ("arg" variable
+                               (:reference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48458 48465])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48466 48476]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [48419 48512])
+                    ("print_block" function
+                       (:arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48709 48730])
+                            ("arg" variable
+                               (:reference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48731 48738])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48739 48749]))                          
+                        :type ("type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [48692 49121])
+                    ("handle_colunwrap_tag" function
+                       (:template 
+                          ( ("size_t" type (:typevar "Depth") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49480 49501])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49502 49515])
+                            ("" variable (:type ("ColUnwrapNo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49516 49528])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49529 49539]))                          )
+                        (reparse-symbol namespacesubparts) [49398 49758])
+                    ("handle_colunwrap_tag" function
+                       (:template 
+                          ( ("size_t" type (:typevar "Depth") nil nil)
+                            ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49842 49863])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49864 49877])
+                            ("" variable (:type ("ColUnwrapYes" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49878 49891])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49892 49902]))                          )
+                        (reparse-symbol namespacesubparts) [49760 50139])
+                    ("handle_organization_tag" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50621 50642])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50643 50656])
+                            ("" variable (:type ("Mode1D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [50657 50664])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [50665 50675]))                          )
+                        (reparse-symbol namespacesubparts) [50550 50746])
+                    ("handle_organization_tag" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50819 50840])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50841 50854])
+                            ("" variable (:type ("Mode2D" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [50855 50862])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [50863 50873]))                          )
+                        (reparse-symbol namespacesubparts) [50748 50944])
+                    ("handle_organization_tag" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51017 51038])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51039 51052])
+                            ("" variable (:type ("Mode1DUnwrap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51053 51066])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51067 51077]))                          )
+                        (reparse-symbol namespacesubparts) [50946 51149])
+                    ("handle_organization_tag" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51222 51243])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51244 51257])
+                            ("" variable (:type ("Mode2DUnwrap" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51258 51271])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51272 51282]))                          )
+                        (reparse-symbol namespacesubparts) [51151 51354])
+                    ("handle_organization_tag" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51427 51448])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51449 51462])
+                            ("" variable (:type ("ModeAuto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51463 51472])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51473 51483]))                          )
+                        (reparse-symbol namespacesubparts) [51356 51576])
+                    ("top_level_array_sender" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil)
+                            ("OrganizationMode" type (:type "class") nil nil)
+                            ("PrintMode" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("stream" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51999 52020])
+                            ("arg" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [52021 52034])
+                            ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52035 52052])
+                            ("" variable (:type ("PrintMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52053 52063]))                          )
+                        (reparse-symbol namespacesubparts) [51902 52139])
+                    ("FileHandleWrapper" type
+                       (:members 
+                          ( ("FileHandleWrapper" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_fh" variable
+                                       (:pointer 1
+                                        :type ("std::FILE" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [52684 52699])
+                                    ("_should_use_pclose" variable (:type "bool") (reparse-symbol arg-sub-list) [52700 52724]))                                  
+                                :type ("FileHandleWrapper" type (:type "struct") nil nil))
+                                (reparse-symbol classsubparts) [52666 52787])
+                            ("fh_close" function (:type "void") (reparse-symbol classsubparts) [52790 53035])
+                            ("fh_fileno" function (:type "int") (reparse-symbol classsubparts) [53038 53095])
+                            ("wrapped_fh" variable
+                               (:pointer 1
+                                :type ("std::FILE" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [53098 53120])
+                            ("should_use_pclose" variable (:type "bool") (reparse-symbol classsubparts) [53122 53145]))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [52638 53148])
+                    ("Gnuplot" type
+                       (:superclasses 
+                          ( ("FileHandleWrapper" type
+                               (:protection "private"
+                                :type "class")
+                                nil nil)
+                            ("boost::iostreams::stream" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [53541 53549])
+                            ("get_default_cmd" function
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [53551 53815])
+                            ("open_cmdline" function
+                               (:typemodifiers ("static")
+                                :arguments 
+                                  ( ("in" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [53856 53878]))                                  
+                                :type ("FileHandleWrapper" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [53818 54405])
+                            ("public" label nil (reparse-symbol classsubparts) [54407 54414])
+                            ("Gnuplot" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_cmd" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [54433 54459]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [54425 54818])
+                            ("Gnuplot" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("_fh" variable
+                                       (:pointer 1
+                                        :type ("FILE" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [54838 54848]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [54830 55194])
+                            ("private" label nil (reparse-symbol classsubparts) [55196 55204])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Gnuplot" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [55230 55246]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [55222 55247])
+                            ("=" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :constant-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Gnuplot" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [55274 55290]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [55249 55291])
+                            ("public" label nil (reparse-symbol classsubparts) [55293 55300])
+                            ("Gnuplot" function
+                               (:destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [55302 55702])
+                            ("clearTmpfiles" function (:type "void") (reparse-symbol classsubparts) [55705 55788])
+                            ("private" label nil (reparse-symbol classsubparts) [55790 55798])
+                            ("do_flush" function (:type "void") (reparse-symbol classsubparts) [55800 55865])
+                            ("make_tmpfile" function (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [55868 56270])
+                            ("public" label nil (reparse-symbol classsubparts) [56272 56279])
+                            ("send" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("OrganizationMode" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [56581 56594])
+                                    ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [56595 56612]))                                  )
+                                (reparse-symbol classsubparts) [56517 56828])
+                            ("sendBinary" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("OrganizationMode" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [56901 56914])
+                                    ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [56915 56932]))                                  )
+                                (reparse-symbol classsubparts) [56831 57087])
+                            ("binfmt" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("OrganizationMode" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [57159 57172])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [57173 57203])
+                                    ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57204 57221]))                                  )
+                                (reparse-symbol classsubparts) [57090 57718])
+                            ("file" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("OrganizationMode" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [57834 57847])
+                                    ("filename" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57848 57869])
+                                    ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57870 57887]))                                  )
+                                (reparse-symbol classsubparts) [57767 58263])
+                            ("binaryFile" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil)
+                                    ("OrganizationMode" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [58385 58398])
+                                    ("filename" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58399 58420])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [58421 58451])
+                                    ("" variable (:type ("OrganizationMode" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58452 58469]))                                  )
+                                (reparse-symbol classsubparts) [58312 58923])
+                            ("send" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59231 59244]))                                  )
+                                (reparse-symbol classsubparts) [59151 59278])
+                            ("binfmt" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59370 59383])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"array\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59384 59421]))                                  )
+                                (reparse-symbol classsubparts) [59281 59473])
+                            ("sendBinary" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59574 59587]))                                  )
+                                (reparse-symbol classsubparts) [59476 59627])
+                            ("file" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59713 59726])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59727 59757]))                                  )
+                                (reparse-symbol classsubparts) [59630 59804])
+                            ("binaryFile" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59900 59913])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59914 59944])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"array\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [59946 59983]))                                  )
+                                (reparse-symbol classsubparts) [59807 60049])
+                            ("send1d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60303 60316]))                                  )
+                                (reparse-symbol classsubparts) [60256 60354])
+                            ("send2d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60403 60416]))                                  )
+                                (reparse-symbol classsubparts) [60356 60454])
+                            ("send1d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60503 60516]))                                  )
+                                (reparse-symbol classsubparts) [60456 60554])
+                            ("send2d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60603 60616]))                                  )
+                                (reparse-symbol classsubparts) [60556 60654])
+                            ("sendBinary1d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60710 60723]))                                  )
+                                (reparse-symbol classsubparts) [60657 60767])
+                            ("sendBinary2d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60822 60835]))                                  )
+                                (reparse-symbol classsubparts) [60769 60879])
+                            ("sendBinary1d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [60934 60947]))                                  )
+                                (reparse-symbol classsubparts) [60881 60991])
+                            ("sendBinary2d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61046 61059]))                                  )
+                                (reparse-symbol classsubparts) [60993 61103])
+                            ("file1d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61156 61169])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61170 61200]))                                  )
+                                (reparse-symbol classsubparts) [61106 61249])
+                            ("file2d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61301 61314])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61315 61345]))                                  )
+                                (reparse-symbol classsubparts) [61251 61394])
+                            ("file1d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61446 61459])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61460 61490]))                                  )
+                                (reparse-symbol classsubparts) [61396 61539])
+                            ("file2d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61591 61604])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61605 61635]))                                  )
+                                (reparse-symbol classsubparts) [61541 61684])
+                            ("binFmt1d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61739 61752])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61753 61783]))                                  )
+                                (reparse-symbol classsubparts) [61687 61836])
+                            ("binFmt2d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61890 61903])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [61904 61934]))                                  )
+                                (reparse-symbol classsubparts) [61838 61987])
+                            ("binFmt1d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62041 62054])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62055 62085]))                                  )
+                                (reparse-symbol classsubparts) [61989 62138])
+                            ("binFmt2d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62192 62205])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62206 62236]))                                  )
+                                (reparse-symbol classsubparts) [62140 62289])
+                            ("binFile1d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62345 62358])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62359 62389])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62390 62420]))                                  )
+                                (reparse-symbol classsubparts) [62292 62488])
+                            ("binFile2d" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62543 62556])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62557 62587])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62588 62618]))                                  )
+                                (reparse-symbol classsubparts) [62490 62686])
+                            ("binFile1d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62741 62754])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62755 62785])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62786 62816]))                                  )
+                                (reparse-symbol classsubparts) [62688 62884])
+                            ("binFile2d_colmajor" function
+                               (:template 
+                                  ( ("T" type (:type "class") nil nil))                                  
+                                :type ("std::string" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("arg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("T" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62939 62952])
+                                    ("arr_or_rec" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62953 62983])
+                                    ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [62984 63014]))                                  )
+                                (reparse-symbol classsubparts) [62886 63082])
+                            ("private" label nil (reparse-symbol classsubparts) [64606 64614])
+                            ("feedback" variable
+                               (:pointer 1
+                                :type ("GnuplotFeedback" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [64616 64642])
+                            ("tmp_files" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [64760 64787])
+                            ("public" label nil (reparse-symbol classsubparts) [64819 64826])
+                            ("debug_messages" variable (:type "bool") (reparse-symbol classsubparts) [64828 64848]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [53179 64851]))                  
+                :type "namespace")
+                nil [5477 64863])
+            ("gnuplotio::Gnuplot" using (:type ("gnuplotio::Gnuplot" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [65012 65037]))          
+      :file "gnuplot-iostream.h"
+      :pointmax 75127
+      :fsize 75126
+      :lastmodtime '(22742 41113 811013 890000)
+      :unmatched-syntax '((EXPLICIT 54821 . 54829) (EXPLICIT 54416 . 54424) (punctuation 48691 . 48692) (punctuation 48690 . 48691) (punctuation 48689 . 48690) (symbol 48682 . 48689) (punctuation 48681 . 48682) (punctuation 48680 . 48681) (symbol 48671 . 48680) (punctuation 48669 . 48670) (punctuation 48668 . 48669) (semantic-list 48658 . 48667) (punctuation 48657 . 48658) (symbol 48646 . 48657) (punctuation 48645 . 48646) (punctuation 48644 . 48645) (symbol 48639 . 48644) (TYPENAME 48630 . 48638) (punctuation 48628 . 48629) (symbol 48619 . 48628) (TYPENAME 48610 . 48618) (punctuation 48608 . 48609) (symbol 48607 . 48608) (TYPENAME 48598 . 48606) (punctuation 48596 . 48597) (symbol 48591 . 48596) (symbol 48584 . 48590) (punctuation 48583 . 48584) (TEMPLATE 48574 . 48582) (punctuation 48418 . 48419) (punctuation 48417 . 48418) (punctuation 48416 . 48417) (symbol 48409 . 48416) (punctuation 48408 . 48409) (punctuation 48407 . 48408) (symbol 48398 . 48407) (punctuation 48396 . 48397) (punctuation 48395 . 48396) (semantic-list 48384 . 48394) (punctuation 48383 . 48384) (symbol 48372 . 48383) (punctuation 48371 . 48372) (punctuation 48370 . 48371) (symbol 48365 . 48370) (TYPENAME 48356 . 48364) (punctuation 48354 . 48355) (symbol 48345 . 48354) (TYPENAME 48336 . 48344) (punctuation 48334 . 48335) (symbol 48333 . 48334) (TYPENAME 48324 . 48332) (punctuation 48322 . 48323) (symbol 48317 . 48322) (symbol 48310 . 48316) (punctuation 48309 . 48310) (TEMPLATE 48300 . 48308) (punctuation 47284 . 47285) (punctuation 47283 . 47284) (punctuation 47282 . 47283) (symbol 47275 . 47282) (punctuation 47274 . 47275) (punctuation 47273 . 47274) (symbol 47264 . 47273) (punctuation 47263 . 47264) (punctuation 47261 . 47262) (punctuation 47260 . 47261) (semantic-list 47250 . 47259) (punctuation 47249 . 47250) (symbol 47238 . 47249) (punctuation 47237 . 47238) (punctuation 47236 . 47237) (symbol 47231 . 47236) (TYPENAME 47222 . 47230) (punctuation 47220 . 47221) (symbol 47211 . 47220) (TYPENAME 47202 . 47210) (punctuation 47200 . 47201) (symbol 47199 . 47200) (TYPENAME 47190 . 47198) (punctuation 47188 . 47189) (symbol 47183 . 47188) (symbol 47176 . 47182) (punctuation 47175 . 47176) (TEMPLATE 47166 . 47174) (punctuation 46591 . 46592) (punctuation 46590 . 46591) (punctuation 46589 . 46590) (symbol 46582 . 46589) (punctuation 46581 . 46582) (punctuation 46580 . 46581) (symbol 46571 . 46580) (punctuation 46570 . 46571) (punctuation 46568 . 46569) (punctuation 46567 . 46568) (semantic-list 46556 . 46566) (punctuation 46555 . 46556) (symbol 46544 . 46555) (punctuation 46543 . 46544) (punctuation 46542 . 46543) (symbol 46537 . 46542) (TYPENAME 46528 . 46536) (punctuation 46526 . 46527) (symbol 46517 . 46526) (TYPENAME 46508 . 46516) (punctuation 46506 . 46507) (symbol 46505 . 46506) (TYPENAME 46496 . 46504) (punctuation 46494 . 46495) (symbol 46489 . 46494) (symbol 46482 . 46488) (punctuation 46481 . 46482) (TEMPLATE 46472 . 46480) (punctuation 41802 . 41803) (semantic-list 41777 . 41802) (punctuation 41775 . 41776) (symbol 41771 . 41775) (punctuation 41770 . 41771) (punctuation 41769 . 41770) (punctuation 41768 . 41769) (symbol 41749 . 41766) (punctuation 41748 . 41749) (punctuation 41747 . 41748) (punctuation 41746 . 41747) (symbol 41745 . 41746) (punctuation 41744 . 41745) (symbol 41733 . 41744) (punctuation 41732 . 41733) (punctuation 41728 . 41729) (punctuation 41727 . 41728) (semantic-list 41699 . 41726) (punctuation 41695 . 41696) (symbol 41684 . 41695) (punctuation 41683 . 41684) (punctuation 41682 . 41683) (symbol 41677 . 41682) (TYPENAME 41668 . 41676) (punctuation 41665 . 41666) (symbol 41664 . 41665) (punctuation 41663 . 41664) (symbol 41648 . 41663) (STRUCT 41641 . 41647) (punctuation 41639 . 41640) (symbol 41638 . 41639) (TYPENAME 41629 . 41637) (punctuation 41628 . 41629) (TEMPLATE 41619 . 41627) (punctuation 41616 . 41617) (semantic-list 41585 . 41616) (punctuation 41583 . 41584) (symbol 41579 . 41583) (punctuation 41578 . 41579) (punctuation 41577 . 41578) (punctuation 41576 . 41577) (symbol 41557 . 41574) (punctuation 41556 . 41557) (punctuation 41555 . 41556) (punctuation 41554 . 41555) (symbol 41553 . 41554) (punctuation 41552 . 41553) (symbol 41541 . 41552) (punctuation 41537 . 41538) (punctuation 41536 . 41537) (semantic-list 41508 . 41535) (punctuation 41504 . 41505) (symbol 41493 . 41504) (punctuation 41492 . 41493) (punctuation 41491 . 41492) (symbol 41486 . 41491) (TYPENAME 41477 . 41485) (punctuation 41474 . 41475) (symbol 41473 . 41474) (punctuation 41472 . 41473) (symbol 41457 . 41472) (STRUCT 41450 . 41456) (punctuation 41448 . 41449) (symbol 41447 . 41448) (TYPENAME 41438 . 41446) (punctuation 41437 . 41438) (TEMPLATE 41428 . 41436) (punctuation 41425 . 41426) (semantic-list 41394 . 41425) (punctuation 41392 . 41393) (symbol 41388 . 41392) (punctuation 41387 . 41388) (punctuation 41386 . 41387) (punctuation 41385 . 41386) (symbol 41366 . 41383) (punctuation 41365 . 41366) (punctuation 41364 . 41365) (punctuation 41363 . 41364) (symbol 41362 . 41363) (punctuation 41361 . 41362) (symbol 41350 . 41361) (punctuation 41346 . 41347) (punctuation 41345 . 41346) (semantic-list 41316 . 41344) (punctuation 41312 . 41313) (symbol 41301 . 41312) (punctuation 41300 . 41301) (punctuation 41299 . 41300) (symbol 41294 . 41299) (TYPENAME 41285 . 41293) (punctuation 41282 . 41283) (symbol 41281 . 41282) (punctuation 41280 . 41281) (symbol 41265 . 41280) (STRUCT 41258 . 41264) (punctuation 41256 . 41257) (symbol 41255 . 41256) (TYPENAME 41246 . 41254) (punctuation 41245 . 41246) (TEMPLATE 41236 . 41244) (punctuation 41233 . 41234) (semantic-list 41208 . 41233) (punctuation 41206 . 41207) (symbol 41202 . 41206) (punctuation 41201 . 41202) (punctuation 41200 . 41201) (punctuation 41199 . 41200) (symbol 41180 . 41197) (punctuation 41179 . 41180) (punctuation 41178 . 41179) (punctuation 41177 . 41178) (symbol 41176 . 41177) (punctuation 41175 . 41176) (symbol 41164 . 41175) (punctuation 41163 . 41164) (punctuation 41159 . 41160) (punctuation 41158 . 41159) (semantic-list 41129 . 41157) (punctuation 41125 . 41126) (symbol 41114 . 41125) (punctuation 41113 . 41114) (punctuation 41112 . 41113) (symbol 41107 . 41112) (TYPENAME 41098 . 41106) (punctuation 41095 . 41096) (symbol 41094 . 41095) (punctuation 41093 . 41094) (symbol 41078 . 41093) (STRUCT 41071 . 41077) (punctuation 41069 . 41070) (symbol 41068 . 41069) (TYPENAME 41059 . 41067) (punctuation 41058 . 41059) (TEMPLATE 41049 . 41057) (punctuation 41046 . 41047) (semantic-list 41021 . 41046) (punctuation 41019 . 41020) (symbol 41015 . 41019) (punctuation 41014 . 41015) (punctuation 41013 . 41014) (punctuation 41012 . 41013) (semantic-list 40982 . 41010) (punctuation 40978 . 40979) (symbol 40967 . 40978) (punctuation 40966 . 40967) (punctuation 40965 . 40966) (symbol 40960 . 40965) (TYPENAME 40951 . 40959) (punctuation 40948 . 40949) (symbol 40947 . 40948) (punctuation 40946 . 40947) (symbol 40931 . 40946) (STRUCT 40924 . 40930) (punctuation 40922 . 40923) (symbol 40921 . 40922) (TYPENAME 40912 . 40920) (punctuation 40911 . 40912) (TEMPLATE 40902 . 40910) (punctuation 40871 . 40872) (VOID 40867 . 40871) (punctuation 40866 . 40867) (symbol 40860 . 40866) (TYPENAME 40851 . 40859) (punctuation 40849 . 40850) (symbol 40848 . 40849) (TYPENAME 40839 . 40847) (punctuation 40838 . 40839) (TEMPLATE 40829 . 40837) (punctuation 37221 . 37222) (symbol 37209 . 37221) (punctuation 37208 . 37209) (punctuation 37207 . 37208) (symbol 37197 . 37207) (punctuation 37196 . 37197) (punctuation 37195 . 37196) (punctuation 37194 . 37195) (symbol 37193 . 37194) (punctuation 37192 . 37193) (symbol 37181 . 37192) (TYPENAME 37172 . 37180) (punctuation 37171 . 37172) (symbol 37161 . 37171) (punctuation 37159 . 37160) (symbol 37158 . 37159) (TYPENAME 37149 . 37157) (punctuation 37148 . 37149) (TEMPLATE 37139 . 37147) (punctuation 36388 . 36389) (symbol 36376 . 36388) (punctuation 36375 . 36376) (punctuation 36374 . 36375) (symbol 36372 . 36374) (TYPENAME 36363 . 36371) (punctuation 36362 . 36363) (symbol 36352 . 36362) (TYPEDEF 36344 . 36351) (punctuation 36329 . 36330) (symbol 36319 . 36329) (punctuation 36318 . 36319) (punctuation 36317 . 36318) (symbol 36315 . 36317) (TYPENAME 36306 . 36314) (punctuation 36305 . 36306) (symbol 36299 . 36305) (punctuation 36298 . 36299) (punctuation 36297 . 36298) (symbol 36294 . 36297) (TYPEDEF 36286 . 36293) (punctuation 36166 . 36167) (symbol 36153 . 36165) (BOOL 36148 . 36152) (CONST 36142 . 36147) (STATIC 36135 . 36141) (EXPLICIT 36065 . 36073) (punctuation 34273 . 34274) (semantic-list 34083 . 34273) (punctuation 34081 . 34082) (symbol 34071 . 34080) (punctuation 34070 . 34071) (punctuation 34069 . 34070) (symbol 34068 . 34069) (TYPENAME 34059 . 34067) (punctuation 34056 . 34057) (symbol 34045 . 34056) (PUBLIC 34038 . 34044) (punctuation 34036 . 34037) (punctuation 34034 . 34035) (symbol 34029 . 34033) (punctuation 34028 . 34029) (punctuation 34027 . 34028) (punctuation 34026 . 34027) (punctuation 34023 . 34024) (punctuation 34019 . 34020) (symbol 34010 . 34019) (punctuation 34009 . 34010) (punctuation 34008 . 34009) (symbol 34007 . 34008) (TYPENAME 33998 . 34006) (punctuation 33997 . 33998) (symbol 33974 . 33997) (punctuation 33969 . 33970) (punctuation 33968 . 33969) (symbol 33967 . 33968) (punctuation 33966 . 33967) (symbol 33952 . 33966) (punctuation 33947 . 33948) (symbol 33943 . 33947) (punctuation 33942 . 33943) (punctuation 33941 . 33942) (symbol 33938 . 33941) (punctuation 33937 . 33938) (punctuation 33936 . 33937) (symbol 33931 . 33936) (punctuation 33927 . 33928) (symbol 33918 . 33927) (punctuation 33917 . 33918) (punctuation 33916 . 33917) (symbol 33911 . 33916) (TYPENAME 33902 . 33910) (punctuation 33899 . 33900) (symbol 33898 . 33899) (punctuation 33897 . 33898) (symbol 33886 . 33897) (CLASS 33880 . 33885) (punctuation 33878 . 33879) (symbol 33877 . 33878) (TYPENAME 33868 . 33876) (punctuation 33867 . 33868) (TEMPLATE 33858 . 33866) (punctuation 33855 . 33856) (semantic-list 33513 . 33855) (punctuation 33511 . 33512) (punctuation 33509 . 33510) (symbol 33498 . 33507) (punctuation 33497 . 33498) (punctuation 33496 . 33497) (symbol 33495 . 33496) (TYPENAME 33486 . 33494) (punctuation 33482 . 33483) (symbol 33473 . 33482) (punctuation 33472 . 33473) (punctuation 33471 . 33472) (symbol 33470 . 33471) (TYPENAME 33461 . 33469) (punctuation 33457 . 33458) (symbol 33453 . 33457) (punctuation 33452 . 33453) (punctuation 33451 . 33452) (symbol 33448 . 33451) (TYPENAME 33439 . 33447) (punctuation 33436 . 33437) (symbol 33425 . 33436) (PUBLIC 33418 . 33424) (punctuation 33416 . 33417) (punctuation 33414 . 33415) (symbol 33409 . 33413) (punctuation 33408 . 33409) (punctuation 33407 . 33408) (punctuation 33406 . 33407) (punctuation 33403 . 33404) (punctuation 33399 . 33400) (punctuation 33397 . 33398) (symbol 33388 . 33397) (punctuation 33387 . 33388) (punctuation 33386 . 33387) (symbol 33385 . 33386) (TYPENAME 33376 . 33384) (punctuation 33375 . 33376) (symbol 33352 . 33375) (punctuation 33351 . 33352) (symbol 33347 . 33351) (punctuation 33346 . 33347) (punctuation 33345 . 33346) (symbol 33342 . 33345) (punctuation 33341 . 33342) (punctuation 33340 . 33341) (symbol 33335 . 33340) (punctuation 33330 . 33331) (punctuation 33329 . 33330) (symbol 33328 . 33329) (punctuation 33327 . 33328) (symbol 33313 . 33327) (punctuation 33308 . 33309) (symbol 33304 . 33308) (punctuation 33303 . 33304) (punctuation 33302 . 33303) (symbol 33299 . 33302) (punctuation 33298 . 33299) (punctuation 33297 . 33298) (symbol 33292 . 33297) (punctuation 33288 . 33289) (symbol 33279 . 33288) (punctuation 33278 . 33279) (punctuation 33277 . 33278) (symbol 33272 . 33277) (TYPENAME 33263 . 33271) (punctuation 33260 . 33261) (symbol 33259 . 33260) (punctuation 33258 . 33259) (symbol 33247 . 33258) (CLASS 33241 . 33246) (punctuation 33239 . 33240) (symbol 33238 . 33239) (TYPENAME 33229 . 33237) (punctuation 33228 . 33229) (TEMPLATE 33219 . 33227) (punctuation 32910 . 32911) (symbol 32902 . 32909) (symbol 32895 . 32901) (CONST 32889 . 32894) (STATIC 32882 . 32888) (punctuation 32856 . 32857) (symbol 32848 . 32855) (symbol 32841 . 32847) (CONST 32835 . 32840) (STATIC 32828 . 32834) (punctuation 32547 . 32548) (punctuation 32546 . 32547) (punctuation 32545 . 32546) (symbol 32544 . 32545) (punctuation 32543 . 32544) (symbol 32532 . 32543) (punctuation 32530 . 32531) (symbol 32517 . 32529) (BOOL 32512 . 32516) (CONST 32506 . 32511) (STATIC 32499 . 32505) (punctuation 32484 . 32485) (symbol 32474 . 32484) (punctuation 32473 . 32474) (punctuation 32472 . 32473) (punctuation 32471 . 32472) (symbol 32470 . 32471) (punctuation 32469 . 32470) (symbol 32458 . 32469) (TYPENAME 32449 . 32457) (punctuation 32447 . 32448) (symbol 32437 . 32447) (punctuation 32436 . 32437) (punctuation 32435 . 32436) (punctuation 32434 . 32435) (symbol 32433 . 32434) (punctuation 32432 . 32433) (symbol 32421 . 32432) (TYPENAME 32412 . 32420) (punctuation 32411 . 32412) (symbol 32407 . 32411) (punctuation 32406 . 32407) (punctuation 32405 . 32406) (symbol 32402 . 32405) (TYPEDEF 32394 . 32401) (punctuation 32379 . 32380) (symbol 32369 . 32379) (punctuation 32368 . 32369) (punctuation 32367 . 32368) (punctuation 32366 . 32367) (symbol 32365 . 32366) (punctuation 32364 . 32365) (symbol 32353 . 32364) (TYPENAME 32344 . 32352) (punctuation 32342 . 32343) (symbol 32332 . 32342) (punctuation 32331 . 32332) (punctuation 32330 . 32331) (punctuation 32329 . 32330) (symbol 32328 . 32329) (punctuation 32327 . 32328) (symbol 32316 . 32327) (TYPENAME 32307 . 32315) (punctuation 32306 . 32307) (symbol 32295 . 32306) (TYPEDEF 32287 . 32294) (punctuation 31769 . 31770) (symbol 31757 . 31769) (punctuation 31756 . 31757) (punctuation 31755 . 31756) (symbol 31753 . 31755) (TYPENAME 31744 . 31752) (punctuation 31742 . 31743) (symbol 31730 . 31742) (punctuation 31729 . 31730) (punctuation 31728 . 31729) (symbol 31726 . 31728) (TYPENAME 31717 . 31725) (punctuation 31716 . 31717) (symbol 31705 . 31716) (TYPEDEF 31697 . 31704) (punctuation 31682 . 31683) (symbol 31672 . 31682) (punctuation 31671 . 31672) (punctuation 31670 . 31671) (symbol 31668 . 31670) (TYPENAME 31659 . 31667) (punctuation 31657 . 31658) (symbol 31647 . 31657) (punctuation 31646 . 31647) (punctuation 31645 . 31646) (symbol 31643 . 31645) (TYPENAME 31634 . 31642) (punctuation 31633 . 31634) (symbol 31629 . 31633) (punctuation 31628 . 31629) (punctuation 31627 . 31628) (symbol 31624 . 31627) (TYPEDEF 31616 . 31623) (punctuation 31574 . 31575) (symbol 31561 . 31573) (BOOL 31556 . 31560) (CONST 31550 . 31555) (STATIC 31543 . 31549) (PUBLIC 31043 . 31049) (punctuation 31041 . 31042) (punctuation 31039 . 31040) (semantic-list 31036 . 31039) (symbol 31035 . 31036) (punctuation 31034 . 31035) (symbol 31023 . 31034) (CLASS 31017 . 31022) (punctuation 31015 . 31016) (symbol 31014 . 31015) (symbol 31007 . 31013) (punctuation 31005 . 31006) (symbol 31004 . 31005) (TYPENAME 30995 . 31003) (punctuation 30994 . 30995) (TEMPLATE 30985 . 30993) (punctuation 30942 . 30943) (semantic-list 30750 . 30942) (punctuation 30748 . 30749) (symbol 30738 . 30748) (punctuation 30737 . 30738) (punctuation 30736 . 30737) (symbol 30735 . 30736) (TYPENAME 30726 . 30734) (punctuation 30725 . 30726) (symbol 30706 . 30725) (PUBLIC 30699 . 30705) (punctuation 30697 . 30698) (punctuation 30695 . 30696) (symbol 30690 . 30694) (punctuation 30689 . 30690) (punctuation 30688 . 30689) (punctuation 30687 . 30688) (punctuation 30685 . 30686) (symbol 30684 . 30685) (punctuation 30683 . 30684) (symbol 30662 . 30683) (punctuation 30661 . 30662) (symbol 30652 . 30661) (punctuation 30651 . 30652) (punctuation 30650 . 30651) (symbol 30645 . 30650) (TYPENAME 30636 . 30644) (punctuation 30633 . 30634) (symbol 30632 . 30633) (punctuation 30631 . 30632) (symbol 30620 . 30631) (CLASS 30614 . 30619) (punctuation 30612 . 30613) (symbol 30611 . 30612) (TYPENAME 30602 . 30610) (punctuation 30601 . 30602) (TEMPLATE 30592 . 30600) (punctuation 29941 . 29942) (punctuation 29940 . 29941) (punctuation 29939 . 29940) (symbol 29937 . 29939) (punctuation 29936 . 29937) (symbol 29925 . 29936) (TYPENAME 29916 . 29924) (TYPEDEF 29908 . 29915) (punctuation 29774 . 29775) (symbol 29761 . 29773) (BOOL 29756 . 29760) (CONST 29750 . 29755) (STATIC 29743 . 29749) (punctuation 29015 . 29016) (number 29014 . 29015) (punctuation 29012 . 29013) (symbol 29006 . 29011) (punctuation 29005 . 29006) (punctuation 29004 . 29005) (punctuation 29003 . 29004) (symbol 29002 . 29003) (punctuation 29001 . 29002) (symbol 28990 . 29001) (punctuation 28988 . 28989) (symbol 28982 . 28987) (symbol 28975 . 28981) (CONST 28969 . 28974) (STATIC 28962 . 28968) (punctuation 27588 . 27589) (VOID 27584 . 27588) (punctuation 27583 . 27584) (symbol 27577 . 27583) (TYPENAME 27568 . 27576) (punctuation 27566 . 27567) (symbol 27565 . 27566) (TYPENAME 27556 . 27564) (punctuation 27555 . 27556) (TEMPLATE 27546 . 27554) (punctuation 20922 . 20923) (semantic-list 20795 . 20922) (punctuation 20793 . 20794) (symbol 20788 . 20792) (punctuation 20787 . 20788) (punctuation 20786 . 20787) (punctuation 20785 . 20786) (punctuation 20782 . 20783) (punctuation 20778 . 20779) (symbol 20769 . 20778) (punctuation 20768 . 20769) (punctuation 20767 . 20768) (symbol 20766 . 20767) (TYPENAME 20757 . 20765) (punctuation 20756 . 20757) (symbol 20733 . 20756) (punctuation 20728 . 20729) (punctuation 20727 . 20728) (symbol 20726 . 20727) (punctuation 20725 . 20726) (symbol 20711 . 20725) (punctuation 20706 . 20707) (symbol 20702 . 20706) (punctuation 20701 . 20702) (punctuation 20700 . 20701) (symbol 20697 . 20700) (punctuation 20696 . 20697) (punctuation 20695 . 20696) (symbol 20690 . 20695) (punctuation 20686 . 20687) (symbol 20677 . 20686) (punctuation 20676 . 20677) (punctuation 20675 . 20676) (symbol 20670 . 20675) (TYPENAME 20661 . 20669) (punctuation 20658 . 20659) (symbol 20657 . 20658) (punctuation 20656 . 20657) (symbol 20644 . 20656) (STRUCT 20637 . 20643) (punctuation 20635 . 20636) (symbol 20634 . 20635) (TYPENAME 20625 . 20633) (punctuation 20624 . 20625) (TEMPLATE 20615 . 20623) (punctuation 20612 . 20613) (semantic-list 20418 . 20612) (punctuation 20416 . 20417) (symbol 20411 . 20415) (punctuation 20410 . 20411) (punctuation 20409 . 20410) (punctuation 20408 . 20409) (punctuation 20405 . 20406) (punctuation 20401 . 20402) (punctuation 20399 . 20400) (symbol 20390 . 20399) (punctuation 20389 . 20390) (punctuation 20388 . 20389) (symbol 20387 . 20388) (TYPENAME 20378 . 20386) (punctuation 20377 . 20378) (symbol 20354 . 20377) (punctuation 20353 . 20354) (symbol 20349 . 20353) (punctuation 20348 . 20349) (punctuation 20347 . 20348) (symbol 20344 . 20347) (punctuation 20343 . 20344) (punctuation 20342 . 20343) (symbol 20337 . 20342) (punctuation 20332 . 20333) (punctuation 20331 . 20332) (symbol 20330 . 20331) (punctuation 20329 . 20330) (symbol 20315 . 20329) (punctuation 20310 . 20311) (symbol 20306 . 20310) (punctuation 20305 . 20306) (punctuation 20304 . 20305) (symbol 20301 . 20304) (punctuation 20300 . 20301) (punctuation 20299 . 20300) (symbol 20294 . 20299) (punctuation 20290 . 20291) (symbol 20281 . 20290) (punctuation 20280 . 20281) (punctuation 20279 . 20280) (symbol 20274 . 20279) (TYPENAME 20265 . 20273) (punctuation 20262 . 20263) (symbol 20261 . 20262) (punctuation 20260 . 20261) (symbol 20248 . 20260) (STRUCT 20241 . 20247) (punctuation 20239 . 20240) (symbol 20238 . 20239) (TYPENAME 20229 . 20237) (punctuation 20228 . 20229) (TEMPLATE 20219 . 20227) (punctuation 20216 . 20217) (semantic-list 20115 . 20216) (punctuation 20113 . 20114) (symbol 20108 . 20112) (punctuation 20107 . 20108) (punctuation 20106 . 20107) (punctuation 20105 . 20106) (punctuation 20102 . 20103) (punctuation 20098 . 20099) (symbol 20089 . 20098) (punctuation 20088 . 20089) (punctuation 20087 . 20088) (symbol 20086 . 20087) (TYPENAME 20077 . 20085) (punctuation 20076 . 20077) (symbol 20053 . 20076) (punctuation 20048 . 20049) (punctuation 20047 . 20048) (symbol 20046 . 20047) (punctuation 20045 . 20046) (symbol 20031 . 20045) (punctuation 20026 . 20027) (symbol 20022 . 20026) (punctuation 20021 . 20022) (punctuation 20020 . 20021) (symbol 20017 . 20020) (punctuation 20016 . 20017) (punctuation 20015 . 20016) (symbol 20010 . 20015) (punctuation 20006 . 20007) (symbol 19997 . 20006) (punctuation 19996 . 19997) (punctuation 19995 . 19996) (symbol 19990 . 19995) (TYPENAME 19981 . 19989) (punctuation 19978 . 19979) (symbol 19977 . 19978) (punctuation 19976 . 19977) (symbol 19964 . 19976) (STRUCT 19957 . 19963) (punctuation 19955 . 19956) (symbol 19954 . 19955) (TYPENAME 19945 . 19953) (punctuation 19944 . 19945) (TEMPLATE 19935 . 19943) (punctuation 19932 . 19933) (semantic-list 19761 . 19932) (punctuation 19759 . 19760) (symbol 19754 . 19758) (punctuation 19753 . 19754) (punctuation 19752 . 19753) (punctuation 19751 . 19752) (punctuation 19748 . 19749) (punctuation 19744 . 19745) (punctuation 19742 . 19743) (symbol 19733 . 19742) (punctuation 19732 . 19733) (punctuation 19731 . 19732) (symbol 19730 . 19731) (TYPENAME 19721 . 19729) (punctuation 19720 . 19721) (symbol 19697 . 19720) (punctuation 19696 . 19697) (symbol 19692 . 19696) (punctuation 19691 . 19692) (punctuation 19690 . 19691) (symbol 19687 . 19690) (punctuation 19686 . 19687) (punctuation 19685 . 19686) (symbol 19680 . 19685) (punctuation 19675 . 19676) (punctuation 19674 . 19675) (symbol 19673 . 19674) (punctuation 19672 . 19673) (symbol 19658 . 19672) (punctuation 19653 . 19654) (symbol 19649 . 19653) (punctuation 19648 . 19649) (punctuation 19647 . 19648) (symbol 19644 . 19647) (punctuation 19643 . 19644) (punctuation 19642 . 19643) (symbol 19637 . 19642) (punctuation 19633 . 19634) (symbol 19624 . 19633) (punctuation 19623 . 19624) (punctuation 19622 . 19623) (symbol 19617 . 19622) (TYPENAME 19608 . 19616) (punctuation 19605 . 19606) (symbol 19604 . 19605) (punctuation 19603 . 19604) (symbol 19591 . 19603) (STRUCT 19584 . 19590) (punctuation 19582 . 19583) (symbol 19581 . 19582) (TYPENAME 19572 . 19580) (punctuation 19571 . 19572) (TEMPLATE 19562 . 19570) (punctuation 19559 . 19560) (semantic-list 19434 . 19559) (punctuation 19432 . 19433) (symbol 19427 . 19431) (punctuation 19426 . 19427) (punctuation 19425 . 19426) (punctuation 19424 . 19425) (punctuation 19421 . 19422) (punctuation 19417 . 19418) (symbol 19408 . 19417) (punctuation 19407 . 19408) (punctuation 19406 . 19407) (symbol 19405 . 19406) (TYPENAME 19396 . 19404) (punctuation 19395 . 19396) (symbol 19372 . 19395) (punctuation 19367 . 19368) (punctuation 19366 . 19367) (symbol 19365 . 19366) (punctuation 19364 . 19365) (symbol 19350 . 19364) (punctuation 19345 . 19346) (symbol 19341 . 19345) (punctuation 19340 . 19341) (punctuation 19339 . 19340) (symbol 19336 . 19339) (punctuation 19335 . 19336) (punctuation 19334 . 19335) (symbol 19329 . 19334) (punctuation 19325 . 19326) (symbol 19316 . 19325) (punctuation 19315 . 19316) (punctuation 19314 . 19315) (symbol 19309 . 19314) (TYPENAME 19300 . 19308) (punctuation 19297 . 19298) (symbol 19296 . 19297) (punctuation 19295 . 19296) (symbol 19285 . 19295) (STRUCT 19278 . 19284) (punctuation 19276 . 19277) (symbol 19275 . 19276) (TYPENAME 19266 . 19274) (punctuation 19265 . 19266) (TEMPLATE 19256 . 19264) (punctuation 19253 . 19254) (semantic-list 19046 . 19253) (punctuation 19044 . 19045) (symbol 19039 . 19043) (punctuation 19038 . 19039) (punctuation 19037 . 19038) (punctuation 19036 . 19037) (punctuation 19033 . 19034) (punctuation 19029 . 19030) (punctuation 19027 . 19028) (symbol 19018 . 19027) (punctuation 19017 . 19018) (punctuation 19016 . 19017) (symbol 19015 . 19016) (TYPENAME 19006 . 19014) (punctuation 19005 . 19006) (symbol 18982 . 19005) (punctuation 18981 . 18982) (symbol 18977 . 18981) (punctuation 18976 . 18977) (punctuation 18975 . 18976) (symbol 18972 . 18975) (punctuation 18971 . 18972) (punctuation 18970 . 18971) (symbol 18965 . 18970) (punctuation 18960 . 18961) (punctuation 18959 . 18960) (symbol 18958 . 18959) (punctuation 18957 . 18958) (symbol 18943 . 18957) (punctuation 18938 . 18939) (symbol 18934 . 18938) (punctuation 18933 . 18934) (punctuation 18932 . 18933) (symbol 18929 . 18932) (punctuation 18928 . 18929) (punctuation 18927 . 18928) (symbol 18922 . 18927) (punctuation 18918 . 18919) (symbol 18909 . 18918) (punctuation 18908 . 18909) (punctuation 18907 . 18908) (symbol 18902 . 18907) (TYPENAME 18893 . 18901) (punctuation 18890 . 18891) (symbol 18889 . 18890) (punctuation 18888 . 18889) (symbol 18878 . 18888) (STRUCT 18871 . 18877) (punctuation 18869 . 18870) (symbol 18868 . 18869) (TYPENAME 18859 . 18867) (punctuation 18858 . 18859) (TEMPLATE 18849 . 18857) (punctuation 13823 . 13824) (VOID 13819 . 13823) (punctuation 13818 . 13819) (symbol 13812 . 13818) (TYPENAME 13803 . 13811) (punctuation 13801 . 13802) (symbol 13800 . 13801) (TYPENAME 13791 . 13799) (punctuation 13790 . 13791) (TEMPLATE 13781 . 13789) (punctuation 13107 . 13108) (VOID 13103 . 13107) (punctuation 13102 . 13103) (symbol 13096 . 13102) (TYPENAME 13087 . 13095) (punctuation 13085 . 13086) (symbol 13084 . 13085) (TYPENAME 13075 . 13083) (punctuation 13074 . 13075) (TEMPLATE 13065 . 13073) (punctuation 12913 . 12914) (VOID 12909 . 12913) (punctuation 12908 . 12909) (symbol 12902 . 12908) (TYPENAME 12893 . 12901) (punctuation 12891 . 12892) (symbol 12890 . 12891) (TYPENAME 12881 . 12889) (punctuation 12880 . 12881) (TEMPLATE 12871 . 12879) (punctuation 6749 . 6750) (symbol 6743 . 6748) (BOOL 6738 . 6742) (CONST 6732 . 6737) (STATIC 6725 . 6731) (punctuation 6716 . 6717) (symbol 6709 . 6713) (punctuation 6708 . 6709) (punctuation 6707 . 6708) (punctuation 6706 . 6707) (symbol 6705 . 6706) (punctuation 6704 . 6705) (symbol 6691 . 6704) (TYPENAME 6682 . 6690) (punctuation 6677 . 6678) (symbol 6673 . 6677) (punctuation 6672 . 6673) (punctuation 6671 . 6672) (punctuation 6670 . 6671) (symbol 6669 . 6670) (punctuation 6668 . 6669) (symbol 6655 . 6668) (TYPENAME 6646 . 6654) (punctuation 6641 . 6642) (symbol 6637 . 6641) (punctuation 6636 . 6637) (punctuation 6635 . 6636) (symbol 6632 . 6635) (punctuation 6631 . 6632) (punctuation 6630 . 6631) (symbol 6625 . 6630) (TYPEDEF 6617 . 6624) (semantic-list 6557 . 6568) (symbol 6530 . 6557) (semantic-list 6518 . 6529) (symbol 6491 . 6518) (punctuation 6191 . 6192) (symbol 6185 . 6190) (BOOL 6180 . 6184) (CONST 6174 . 6179) (STATIC 6167 . 6173) (punctuation 6158 . 6159) (punctuation 6154 . 6155) (punctuation 6152 . 6153) (symbol 6151 . 6152) (punctuation 6150 . 6151) (symbol 6123 . 6150) (punctuation 6122 . 6123) (symbol 6118 . 6122) (punctuation 6117 . 6118) (punctuation 6116 . 6117) (symbol 6113 . 6116) (punctuation 6112 . 6113) (punctuation 6111 . 6112) (symbol 6106 . 6111) (punctuation 6101 . 6102) (symbol 6097 . 6101) (punctuation 6096 . 6097) (punctuation 6095 . 6096) (punctuation 6094 . 6095) (symbol 6093 . 6094) (punctuation 6092 . 6093) (symbol 6074 . 6092) (TYPENAME 6065 . 6073) (punctuation 6060 . 6061) (symbol 6056 . 6060) (punctuation 6055 . 6056) (punctuation 6054 . 6055) (punctuation 6053 . 6054) (symbol 6052 . 6053) (punctuation 6051 . 6052) (symbol 6037 . 6051) (TYPENAME 6028 . 6036) (punctuation 6023 . 6024) (symbol 6019 . 6023) (punctuation 6018 . 6019) (punctuation 6017 . 6018) (symbol 6014 . 6017) (punctuation 6013 . 6014) (punctuation 6012 . 6013) (symbol 6007 . 6012) (TYPEDEF 5999 . 6006) (semantic-list 5927 . 5943) (symbol 5900 . 5927) (semantic-list 5887 . 5899) (symbol 5860 . 5887))
+      :lexical-table 
+        '(("GNUPLOT_ENABLE_CXX11" . ((semantic-list "(__cplusplus >= 201103)" 1920 . 1943)))
+          ("GNUPLOT_MSVC_WARNING_4996_PUSH")
+          ("GNUPLOT_POPEN" . ((symbol "popen" 3990 . 3995)))
+          ("GNUPLOT_STATIC_ASSERT_MSG" (spp-arg-list ("cond" "msg") 3355 . 3366) . ((symbol "BOOST_STATIC_ASSERT" 3367 . 3386) (semantic-list "((cond))" 3386 . 3394)))
+          ("GNUPLOT_ISNAN" . 
+              ((symbol "std" 4286 . 4289) (punctuation ":" 4289 . 4290) (punctuation ":" 4290 . 4291) (symbol "isnan" 4291 . 4296)))
+          ("GNUPLOT_IOSTREAM_H")
+          ("GNUPLOT_IOSTREAM_VERSION" . ((number "2" 1858 . 1859)))
+          ("GNUPLOT_DEFAULT_COMMAND" . ((string "\"gnuplot -persist\"" 5434 . 5452)))
+          ("GNUPLOT_PCLOSE" . ((symbol "pclose" 3959 . 3965)))
+          ("GNUPLOT_MSVC_WARNING_4996_POP")
+          ("GNUPLOT_DEPRECATE" (spp-arg-list ("msg") 3746 . 3751))
+          ("GNUPLOT_FILENO" . ((symbol "fileno" 4020 . 4026)))
+          )
+))
+  :file "!home!bemcho!Projects!gnuplot-iostream!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
