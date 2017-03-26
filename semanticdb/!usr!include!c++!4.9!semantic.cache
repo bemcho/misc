@@ -2730,9 +2730,21 @@
           )
 )
     (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_NUMERIC" variable (:constant-flag t) nil [2279 2295])
+            ("bits/c++config.h" include (:system-flag t) nil [2326 2353])
+            ("bits/stl_iterator_base_types.h" include (:system-flag t) nil [2354 2395])
+            ("bits/stl_numeric.h" include (:system-flag t) nil [2396 2425]))          
       :file "numeric"
+      :pointmax 2783
       :fsize 2782
-      :lastmodtime '(21660 28447 0 0))
+      :lastmodtime '(21660 28447 0 0)
+      :unmatched-syntax '((symbol 2311 . 2324) (symbol 2307 . 2310) (symbol 2300 . 2306) (punctuation 2299 . 2300))
+      :lexical-table 
+        '(("_GLIBCXX_NUMERIC" . ((number "1" 2296 . 2297)))
+          )
+)
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
       :tags 

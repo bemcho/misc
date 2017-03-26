@@ -12921,7 +12921,11 @@
           ("__need_wint_t")
           ("__iswxxx_defined" . ((number "1" 1450 . 1451)))
           )
-))
+)
+    (semanticdb-table "semanticdb-table"
+      :file "armadillo"
+      :fsize 20968
+      :lastmodtime '(21534 18983 0 0)))
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

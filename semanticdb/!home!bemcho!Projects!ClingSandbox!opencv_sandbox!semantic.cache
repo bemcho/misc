@@ -1,0 +1,50 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("OPENCV_SANDBOX_HPP" variable (:constant-flag t) nil [36 54])
+            ("cling_sandbox_base_includes.hpp" include nil nil [56 98])
+            ("opencv2/core.hpp" include (:system-flag t) nil [99 126])
+            ("opencv2/videoio.hpp" include (:system-flag t) nil [127 157])
+            ("opencv2/highgui.hpp" include (:system-flag t) nil [158 188]))          
+      :file "opencv_sandbox.hpp"
+      :pointmax 220
+      :fsize 219
+      :lastmodtime '(22743 60087 225813 643000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("OPENCV_SANDBOX_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("opencv_sandbox.hpp" include nil nil [39 68])
+            ("opencvbox" type
+               (:members 
+                  ( ("showFrame" function
+                       (:arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [108 125])
+                            ("frame" variable (:type ("cv::Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [126 140]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [93 175])
+                    ("startVisualLoop" function
+                       (:arguments 
+                          ( ("camIndex" variable (:type "int") (reparse-symbol arg-sub-list) [200 213])
+                            ("windowName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [214 237]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [179 515]))                  
+                :type "namespace")
+                nil [69 517]))          
+      :file "opencv.cpp"
+      :pointmax 518
+      :fsize 517
+      :lastmodtime '(22743 62126 293784 683000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!ClingSandbox!opencv_sandbox!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "stanrootcling.hpp.h"
+      :pointmax 39
+      :fsize 38
+      :lastmodtime '(22743 51569 217934 620000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1539 1558])
+            ("algorithm" include (:system-flag t) nil [1559 1579])
+            ("numeric" include (:system-flag t) nil [1580 1598])
+            ("gnuplot_i.hpp" include nil nil [1599 1623]))          
+      :file "base_runtime.hpp"
+      :pointmax 1624
+      :fsize 1648
+      :lastmodtime '(22743 50630 633947 950000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!stansandbox!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

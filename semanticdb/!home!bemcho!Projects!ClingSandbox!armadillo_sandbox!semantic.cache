@@ -1,0 +1,43 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("armadillo_sandbox.hpp" include nil nil [1513 1545])
+            ("armabox" type
+               (:members 
+                  ( ("plotDotProd" function
+                       (:arguments 
+                          ( ("randNX" variable (:type "int") (reparse-symbol arg-sub-list) [1600 1611])
+                            ("randNY" variable (:type "int") (reparse-symbol arg-sub-list) [1611 1622])
+                            ("plotName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1623 1644]))                          
+                        :type ("gnuploti::Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1569 1899]))                  
+                :type "namespace")
+                nil [1546 1901]))          
+      :file "armadillo.cpp"
+      :pointmax 1902
+      :fsize 1901
+      :lastmodtime '(22743 64803 117746 665000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ARMADILLO_SANDBOX_HPP" variable (:constant-flag t) nil [40 61])
+            ("cling_sandbox_base_includes.hpp" include nil nil [63 105])
+            ("armadillo" include (:system-flag t) nil [106 126]))          
+      :file "armadillo_sandbox.hpp"
+      :pointmax 161
+      :fsize 160
+      :lastmodtime '(22743 63072 693771 242000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ARMADILLO_SANDBOX_HPP")
+          )
+))
+  :file "!home!bemcho!Projects!ClingSandbox!armadillo_sandbox!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

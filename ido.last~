@@ -2,18 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/bemcho/Projects/ClingSandbox/" . "include/")
  ("/usr/local/" . "src/")
  ("/home/" . "bemcho/")
  ("/" . "home/")
  ("/home/bemcho/Projects/stansandbox/" . "src/")
  ("/home/bemcho/Projects/home-ai-reloaded-cmake/" . "homeai/")
  ("/home/bemcho/.emacs.d/" . "cling/")
- ("/home/bemcho/Projects/" . "home-ai-reloaded-cmake/")
+ ("/home/bemcho/Projects/" . "ClingSandbox/")
  ("/home/bemcho/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/bemcho/Projects/ClingSandbox/include/"
+ "/home/bemcho/Projects/ClingSandbox/"
  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/"
  "/home/bemcho/.emacs.d/"
  "/home/bemcho/"
@@ -24,6 +27,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "base_includes.hpp"
+ "armadillo_sand.cpp"
  "VisualContextAnnotator.hpp"
  "ClipsAdapter.hpp"
  "init.el"
@@ -32,17 +37,23 @@
  ".emacs"
  "cling.el"
  "vtkSandbox.cpp"
- "vktSandbox.cpp"
- "main.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/bemcho/Projects/ClingSandbox/include/" (22743 49876 813958 656000) "./" "../")
+
+ ("/home/bemcho/Projects/ClingSandbox/" (22743 50585 929948 585000) "gnuplot-cpp/" ".gitignore" "armadillo_sand.cpp" "LICENSE" "include/" "README.md" "./" ".git/" "../")
+
+ ("/home/bemcho/Projects/stansandbox/" (22743 50585 897948 586000) "clingmetaclipboard.cpp" "Paula_Hawkins-The-Girl-On-The-Train.csv" "clingmetaclipboard.cpp~" "clingroot.h" ".idea/" ".gitignore" "src/" "mlpack.cpp~" "John-Green-The-Fault-in-our-Stars.csv" "deps/" "LICENSE" "include/" "cmake-build-debug/" "README.md" "Donna-Tartt-The-Goldfinch.csv" "./" "Laura-Hillenbrand-Unbroken.csv" "metadata.txt" "EL-James-Fifty-Shades-of-Grey.csv" "Fillian_Flynn-Gone_Girl.csv" ".git/" "../" "Suzanne-Collins-The-Hunger-Games.csv" "amazon_book_reviews.rar" "CMakeLists.txt" "mlpack.cpp" "Andy-Weir-The-Martian.csv" "airboat.obj" "cmake-build-release/" "cmake/")
+
+ ("/home/bemcho/Projects/stansandbox/include/" (22743 50630 665947 950000) "base_runtime.hpp" "./" "../" "base_runtime.hpp~" ".#stanrootcling.hpp.h" "stanrootcling.hpp.h" "#stanrootcling.hpp.h#")
+
+ ("/home/bemcho/Projects/" (22743 49487 657964 183000) "mlpack/" "sundials-2.7.0/" "tesseract/" "opencv-master/" "ClingSandbox/" "guake/" "gnuplot-cpp/" "tuhdo.github.io/" "dl4j-examples/" "source-archive.zip" "radeon-profile-daemon/" "Guake-Color-Schemes/" "ogdf/" "cvode-2.9.0/" "clips_core_source_610/" "cmake-3.7.2/" "home-ai-distributed/" "gradlewDEV3.zip" "home-ai-reloaded/" "eigen-eigen-67e894c6cd8f/" "llvm/" "leptonica/" "1" "cmake-3.7.2.tar.gz" "./" "mlpack-2.2.0.tar.gz" "global-6.5.6/" "untitled/" "clean_ogre_cmake_project.zip" "stansandbox/" "stan/" "armadillo-7.800.2.tar.xz" "misc/" "akka-samples/" "home-ai-reloaded-cmake/" "mlpack-2.2.0/" "3d-scanner/" "Java/" "poco-1.7.7-all/" "guake-color-palettes/" "../" "VTK-7.1.0/" "global-6.5.6.tar.gz" "emacs_build/" "actor-framework/" "emacs-c-ide-demo/" "emacs/" "boost_1_63_0/" "sandbox/" "hlsl2glslfork/" "cling/" "radeon-profile/" "caffe/" "opencv-contrib/" "akka/" ".directory" "tulip-4.10.0/" "guake-colors-solarized/" "gnuplot-iostream/" "armadillo-7.800.2/" "glsl-optimizer/")
+
  ("/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/" (22742 17657 519347 28000) "ClipsAdapter.hpp" "./" "Annotation.hpp" "../" "#ClipsAdapter.hpp#" "VisualREPL.hpp" ".#ClipsAdapter.hpp" "VisualContextAnnotator.hpp")
 
  ("/home/bemcho/Projects/home-ai-reloaded-cmake/" (22724 50140 834644 572000) ".idea/" "lbphFaceRecognizer.7z" ".gitignore" "bvlc_googlenet.prototxt" "src/" "tessdata/" "lbphFaceRecognizer.xml" "visualcontextrules.clp" "LICENSE" "synset_words.txt" "cmake-build-debug/" "README.md" "./" "bvlc_googlenet.caffemodel" ".git/" "../" "cascade_frontalface.xml" "homeai/" "CMakeLists.txt" "cmake-build-release/" "cmake/")
-
- ("/home/bemcho/Projects/" (22742 16806 291359 118000) "mlpack/" "sundials-2.7.0/" "tesseract/" "opencv-master/" "GTAGS" "guake/" "tuhdo.github.io/" "dl4j-examples/" "radeon-profile-daemon/" "GPATH" "Guake-Color-Schemes/" "ogdf/" "cvode-2.9.0/" "clips_core_source_610/" "cmake-3.7.2/" "home-ai-distributed/" "gradlewDEV3.zip" "home-ai-reloaded/" "eigen-eigen-67e894c6cd8f/" "llvm/" "leptonica/" "1" "cmake-3.7.2.tar.gz" "./" "mlpack-2.2.0.tar.gz" "GRTAGS" "global-6.5.6/" "untitled/" "clean_ogre_cmake_project.zip" "stansandbox/" "stan/" "armadillo-7.800.2.tar.xz" "misc/" "akka-samples/" "home-ai-reloaded-cmake/" "mlpack-2.2.0/" "3d-scanner/" "Java/" "poco-1.7.7-all/" "guake-color-palettes/" "../" "VTK-7.1.0/" "global-6.5.6.tar.gz" "emacs_build/" "actor-framework/" "emacs-c-ide-demo/" "emacs/" "boost_1_63_0/" "sandbox/" "hlsl2glslfork/" "cling/" "radeon-profile/" "caffe/" "opencv-contrib/" "akka/" ".directory" "tulip-4.10.0/" "guake-colors-solarized/" "armadillo-7.800.2/" "glsl-optimizer/")
 
  ("/usr/local/src/" (22580 35367 638119 459000) "./" "../")
 
@@ -57,8 +68,6 @@
  ("/home/bemcho/Projects/stansandbox/src/" (22720 18878 2811 689000) "./" "main.cpp" "vtkSandbox.cpp" "../" "vktSandbox.cpp")
 
  ("/home/bemcho/.emacs.d/cling/" (22741 37752 239367 435000) "cling.el" "./" "../")
-
- ("/home/bemcho/Projects/stansandbox/" (22742 12972 83413 573000) "clingmetaclipboard.cpp" "clingroot.h" ".idea/" ".gitignore" "src/" "deps/" "LICENSE" "include/" "cmake-build-debug/" "README.md" "./" ".git/" "../" "CMakeLists.txt" "airboat.obj" "cmake-build-release/" "cmake/")
 
  ("/home/" (22580 38170 174029 56000) "bemcho/" "./" "../")
 )

@@ -1,0 +1,1695 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GNUPLOT_PIPES_H_" variable (:constant-flag t) nil [1086 1103])
+            ("iostream" include (:system-flag t) nil [1106 1125])
+            ("string" include (:system-flag t) nil [1126 1143])
+            ("vector" include (:system-flag t) nil [1144 1161])
+            ("fstream" include (:system-flag t) nil [1162 1180])
+            ("sstream" include (:system-flag t) nil [1181 1199])
+            ("stdexcept" include (:system-flag t) nil [1239 1259])
+            ("cstdio" include (:system-flag t) nil [1260 1277])
+            ("cstdlib" include (:system-flag t) nil [1278 1296])
+            ("list" include (:system-flag t) nil [1326 1341])
+            ("gnuploti" type
+               (:members 
+                  ( ("GP_MAX_TMP_FILES" variable (:constant-flag t) (reparse-symbol namespacesubparts) [1873 1889])
+                    ("GnuplotException" type
+                       (:superclasses 
+                          ( ("std::runtime_error" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [2064 2071])
+                            ("GnuplotException" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("msg" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2097 2120]))                                  
+                                :type ("GnuplotException" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2080 2149]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2003 2156])
+                    ("Gnuplot" type
+                       (:members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [2188 2196])
+                            ("gnucmd" variable
+                               (:pointer 1
+                                :type ("FILE" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2400 2432])
+                            ("valid" variable (:type "bool") (reparse-symbol classsubparts) [2489 2520])
+                            ("two_dim" variable (:type "bool") (reparse-symbol classsubparts) [2569 2602])
+                            ("nplots" variable (:type "int") (reparse-symbol classsubparts) [2656 2688])
+                            ("pstyle" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2768 2800])
+                            ("smooth" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2892 2924])
+                            ("tmpfile_list" variable (:type ("std::vector" type
+                                 (:template-specifier 
+                                    ( ("std::string" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [2976 3014])
+                            ("tmpfile_num" variable
+                               (:typemodifiers ("static")
+                                :type "int")
+                                (reparse-symbol classsubparts) [3213 3250])
+                            ("m_sGNUPlotFileName" variable
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3307 3351])
+                            ("m_sGNUPlotPath" variable
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3391 3431])
+                            ("terminal_std" variable
+                               (:typemodifiers ("static")
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3498 3536])
+                            ("init" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [3947 3969])
+                            ("create_tmpfile" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("tmp" variable
+                                       (:reference 1
+                                        :type ("std::ofstream" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4312 4331]))                                  
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4282 4332])
+                            ("get_program_path" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "bool")
+                                (reparse-symbol classsubparts) [4687 4721])
+                            ("file_available" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5181 5209]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [5161 5210])
+                            ("file_exists" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5671 5699])
+                                    ("mode" variable
+                                       (:default-value "0"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [5700 5710]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [5644 5712])
+                            ("public" label nil (reparse-symbol classsubparts) [5718 5725])
+                            ("set_GNUPlotPath" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("path" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6198 6222]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [6170 6223])
+                            ("set_terminal_std" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("type" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6662 6686]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [6633 6687])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("style" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"points\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6957 6992]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6949 6994])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7060 7089])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7106 7135])
+                                    ("style" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"points\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7153 7188])
+                                    ("labelx" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"x\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7206 7237])
+                                    ("labely" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"y\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7255 7286]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7052 7288])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7351 7380])
+                                    ("y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7397 7426])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7443 7472])
+                                    ("style" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"points\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7490 7525])
+                                    ("labelx" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"x\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7543 7574])
+                                    ("labely" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"y\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7592 7623]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7343 7625])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7690 7719])
+                                    ("y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7736 7765])
+                                    ("z" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("double" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [7782 7811])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7828 7857])
+                                    ("style" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"points\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7875 7910])
+                                    ("labelx" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"x\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7928 7959])
+                                    ("labely" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"y\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [7977 8008])
+                                    ("labelz" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"z\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8026 8057]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [7682 8059])
+                            ("Gnuplot" function
+                               (:prototype-flag t
+                                :destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [8126 8137])
+                            ("cmd" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("cmdstr" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8293 8319]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8280 8320])
+                            ("<<" function
+                               (:operator-flag t
+                                :typemodifiers ("inline")
+                                :arguments 
+                                  ( ("cmdstr" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8801 8827]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8774 8899])
+                            ("showonscreen" function
+                               (:prototype-flag t
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9087 9111])
+                            ("savetofigure" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [9271 9299])
+                                    ("terminal" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"ps\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [9330 9362]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9249 9364])
+                            ("set_style" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("stylestr" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"points\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [9712 9750]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9693 9752])
+                            ("set_smooth" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("stylestr" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"csplines\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [10080 10120]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10060 10122])
+                            ("unset_smooth" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10483 10584])
+                            ("set_pointsize" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("pointsize" variable
+                                       (:constant-flag t
+                                        :default-value "1.0"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [10675 10703]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10652 10705])
+                            ("set_grid" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10745 10846])
+                            ("unset_grid" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [10895 11000])
+                            ("set_multiplot" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11267 11379])
+                            ("unset_multiplot" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11649 11764])
+                            ("set_samples" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("samples" variable
+                                       (:constant-flag t
+                                        :default-value "100"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [11868 11891]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11847 11893])
+                            ("set_isosamples" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("isolines" variable
+                                       (:constant-flag t
+                                        :default-value "10"
+                                        :type "int")
+                                        (reparse-symbol arg-sub-list) [12015 12038]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [11991 12040])
+                            ("set_hidden3d" function (:type ("Gnuplot" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12409 12511])
+                            ("unset_hidden3d" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [12842 12955])
+                            ("set_contour" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("position" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"base\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13092 13128]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [13071 13130])
+                            ("unset_contour" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [13490 13601])
+                            ("set_surface" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [13932 14039])
+                            ("unset_surface" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [14402 14513])
+                            ("set_legend" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("position" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"default\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [14665 14704]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [14645 14706])
+                            ("unset_legend" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [15062 15168])
+                            ("set_title" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [15593 15622]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [15567 15818])
+                            ("unset_title" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16218 16324])
+                            ("set_ylabel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("label" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"x\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16384 16414]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16364 16416])
+                            ("set_xlabel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("label" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"y\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16474 16504]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16454 16506])
+                            ("set_zlabel" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("label" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"z\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [16564 16594]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16544 16596])
+                            ("set_xrange" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("iFrom" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16656 16675])
+                                    ("iTo" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16704 16721]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16636 16722])
+                            ("set_yrange" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("iFrom" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16783 16802])
+                                    ("iTo" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16831 16848]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16763 16849])
+                            ("set_zrange" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("iFrom" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16910 16929])
+                                    ("iTo" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [16958 16975]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [16890 16976])
+                            ("set_xautoscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [17200 17353])
+                            ("set_yautoscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [17638 17791])
+                            ("set_zautoscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [18076 18229])
+                            ("set_xlogscale" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("base" variable
+                                       (:constant-flag t
+                                        :default-value "10"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [18358 18380]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [18335 18382])
+                            ("set_ylogscale" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("base" variable
+                                       (:constant-flag t
+                                        :default-value "10"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [18508 18530]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [18485 18532])
+                            ("set_zlogscale" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("base" variable
+                                       (:constant-flag t
+                                        :default-value "10"
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [18658 18680]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [18635 18682])
+                            ("unset_xlogscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [18962 19078])
+                            ("unset_ylogscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19359 19475])
+                            ("unset_zlogscale" function
+                               (:typemodifiers ("inline")
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19756 19872])
+                            ("set_cbrange" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("iFrom" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [19958 19977])
+                                    ("iTo" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [19978 19995]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [19937 19996])
+                            ("plotfile_x" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20194 20222])
+                                    ("column" variable
+                                       (:constant-flag t
+                                        :default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [20251 20280])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20310 20339]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20174 20341])
+                            ("plot_x" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("X" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20426 20437])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20438 20467]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [20381 20469])
+                            ("plotfile_xy" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20557 20585])
+                                    ("column_x" variable
+                                       (:constant-flag t
+                                        :default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [20615 20646])
+                                    ("column_y" variable
+                                       (:constant-flag t
+                                        :default-value "2"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [20677 20708])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20739 20768]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [20536 20770])
+                            ("plot_xy" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("X" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20861 20872])
+                                    ("y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20873 20884])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20885 20914]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [20803 20916])
+                            ("plotfile_xy_err" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21029 21057])
+                                    ("column_x" variable
+                                       (:constant-flag t
+                                        :default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21091 21123])
+                                    ("column_y" variable
+                                       (:constant-flag t
+                                        :default-value "2"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21158 21190])
+                                    ("column_dy" variable
+                                       (:constant-flag t
+                                        :default-value "3"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21225 21257])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21292 21321]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [21004 21323])
+                            ("plot_xy_err" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil)
+                                    ("E" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("X" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21430 21441])
+                                    ("y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21442 21453])
+                                    ("dy" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("E" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21454 21466])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21496 21525]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [21356 21527])
+                            ("plotfile_xyz" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("filename" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21622 21650])
+                                    ("column_x" variable
+                                       (:constant-flag t
+                                        :default-value "1"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21681 21712])
+                                    ("column_y" variable
+                                       (:constant-flag t
+                                        :default-value "2"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21744 21775])
+                                    ("column_z" variable
+                                       (:constant-flag t
+                                        :default-value "3"
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [21807 21838])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [21870 21899]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [21600 21901])
+                            ("plot_xyz" function
+                               (:template 
+                                  ( ("X" type (:type "class") nil nil)
+                                    ("Y" type (:type "class") nil nil)
+                                    ("Z" type (:type "class") nil nil))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("x" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("X" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22012 22023])
+                                    ("y" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Y" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22050 22061])
+                                    ("z" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Z" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22088 22099])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22126 22155]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol classsubparts) [21941 22157])
+                            ("plot_slope" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("a" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [22262 22277])
+                                    ("b" variable
+                                       (:constant-flag t
+                                        :type "double")
+                                        (reparse-symbol arg-sub-list) [22306 22321])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [22350 22379]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [22242 22381])
+                            ("plot_equation" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("equation" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23277 23305])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23337 23366]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [23254 23368])
+                            ("plot_equation3d" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("equation" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23562 23590])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23624 23653]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [23537 23655])
+                            ("plot_image" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("ucPicBuf" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "unsigned char")
+                                        (reparse-symbol arg-sub-list) [23709 23739])
+                                    ("iWidth" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [23768 23794])
+                                    ("iHeight" variable
+                                       (:constant-flag t
+                                        :type "unsigned int")
+                                        (reparse-symbol arg-sub-list) [23823 23850])
+                                    ("title" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :default-value "\"\""
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [23879 23908]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [23689 23910])
+                            ("replot" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [24437 24442]))                                  
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [24414 24531])
+                            ("reset_plot" function
+                               (:prototype-flag t
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [24616 24638])
+                            ("reset_all" function
+                               (:prototype-flag t
+                                :type ("Gnuplot" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [24719 24740])
+                            ("remove_tmpfiles" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [24786 24809])
+                            ("is_valid" function
+                               (:typemodifiers ("inline")
+                                :type "bool")
+                                (reparse-symbol classsubparts) [25135 25204]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [2164 25213])
+                    ("Gnuplot::tmpfile_num" variable
+                       (:default-value "0"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [25348 25377])
+                    ("Gnuplot::m_sGNUPlotFileName" variable
+                       (:default-value "\"gnuplot\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [25686 25738])
+                    ("Gnuplot::m_sGNUPlotPath" variable
+                       (:default-value "\"/usr/local/bin/\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [25743 25799])
+                    ("Gnuplot::terminal_std" variable
+                       (:default-value "\"x11\""
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [26034 26076])
+                    ("Gnuplot" function
+                       (:constructor-flag t
+                        :parent "Gnuplot"
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("style" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [26337 26362]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [26313 26480])
+                    ("Gnuplot" function
+                       (:constructor-flag t
+                        :parent "Gnuplot"
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [26667 26696])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [26725 26750])
+                            ("style" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [26779 26804])
+                            ("labelx" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [26833 26859])
+                            ("labely" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [26888 26914]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [26643 27114])
+                    ("Gnuplot" function
+                       (:constructor-flag t
+                        :parent "Gnuplot"
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [27304 27333])
+                            ("y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [27362 27391])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [27420 27445])
+                            ("style" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [27474 27499])
+                            ("labelx" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [27528 27554])
+                            ("labely" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [27583 27609]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [27280 27812])
+                    ("Gnuplot" function
+                       (:constructor-flag t
+                        :parent "Gnuplot"
+                        :typemodifiers ("inline")
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [28004 28033])
+                            ("y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [28062 28091])
+                            ("z" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::vector" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [28120 28149])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28178 28203])
+                            ("style" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28232 28257])
+                            ("labelx" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28286 28312])
+                            ("labely" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28341 28367])
+                            ("labelz" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28396 28422]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [27980 28656])
+                    ("plot_x" function
+                       (:template 
+                          ( ("X" type (:type "class") nil nil))                          
+                        :type ("Gnuplot" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("X" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28863 28874])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [28875 28900]))                          
+                        :parent "Gnuplot")
+                        (reparse-symbol namespacesubparts) [28813 29439])
+                    ("plot_xy" function
+                       (:template 
+                          ( ("X" type (:type "class") nil nil)
+                            ("Y" type (:type "class") nil nil))                          
+                        :type ("Gnuplot" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("X" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [29661 29672])
+                            ("y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Y" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [29673 29684])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [29685 29710]))                          
+                        :parent "Gnuplot")
+                        (reparse-symbol namespacesubparts) [29598 30458])
+                    ("plot_xy_err" function
+                       (:template 
+                          ( ("X" type (:type "class") nil nil)
+                            ("Y" type (:type "class") nil nil)
+                            ("E" type (:type "class") nil nil))                          
+                        :type ("Gnuplot" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("X" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [30685 30696])
+                            ("y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Y" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [30731 30742])
+                            ("dy" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("E" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [30777 30789])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [30824 30849]))                          
+                        :parent "Gnuplot")
+                        (reparse-symbol namespacesubparts) [30606 31693])
+                    ("plot_xyz" function
+                       (:template 
+                          ( ("X" type (:type "class") nil nil)
+                            ("Y" type (:type "class") nil nil)
+                            ("Z" type (:type "class") nil nil))                          
+                        :type ("Gnuplot" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("X" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [31929 31940])
+                            ("y" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Y" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [31972 31983])
+                            ("z" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Z" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [32015 32026])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [32058 32083]))                          
+                        :parent "Gnuplot")
+                        (reparse-symbol namespacesubparts) [31853 32890])
+                    ("set_GNUPlotPath" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("path" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [33148 33172]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [33118 33842])
+                    ("set_terminal_std" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("type" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [34118 34142]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [34087 34476])
+                    ("stringtok" function
+                       (:template 
+                          ( ("Container" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("container" variable
+                               (:reference 1
+                                :type ("Container" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [34780 34801])
+                            ("in" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [34822 34844])
+                            ("delimiters" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\" \\t\\n\""
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [34865 34904]))                          )
+                        (reparse-symbol namespacesubparts) [34730 35774])
+                    ("Gnuplot" function
+                       (:destructor-flag t
+                        :parent "Gnuplot"
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [35932 36413])
+                    ("reset_plot" function
+                       (:parent "Gnuplot"
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [36588 36705])
+                    ("reset_all" function
+                       (:parent "Gnuplot"
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [36876 37108])
+                    ("set_style" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("stylestr" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [37296 37324]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [37268 40158])
+                    ("set_smooth" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("stylestr" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [40348 40376]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [40319 40927])
+                    ("showonscreen" function
+                       (:parent "Gnuplot"
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [41076 41224])
+                    ("savetofigure" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [41412 41440])
+                            ("terminal" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [41476 41504]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [41381 41776])
+                    ("set_legend" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("position" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [41936 41964]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [41907 42104])
+                    ("set_xlogscale" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("base" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [42284 42302]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [42252 42445])
+                    ("set_ylogscale" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("base" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [42625 42643]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [42593 42786])
+                    ("set_zlogscale" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("base" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [42966 42984]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [42934 43127])
+                    ("set_pointsize" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("pointsize" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [43315 43338]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [43283 43484])
+                    ("set_samples" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("samples" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [43688 43706]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [43658 43848])
+                    ("set_isosamples" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("isolines" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [44056 44075]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [44023 44221])
+                    ("set_contour" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("position" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [44438 44466]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [44408 44844])
+                    ("set_xlabel" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("label" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [45018 45043]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [44989 45193])
+                    ("set_ylabel" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("label" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [45342 45367]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [45313 45517])
+                    ("set_zlabel" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("label" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [45666 45691]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [45637 45841])
+                    ("set_xrange" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("iFrom" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46014 46033])
+                            ("iTo" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46067 46084]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [45985 46245])
+                    ("set_yrange" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("iFrom" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46394 46413])
+                            ("iTo" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46447 46464]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [46365 46625])
+                    ("set_zrange" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("iFrom" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46774 46793])
+                            ("iTo" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [46827 46844]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [46745 47005])
+                    ("set_cbrange" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("iFrom" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [47169 47188])
+                            ("iTo" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [47223 47240]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [47139 47402])
+                    ("plot_slope" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("a" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [47628 47643])
+                            ("b" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [47677 47692])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [47726 47751]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [47599 48306])
+                    ("plot_equation" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("equation" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48521 48549])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [48586 48611]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [48489 49139])
+                    ("plot_equation3d" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("equation" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49334 49362])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [49401 49426]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [49300 49963])
+                    ("plotfile_x" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50165 50193])
+                            ("column" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [50227 50253])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [50287 50312]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [50136 51096])
+                    ("plotfile_xy" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51302 51330])
+                            ("column_x" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [51365 51393])
+                            ("column_y" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [51428 51456])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [51491 51516]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [51272 52274])
+                    ("plotfile_xy_err" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [52495 52523])
+                            ("column_x" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [52562 52590])
+                            ("column_y" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [52629 52657])
+                            ("column_dy" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [52696 52725])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [52764 52789]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [52461 53495])
+                    ("plotfile_xyz" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [53703 53731])
+                            ("column_x" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [53767 53795])
+                            ("column_y" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [53831 53859])
+                            ("column_z" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [53895 53923])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [53959 53984]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [53672 54684])
+                    ("plot_image" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("ucPicBuf" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "unsigned char")
+                                (reparse-symbol arg-sub-list) [54902 54933])
+                            ("iWidth" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [54967 54993])
+                            ("iHeight" variable
+                               (:constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [55027 55054])
+                            ("title" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [55088 55113]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [54873 56226])
+                    ("cmd" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("cmdstr" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [56407 56433]))                          
+                        :type ("Gnuplot" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [56385 57694])
+                    ("init" function
+                       (:parent "Gnuplot"
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [57862 59935])
+                    ("get_program_path" function
+                       (:parent "Gnuplot"
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [60105 62493])
+                    ("file_exists" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [62654 62682])
+                            ("mode" variable (:type "int") (reparse-symbol arg-sub-list) [62683 62692]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [62628 63915])
+                    ("file_available" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [63950 63978]))                          
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [63921 64657])
+                    ("create_tmpfile" function
+                       (:parent "Gnuplot"
+                        :arguments 
+                          ( ("tmp" variable
+                               (:reference 1
+                                :type ("std::ofstream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [64830 64849]))                          
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [64794 67314])
+                    ("remove_tmpfiles" function
+                       (:parent "Gnuplot"
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [67320 67988]))                  
+                :type "namespace")
+                nil [1376 67990]))          
+      :file "gnuplot_i.hpp"
+      :pointmax 67998
+      :fsize 67997
+      :lastmodtime '(22743 61846 357788 659000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GP_MAX_TMP_FILES" . ((number "64" 1891 . 1893)))
+          ("_GNUPLOT_PIPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BASE_INCLUDES_HPP" variable (:constant-flag t) nil [35 52])
+            ("iostream" include (:system-flag t) nil [1592 1611])
+            ("memory" include (:system-flag t) nil [1612 1629])
+            ("numeric" include (:system-flag t) nil [1630 1648])
+            ("algorithm" include (:system-flag t) nil [1649 1669])
+            ("string" include (:system-flag t) nil [1670 1687])
+            ("gnuplot_i.hpp" include nil nil [1688 1712]))          
+      :file "cling_sandbox_base_includes.hpp"
+      :pointmax 1743
+      :fsize 1742
+      :lastmodtime '(22743 59739 297818 584000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BASE_INCLUDES_HPP")
+          )
+))
+  :file "!home!bemcho!Projects!ClingSandbox!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

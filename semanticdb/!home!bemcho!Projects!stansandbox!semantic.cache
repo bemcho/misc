@@ -6,58 +6,56 @@
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
       :tags 
-        '( ("iostream" include (:system-flag t) nil [758 777])
-            ("armadillo" include (:system-flag t) nil [778 798])
-            ("/home/bemcho/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp" include nil nil [799 863])
+        '( ("../include/base_includes.hpp" include nil nil [1947 1986])
             ("arma" using (:type ("arma" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [864 885])
+                  nil nil)) nil [1988 2009])
             ("std" using (:type ("std" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [886 906])
+                  nil nil)) nil [2010 2030])
             ("gnuplotio" using (:type ("gnuplotio" type
                  (:prototype t
                   :type "namespace")
-                  nil nil)) nil [907 933])
+                  nil nil)) nil [2031 2057])
             ("A" variable
                (:default-value "randu<mat>(4,5)"
                 :type ("mat" type (:type "class") nil nil))
-                nil [935 958])
+                nil [2059 2082])
             ("B" variable
                (:default-value "randu<mat>(4,5)"
                 :type ("mat" type (:type "class") nil nil))
-                nil [959 982])
-            ("endl" variable (:type "int") nil [1002 1007])
+                nil [2083 2106])
+            ("endl" variable (:type "int") nil [2126 2131])
             ("g1" function
                (:prototype-flag t
                 :type ("Gnuplot" type (:type "class") nil nil))
-                nil [1009 1028])
+                nil [2133 2152])
             ("set_title" function
                (:prototype-flag t
                 :type "int")
-                nil [1032 1058])
+                nil [2156 2182])
             ("A" variable
                (:default-value "randu<mat>(40,50)"
                 :type "int")
-                nil [1059 1080])
+                nil [2183 2204])
             ("B" variable
                (:default-value "randu<mat>(40,50)"
                 :type "int")
-                nil [1081 1101])
+                nil [2205 2225])
             ("plot_xy" function
                (:prototype-flag t
                 :arguments 
-                  ( ("" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1113 1115])
-                    ("" variable (:type ("B" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1115 1117]))                  
+                  ( ("" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2237 2239])
+                    ("" variable (:type ("B" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2239 2241]))                  
                 :type "int")
-                nil [1105 1125]))          
+                nil [2229 2249]))          
       :file "clingmetaclipboard.cpp"
-      :pointmax 1126
-      :fsize 1125
-      :lastmodtime '(22742 45037 294958 166000)
-      :unmatched-syntax '((string 1117 . 1123) (punctuation 1104 . 1105) (symbol 1102 . 1104) (string 1042 . 1056) (punctuation 1031 . 1032) (symbol 1029 . 1031) (string 1020 . 1026) (punctuation 1000 . 1001) (punctuation 999 . 1000) (semantic-list 996 . 998) (symbol 995 . 996) (punctuation 994 . 995) (symbol 993 . 994) (punctuation 992 . 993) (symbol 991 . 992) (punctuation 989 . 990) (punctuation 988 . 989) (symbol 983 . 987) (symbol 756 . 757) (punctuation 755 . 756) (symbol 746 . 755) (symbol 744 . 745) (punctuation 743 . 744) (symbol 737 . 740) (punctuation 736 . 737) (symbol 733 . 736) (punctuation 732 . 733) (symbol 729 . 732) (punctuation 728 . 729) (symbol 721 . 728) (punctuation 720 . 721) (symbol 715 . 720) (punctuation 714 . 715) (symbol 711 . 714) (punctuation 710 . 711) (symbol 708 . 709) (punctuation 707 . 708) (symbol 702 . 704) (punctuation 701 . 702) (symbol 692 . 701) (punctuation 691 . 692) (symbol 688 . 691) (punctuation 687 . 688) (symbol "1" 682 . 687) (punctuation 681 . 682) (symbol 675 . 681) (punctuation 674 . 675) (symbol 671 . 674) (punctuation 670 . 671) (symbol 667 . 670) (punctuation 666 . 667) (symbol 664 . 665) (punctuation 663 . 664) (symbol 660 . 662) (punctuation 659 . 660) (symbol 647 . 659) (punctuation 646 . 647) (symbol 643 . 646) (punctuation 642 . 643) (symbol 637 . 642) (punctuation 636 . 637) (symbol 633 . 636) (punctuation 632 . 633) (symbol 630 . 631) (punctuation 629 . 630) (number 626 . 628) (number 624 . 626) (number 622 . 624) (symbol 620 . 622) (punctuation 619 . 620) (symbol 606 . 619) (punctuation 605 . 606) (symbol 602 . 605) (punctuation 601 . 602) (symbol 596 . 601) (punctuation 595 . 596) (symbol 592 . 595) (punctuation 591 . 592) (symbol 589 . 590) (punctuation 588 . 589) (number 585 . 587) (number 583 . 585) (number 581 . 583) (symbol 579 . 581) (punctuation 578 . 579) (symbol 564 . 578) (punctuation 563 . 564) (symbol 560 . 563) (punctuation 559 . 560) (symbol 554 . 559) (punctuation 553 . 554) (symbol 550 . 553) (punctuation 549 . 550) (symbol 547 . 548) (punctuation 546 . 547) (number 543 . 545) (number 541 . 543) (number 539 . 541) (symbol 537 . 539) (punctuation 536 . 537) (symbol 519 . 536) (punctuation 518 . 519) (symbol 515 . 518) (punctuation 514 . 515) (symbol 509 . 514) (punctuation 508 . 509) (symbol 505 . 508) (punctuation 504 . 505) (symbol 502 . 503) (punctuation 501 . 502) (number 498 . 500) (number 496 . 498) (number 494 . 496) (symbol 492 . 494) (punctuation 491 . 492) (symbol 477 . 491) (punctuation 476 . 477) (symbol 473 . 476) (punctuation 472 . 473) (symbol 467 . 472) (punctuation 466 . 467) (symbol 463 . 466) (punctuation 462 . 463) (symbol 460 . 461) (punctuation 459 . 460) (number 456 . 458) (number 454 . 456) (number 452 . 454) (symbol 450 . 452) (punctuation 449 . 450) (symbol 432 . 449) (punctuation 431 . 432) (symbol 428 . 431) (punctuation 427 . 428) (symbol 422 . 427) (punctuation 421 . 422) (symbol 418 . 421) (punctuation 417 . 418) (symbol 415 . 416) (punctuation 414 . 415) (symbol 410 . 411) (punctuation 409 . 410) (symbol 404 . 409) (punctuation 403 . 404) (symbol 398 . 403) (punctuation 397 . 398) (symbol 390 . 397) (punctuation 389 . 390) (symbol 384 . 389) (punctuation 383 . 384) (symbol 380 . 383) (punctuation 379 . 380) (symbol 377 . 378) (punctuation 376 . 377) (symbol 370 . 375) (punctuation 369 . 370) (symbol 364 . 369) (punctuation 363 . 364) (symbol 357 . 363) (punctuation 356 . 357) (symbol 349 . 356) (punctuation 348 . 349) (symbol 343 . 348) (punctuation 342 . 343) (symbol 339 . 342) (punctuation 338 . 339) (symbol 336 . 337) (punctuation 335 . 336) (symbol 331 . 334) (punctuation 330 . 331) (symbol 320 . 330) (punctuation 319 . 320) (symbol 314 . 319) (punctuation 313 . 314) (symbol 306 . 313) (punctuation 305 . 306) (symbol 300 . 305) (punctuation 299 . 300) (symbol 296 . 299) (punctuation 295 . 296) (symbol 293 . 294) (punctuation 292 . 293) (punctuation 288 . 289) (symbol 280 . 288) (punctuation 279 . 280) (symbol 272 . 279) (punctuation 271 . 272) (symbol 263 . 271) (punctuation 262 . 263) (punctuation 261 . 262) (symbol 259 . 260) (punctuation 258 . 259) (symbol 254 . 257) (punctuation 253 . 254) (symbol 238 . 253) (punctuation 237 . 238) (symbol 222 . 237) (punctuation 221 . 222) (symbol 214 . 221) (punctuation 213 . 214) (symbol 207 . 213) (symbol 205 . 206) (punctuation 204 . 205) (symbol 200 . 203) (punctuation 199 . 200) (symbol 195 . 199) (punctuation 194 . 195) (symbol 188 . 194) (symbol 186 . 187) (punctuation 185 . 186) (symbol 181 . 184) (punctuation 180 . 181) (symbol 169 . 180) (punctuation 168 . 169) (symbol 160 . 168) (punctuation 159 . 160) (symbol 153 . 159) (punctuation 152 . 153) (symbol 148 . 152) (punctuation 147 . 148) (symbol 145 . 146) (punctuation 144 . 145) (symbol 136 . 143) (punctuation 135 . 136) (symbol 128 . 135) (punctuation 127 . 128) (symbol 122 . 127) (punctuation 121 . 122) (symbol 118 . 121) (punctuation 117 . 118) (symbol 115 . 116) (punctuation 114 . 115) (symbol 108 . 112) (punctuation 107 . 108) (symbol 100 . 107) (punctuation 99 . 100) (symbol 94 . 99) (punctuation 93 . 94) (symbol 90 . 93) (punctuation 89 . 90) (symbol 87 . 88) (punctuation 86 . 87) (symbol 79 . 84) (punctuation 78 . 79) (symbol 71 . 78) (punctuation 70 . 71) (symbol 65 . 70) (punctuation 64 . 65) (symbol 61 . 64) (symbol 59 . 60) (punctuation 58 . 59) (symbol 51 . 57) (punctuation 50 . 51) (symbol 43 . 50) (punctuation 42 . 43) (symbol 37 . 42) (punctuation 36 . 37) (symbol 33 . 36) (punctuation 32 . 33) (symbol 30 . 31) (punctuation 29 . 30) (symbol 23 . 28) (punctuation 22 . 23) (symbol 15 . 22) (punctuation 14 . 15) (symbol 9 . 14) (punctuation 8 . 9) (symbol 5 . 8) (punctuation 4 . 5) (symbol 2 . 3) (punctuation 1 . 2) (string 1042 . 1056)))
+      :pointmax 2250
+      :fsize 2280
+      :lastmodtime '(22743 50326 949952 263000)
+      :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 

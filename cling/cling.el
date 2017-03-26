@@ -6,7 +6,8 @@
 (defvar cling-cxx-flags "-std=c++14")
 
 (defun cling-display-buffer-hook ()
-  (display-buffer-at-bottom (get-buffer cling-buffer-name) '((reusable-frames . visible))))
+  (display-buffer-at-bottom (or (get-buffer cling-buffer-name)
+                      (create-file-buffer cling-buffer-name)) '(()) ))
 
 
 (defun cling-get-or-create-process ()
@@ -16,13 +17,12 @@
   "Move to the buffer containing Cling, or create one if it does not exist. Defaults to C++11"
   (interactive)
   (let ((flags (or flags cling-cxx-flags)))
-    (cling-display-buffer-hook)
     (make-comint cling-process-name "cling" nil flags)
+    (cling-display-buffer-hook)
     (setq scroll-margin 1
-	  scroll-conservatively 0
-	  scroll-up-aggressively 0.01
-	  scroll-down-aggressively 0.01)
-    
+          scroll-conservatively 0
+          scroll-up-aggressively 0.01
+          scroll-down-aggressively 0.01)
     (get-process cling-process-name)))
 
 
@@ -46,9 +46,9 @@
     kill-ring."
   (interactive)
   (let ((beg (line-beginning-position 1))
-	(end (line-beginning-position 2)))
+        (end (line-beginning-position 2)))
     (if (eq last-command 'quick-copy-line)
-	(kill-append (buffer-substring beg end) (< end beg))
+        (kill-append (buffer-substring beg end) (< end beg))
       (kill-new (buffer-substring beg end)))))
 
 
@@ -100,8 +100,8 @@
 ;;;probably uses with-temp-buffer
 
 (add-hook 'tex-mode-hook
-	  (lambda ()
-	    (local-set-key (quote [f1]) (quote help-for-help))))
+          (lambda ()
+            (local-set-key (quote [f1]) (quote help-for-help))))
 
 (defvar inferior-cling-keymap
   (let ((map (current-global-map)))
@@ -127,12 +127,12 @@
 When inferior-cling-mode is enabled, we rebind keys to facilitate working with cling."
   :keymap inferior-cling-keymap)
 (add-hook 'inferior-cling-mode-hook
-	  (function (lambda ()
-		      (setq comint-output-filter-functions 'comint-truncate-buffer
-			    comint-process-echoes t
-			    comint-buffer-maximum-size 5000
-			    comint-scroll-show-maximum-output t
-			    comint-input-ring-size 500))))
+          (function (lambda ()
+                      (setq comint-output-filter-functions 'comint-truncate-buffer
+                            comint-process-echoes t
+                            comint-buffer-maximum-size 5000
+                            comint-scroll-show-maximum-output t
+                            comint-input-ring-size 500))))
 
 
 

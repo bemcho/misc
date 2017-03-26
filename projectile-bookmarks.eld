@@ -1,1 +1,1 @@
-("~/Projects/home-ai-reloaded-cmake/" "~/Projects/stansandbox/" "~/" "~/.emacs.d/" "~/Projects/gnuplot-cpp/trunk/" "~/Projects/gnuplot-iostream/")
+("~/Projects/home-ai-reloaded-cmake/" "~/Projects/stansandbox/" "~/" "~/.emacs.d/" "~/Projects/gnuplot-cpp/trunk/" "~/Projects/ClingSandbox/" "~/Projects/armadillo-7.800.2/" "~/Projects/gnuplot-iostream/")

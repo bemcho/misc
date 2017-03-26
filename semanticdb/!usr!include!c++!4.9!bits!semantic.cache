@@ -35614,6 +35614,124 @@
       :lexical-table 
         '(("_LIST_TCC" . ((number "1" 2390 . 2391)))
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_STL_NUMERIC_H" variable (:constant-flag t) nil [2392 2406])
+            ("bits/concept_check.h" include (:system-flag t) nil [2410 2441])
+            ("debug/debug.h" include (:system-flag t) nil [2442 2466])
+            ("bits/move.h" include (:system-flag t) nil [2467 2489])
+            ("std" type
+               (:members 
+                  ( ("accumulate" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil))                          
+                        :type ("_Tp" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4089 4112])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4113 4135])
+                            ("__init" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4136 4147]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [4011 4411])
+                    ("accumulate" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil)
+                            ("_BinaryOperation" type (:type "class") nil nil))                          
+                        :type ("_Tp" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5008 5031])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5032 5054])
+                            ("__init" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5055 5066])
+                            ("__binary_op" variable (:type ("_BinaryOperation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5075 5104]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [4903 5380])
+                    ("inner_product" function
+                       (:template 
+                          ( ("_InputIterator1" type (:type "class") nil nil)
+                            ("_InputIterator2" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil))                          
+                        :type ("_Tp" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first1" variable (:type ("_InputIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6027 6052])
+                            ("__last1" variable (:type ("_InputIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6053 6077])
+                            ("__first2" variable (:type ("_InputIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6082 6107])
+                            ("__init" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6108 6119]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [5919 6490])
+                    ("inner_product" function
+                       (:template 
+                          ( ("_InputIterator1" type (:type "class") nil nil)
+                            ("_InputIterator2" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil)
+                            ("_BinaryOperation1" type (:type "class") nil nil)
+                            ("_BinaryOperation2" type (:type "class") nil nil))                          
+                        :type ("_Tp" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first1" variable (:type ("_InputIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7366 7391])
+                            ("__last1" variable (:type ("_InputIterator1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7392 7416])
+                            ("__first2" variable (:type ("_InputIterator2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7421 7446])
+                            ("__init" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7447 7458])
+                            ("__binary_op1" variable (:type ("_BinaryOperation1" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7463 7494])
+                            ("__binary_op2" variable (:type ("_BinaryOperation2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7499 7530]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [7198 7925])
+                    ("partial_sum" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_OutputIterator" type (:type "class") nil nil))                          
+                        :type ("_OutputIterator" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8661 8684])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8685 8707])
+                            ("__result" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8710 8735]))                          )
+                        (reparse-symbol namespacesubparts) [8565 9337])
+                    ("partial_sum" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_OutputIterator" type (:type "class") nil nil)
+                            ("_BinaryOperation" type (:type "class") nil nil))                          
+                        :type ("_OutputIterator" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10145 10168])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10169 10191])
+                            ("__result" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10194 10219])
+                            ("__binary_op" variable (:type ("_BinaryOperation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10220 10249]))                          )
+                        (reparse-symbol namespacesubparts) [10018 10863])
+                    ("adjacent_difference" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_OutputIterator" type (:type "class") nil nil))                          
+                        :type ("_OutputIterator" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11510 11533])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11537 11559])
+                            ("__result" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11560 11585]))                          )
+                        (reparse-symbol namespacesubparts) [11406 12229])
+                    ("adjacent_difference" function
+                       (:template 
+                          ( ("_InputIterator" type (:type "class") nil nil)
+                            ("_OutputIterator" type (:type "class") nil nil)
+                            ("_BinaryOperation" type (:type "class") nil nil))                          
+                        :type ("_OutputIterator" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12982 13005])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13006 13028])
+                            ("__result" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13032 13057])
+                            ("__binary_op" variable (:type ("_BinaryOperation" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13058 13087]))                          )
+                        (reparse-symbol namespacesubparts) [12847 13743]))                  
+                :type "namespace")
+                nil [3554 13774]))          
+      :file "stl_numeric.h"
+      :pointmax 13821
+      :fsize 13820
+      :lastmodtime '(21660 28445 0 0)
+      :unmatched-syntax '((symbol 13767 . 13772))
+      :lexical-table 
+        '(("_STL_NUMERIC_H" . ((number "1" 2407 . 2408)))
+          )
 ))
   :file "!usr!include!c++!4.9!bits!semantic.cache"
   :semantic-tag-version "2.0"
