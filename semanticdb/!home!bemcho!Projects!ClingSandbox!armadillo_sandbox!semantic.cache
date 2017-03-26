@@ -11,17 +11,17 @@
                (:members 
                   ( ("plotDotProd" function
                        (:arguments 
-                          ( ("randNX" variable (:type "int") (reparse-symbol arg-sub-list) [1600 1611])
-                            ("randNY" variable (:type "int") (reparse-symbol arg-sub-list) [1611 1622])
-                            ("plotName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1623 1644]))                          
+                          ( ("randNX" variable (:type "int") (reparse-symbol arg-sub-list) [1599 1610])
+                            ("randNY" variable (:type "int") (reparse-symbol arg-sub-list) [1610 1621])
+                            ("plotName" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1622 1643]))                          
                         :type ("gnuploti::Gnuplot" type (:type "class") nil nil))
-                        (reparse-symbol namespacesubparts) [1569 1899]))                  
+                        (reparse-symbol namespacesubparts) [1569 1898]))                  
                 :type "namespace")
-                nil [1546 1901]))          
+                nil [1546 1900]))          
       :file "armadillo.cpp"
-      :pointmax 1902
-      :fsize 1901
-      :lastmodtime '(22744 6974 757637 197000)
+      :pointmax 1901
+      :fsize 1900
+      :lastmodtime '(22744 10397 917588 580000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
@@ -37,7 +37,166 @@
       :lexical-table 
         '(("ARMADILLO_SANDBOX_HPP")
           )
-))
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [220 240])
+            ("gnuploti" using (:type ("gnuploti" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [241 266])
+            ("A" variable
+               (:default-value "5000"
+                :type ("auto" type (:type "class") nil nil))
+                nil [267 279])
+            ("B" variable
+               (:default-value "5000"
+                :type ("auto" type (:type "class") nil nil))
+                nil [280 292])
+            ("g1" variable
+               (:default-value "armabox::plotDotProd(A,B,\"Distribution\")"
+                :type ("auto" type (:type "class") nil nil))
+                nil [293 344])
+            ("endl" variable (:type "int") nil [392 397])
+            ("endl" variable (:type "int") nil [468 473])
+            ("savetofigure" function
+               (:prototype-flag t
+                :type "int")
+                nil [478 529])
+            ("set_xrange" function
+               (:prototype-flag t
+                :type "int")
+                nil [567 583])
+            ("plot_equation" function
+               (:prototype-flag t
+                :type "int")
+                nil [622 647])
+            ("reset_all" function
+               (:prototype-flag t
+                :type "int")
+                nil [651 663])
+            ("g2" variable (:type ("Gnuplot" type (:type "class") nil nil)) nil [665 676])
+            ("endl" variable (:type "int") nil [720 725])
+            ("plot_x" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [736 738])
+                    ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [738 741]))                  
+                :type "int")
+                nil [729 752])
+            ("plot_x" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [776 778])
+                    ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [778 781]))                  
+                :type "int")
+                nil [769 793])
+            ("plot_x" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("A" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [825 827])
+                    ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [827 830]))                  
+                :type "int")
+                nil [818 841])
+            ("unset_smooth" function
+               (:prototype-flag t
+                :type "int")
+                nil [845 860])
+            ("g3" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [862 882])
+            ("endl" variable (:type "int") nil [915 920])
+            ("set_grid" function
+               (:prototype-flag t
+                :type "int")
+                nil [924 935])
+            ("plot_equation" function
+               (:prototype-flag t
+                :type "int")
+                nil [939 976])
+            ("g4" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [978 998])
+            ("endl" variable (:type "int") nil [1036 1041])
+            ("set_zrange" function
+               (:prototype-flag t
+                :type "int")
+                nil [1045 1063])
+            ("set_zlabel" function
+               (:prototype-flag t
+                :type "int")
+                nil [1109 1130])
+            ("plot_equation3d" function
+               (:prototype-flag t
+                :type "int")
+                nil [1134 1161])
+            ("g5" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [1163 1183])
+            ("endl" variable (:type "int") nil [1227 1232])
+            ("set_hidden3d" function
+               (:prototype-flag t
+                :type "int")
+                nil [1255 1270])
+            ("g6" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [1299 1319])
+            ("endl" variable (:type "int") nil [1362 1367])
+            ("set_contour" function
+               (:prototype-flag t
+                :type "int")
+                nil [1390 1404])
+            ("plot_equation3d" function
+               (:prototype-flag t
+                :type "int")
+                nil [1424 1459])
+            ("replot" function
+               (:prototype-flag t
+                :type "int")
+                nil [1478 1487])
+            ("g7" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [1489 1509])
+            ("endl" variable (:type "int") nil [1545 1550])
+            ("set_samples" function
+               (:prototype-flag t
+                :type "int")
+                nil [1573 1589])
+            ("plot_equation" function
+               (:prototype-flag t
+                :type "int")
+                nil [1626 1661])
+            ("replot" function
+               (:prototype-flag t
+                :type "int")
+                nil [1683 1692])
+            ("g8" function
+               (:prototype-flag t
+                :type ("Gnuplot" type (:type "class") nil nil))
+                nil [1694 1721])
+            ("endl" variable (:type "int") nil [1758 1763])
+            ("set_xrange" function
+               (:prototype-flag t
+                :type "int")
+                nil [1799 1816])
+            ("plot_equation" function
+               (:prototype-flag t
+                :type "int")
+                nil [1841 1865]))          
+      :file "armadillo.cling"
+      :pointmax 1866
+      :fsize 1871
+      :lastmodtime '(22744 9355 29603 392000)
+      :unmatched-syntax nil))
   :file "!home!bemcho!Projects!ClingSandbox!armadillo_sandbox!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

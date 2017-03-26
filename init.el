@@ -92,7 +92,7 @@
                                         ; (eval-after-load "auto-complete" '(add-to-list 'ac-modes 'nrepl-mode))
 
 ;; theme
-(load-theme 'zenburn t)
+(load-theme 'zenburn)
 
 (desktop-save-mode t)
 (ido-mode )

@@ -2,18 +2,18 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Mar 26 23:34:27 2017
+;; Created Sun Mar 26 23:52:48 2017
 ;; Desktop file format version 206
 ;; Emacs version 26.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22744 9683 189651 502000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1870) (pixel-height . 1017) (total-width . 208) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 7645) (start . 5538))))])
+(setq desktop-saved-frameset [frameset 1 (22744 10784 199868 581000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1870) (pixel-height . 1017) (total-width . 208) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 3022) (start . 1881))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("err" "company" "namspace" "boost" "cling" "require" "files:" "emacs.d$ " "speed" "speedbar" "company-c-headers-path-system" " company-c-headers-path-system" "company-c-he" "helm" "lisp" "cling"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,7589 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1808 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,10825 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,218 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,161 (get-buffer ,"armadillo_sandbox.hpp")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . "\n")))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,7585 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1817 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,10884 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,218 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,161 (get-buffer ,"armadillo_sandbox.hpp")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . "zenburn")))
 (setq file-name-history '("~/.emacs.d/init.el" "~/.emacs.d/cling/cling.el" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo.clingmeta" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo_sandbox.hpp" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp" "/home/bemcho/Projects/ClingSandbox/include/base_includes.hpp" "/home/bemcho/Projects/ClingSandbox/armadillo_sand.cpp" "~/Projects/stansandbox/clingmetaclipboard.cpp" "~/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp" "/home/bemcho/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp" "/home/bemcho/Projects/gnuplot-iostream/gnuplot-iostream.h" "/home/bemcho/Projects/gnuplot-iostream/README" "~/.emacs.d/.emacs.desktop" "~/.ICEauthority" "~/.bashrc" "~/Projects/home-ai-reloaded-cmake" "~/Projects/GTAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp" "~/Projects/" "~/Projects/home-ai-reloaded-cmake/" "TAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.bashrc" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.xinitrc" "/home/bemcho/.emacs.d/init.el" "TAGS" "/home/bemcho/.emacs" "~/.emacs.d/.emacs" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
@@ -22,33 +22,44 @@
   "init.el"
   'emacs-lisp-mode
   '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode auto-complete-mode msearch-mode)
-  7645
-  '(7589 nil)
+  3022
+  '(3022 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22744 9629 160256 71000) (buffer-file-coding-system . prefer-utf-8-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 10745 935936 547000) (buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cling"
   "armadillo.cling"
   'c++-mode
-  '(abbrev-mode override-global-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode function-args-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode hs-minor-mode msearch-mode)
-  1288
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode function-args-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode hs-minor-mode msearch-mode)
+  1297
   '(1284 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22744 9605 763647 402000) (buffer-file-coding-system . utf-8-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 10696 177424 722000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
+  "comint.el.gz"
+  'emacs-lisp-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode auto-complete-mode)
+  95262
+  '(95019 nil)
+  t
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 10465 281938 811000) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp"
   "armadillo.cpp"
   'c++-mode
   '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode function-args-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode auto-complete-mode hs-minor-mode)
-  1856
-  '(1580 nil)
+  1579
+  '(1579 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22744 7430 931656 825000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 10387 173739 441000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/.emacs.d/cling/cling.el"
@@ -71,17 +82,6 @@
   nil
   nil
   '((show-trailing-whitespace . 1) (buffer-display-time 22744 5268 510917 993000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
-  "comint.el.gz"
-  'emacs-lisp-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode auto-complete-mode)
-  95262
-  '(95019 nil)
-  t
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22744 3171 104327 886000) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
   nil
