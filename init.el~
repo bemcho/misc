@@ -13,7 +13,8 @@
     ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
  '(package-selected-packages
    (quote
-    (tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+    (company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
+ '(vlf-application (quote dont-ask)))
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -38,10 +39,10 @@
 
 
 ;; function-args
-;; (require 'function-args)
-;; (fa-config-default)
-;; (define-key c-mode-map  [(tab)] 'company-complete)
-;; (define-key c++-mode-map  [(tab)] 'company-complete)
+(require 'function-args)
+(fa-config-default)
+(define-key c-mode-map  [(tab)] 'company-complete)
+(define-key c++-mode-map  [(tab)] 'company-complete)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -53,7 +54,6 @@
 ;; rainbow delimiters
 (setq rainbow-delimiters-mode t)
 ;; rainbow delimiters
-(global-rainbow-delimiters-mode)
 
 
 ;; turn off bell
@@ -74,9 +74,9 @@
                                         ;(add-hook 'nrepl-mode-hook 'paredit-mode)
 
 ;; Auto complete
-(require 'auto-complete-config)
-(ac-config-default)
-(define-key ac-completing-map "\M-/" 'ac-stop)
+;;(require 'auto-complete-config)
+;;(ac-config-default)
+;;(define-key ac-completing-map "\M-/" 'ac-stop)
 
 
 
@@ -99,14 +99,14 @@
 
                                         ;(put 'upcase-region 'disabled nil)
                                         ;
-(defun nrepl-reset ()
+;;(defun nrepl-reset ()
                                         ; (interactive)
                                         ;(save-some-buffers)
                                         ;(set-buffer "*nrepl*")
                                         ;(goto-char (point-max))
                                         ;(insert "(user/reset)")
                                         ;(nrepl-return)
-  )
+;;  )
 
 ;;(add-to-list 'load-path "/Users/bemcho/Projects/slime-master")
 ;;(require 'slime)
@@ -190,14 +190,33 @@
 (setq speedbar-show-unknown-files t)
 (global-set-key (kbd "C-c C-t") 'sr-speedbar-toggle)
 
+(require 'irony)
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
 
 (setq company-backends (delete 'company-semantic company-backends))
 (define-key c-mode-map  [(tab)] 'company-complete)
 (define-key c++-mode-map  [(tab)] 'company-complete)
-(add-to-list 'company-backends 'company-c-headers)
-;;(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm/")
+(add-to-list 'company-backends 'company-c-headers 'company-irony)
+(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm")
+(add-to-list 'company-c-headers-path-system "/usr/local/include/armadillo")
+
+
+(add-hook 'c++-mode-hook 'irony-mode)
+(add-hook 'c-mode-hook 'irony-mode)
+(add-hook 'objc-mode-hook 'irony-mode)
+(add-hook 'text-mode-hook 'irony-mode)
+(add-to-list 'auto-mode-alist '("\\.cling\\'" . c++-mode))
+;; replace the `completion-at-point' and `complete-symbol' bindings in
+;; irony-mode's buffers by irony-mode's function
+(defun my-irony-mode-hook ()
+  (define-key irony-mode-map [remap completion-at-point]
+    'irony-completion-at-point-async)
+  (define-key irony-mode-map [remap complete-symbol]
+    'irony-completion-at-point-async))
+
+(add-hook 'irony-mode-hook 'my-irony-mode-hook)
+(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
 (require 'cc-mode)
 (require 'semantic)
@@ -284,6 +303,9 @@
  gdb-show-main t
  )
 
+(add-to-list 'load-path "~/.emacs.d/vlfi")
+
+(require 'vlf)
 ;; SHOW FILE PATH IN FRAME TITLE
 (setq-default frame-title-format "%b (%f)")
 
@@ -401,3 +423,4 @@ i.e. change right window to bottom, or change bottom window to right."
   (next-line arg))
 (global-set-key (kbd "C-d") 'duplicate-line)
 (global-set-key (kbd "<delete>") 'delete-char)
+(tabbar-mode)

@@ -21,7 +21,7 @@
       :file "armadillo.cpp"
       :pointmax 1902
       :fsize 1901
-      :lastmodtime '(22743 64803 117746 665000)
+      :lastmodtime '(22744 6974 757637 197000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c++-mode
