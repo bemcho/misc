@@ -2,119 +2,31 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Mar 26 20:54:20 2017
+;; Created Sun Mar 26 21:40:59 2017
 ;; Desktop file format version 206
 ;; Emacs version 26.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22744 76 653598 946000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 12) (min-width . 20) (min-height-ignore . 10) (min-width-ignore . 12) (min-height-safe . 3) (min-width-safe . 4) (min-pixel-height . 216) (min-pixel-width . 180) (min-pixel-height-ignore . 180) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 54) (min-pixel-width-safe . 36)) vc (pixel-width . 1870) (pixel-height . 1017) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (vc (pixel-width . 1870) (pixel-height . 513) (total-width . 208) (total-height . 29) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1870) (pixel-height . 261) (total-width . 208) (total-height . 15) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 934) (pixel-height . 261) (total-width . 104) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated . t) (point . 197) (start . 1))) (leaf (last . t) (pixel-width . 936) (pixel-height . 261) (total-width . 104) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "armadillo.cling" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 260) (start . 34)))) (leaf (last . t) (pixel-width . 1870) (pixel-height . 252) (total-width . 208) (total-height . 14) (normal-height . 0.5) (normal-width . 1.0) (buffer "armadillo.cpp" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 1787) (start . 1567)))) (hc (last . t) (pixel-width . 1870) (pixel-height . 504) (total-width . 208) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 934) (pixel-height . 504) (total-width . 104) (total-height . 28) (normal-height . 1.0) (normal-width . 0.5) (buffer "*inferior-cling*" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 258197) (start . 252012))) (leaf (last . t) (pixel-width . 936) (pixel-height . 504) (total-width . 104) (total-height . 28) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 2428) (start . 1263))))))])
+(setq desktop-saved-frameset [frameset 1 (22744 2875 998576 792000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars . t) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "015B-2E76-5781-7ECC") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (visibility . t) (height . 56) (width . 204) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1870) (pixel-height . 1017) (total-width . 208) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars nil 2 t nil 1 t) (vscroll . 0) (dedicated) (point . 14394) (start . 12801))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("namspace" "boost" "cling" "require" "files:" "emacs.d$ " "speed" "speedbar" "company-c-headers-path-system" " company-c-headers-path-system" "company-c-he" "helm" "lisp" "cling"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,218 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,161 (get-buffer ,"armadillo_sandbox.hpp")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . "5000")))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,14352 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,218 (get-buffer ,"armadillo.cling")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,161 (get-buffer ,"armadillo_sandbox.hpp")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . "5000")))
 (setq file-name-history '("~/.emacs.d/cling/cling.el" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo.clingmeta" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo_sandbox.hpp" "~/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp" "/home/bemcho/Projects/ClingSandbox/include/base_includes.hpp" "/home/bemcho/Projects/ClingSandbox/armadillo_sand.cpp" "~/Projects/stansandbox/clingmetaclipboard.cpp" "~/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp" "/home/bemcho/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp" "/home/bemcho/Projects/gnuplot-iostream/gnuplot-iostream.h" "/home/bemcho/Projects/gnuplot-iostream/README" "~/.emacs.d/init.el" "~/.emacs.d/.emacs.desktop" "~/.ICEauthority" "~/.bashrc" "~/Projects/home-ai-reloaded-cmake" "~/Projects/GTAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp" "~/Projects/" "~/Projects/home-ai-reloaded-cmake/" "TAGS" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.bashrc" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.xinitrc" "/home/bemcho/.emacs.d/init.el" "TAGS" "/home/bemcho/.emacs" "~/.emacs.d/.emacs" "/home/bemcho/.emacs.d/init.el" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/src/vtkSandbox.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/src/vktSandbox.cpp" "/home/bemcho/Projects/stansandbox/src/main.cpp" "/home/bemcho/Projects/stansandbox/clingroot.h" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs.d/ac-comphist.dat" "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp" "/home/bemcho/.emacs" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/Projects/stansandbox/clingmetaclipboard.cpp" "/home/bemcho/.emacs.d/cling/cling.el" "/home/bemcho/.emacs" "/home/bemcho/Projects/stansandbox/clingmetaclipboar" "~/.emacs.d/cling.el" "/home/bemcho/.emacs"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cling"
-  "armadillo.cling"
-  'text-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  260
-  '(241 nil)
+  "/home/bemcho/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  14394
+  '(1954 nil)
   nil
   nil
-  '((buffer-display-time 22743 65386 253918 910000) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp"
-  "armadillo.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  1787
-  '(1580 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 65386 253919 350000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.cpp"
-  "opencv.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  518
-  '(518 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 64668 356008 720000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.cling"
-  "opencv.cling"
-  'text-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  455
-  '(285 nil)
-  nil
-  nil
-  '((buffer-display-time 22743 63762 937914 318000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv_sandbox.hpp"
-  "opencv_sandbox.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  220
-  '(97 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 63447 169164 455000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo_sandbox.hpp"
-  "armadillo_sandbox.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  161
-  '(63 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 63440 139520 427000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.clingmeta"
-  "opencv.clingmeta"
-  'text-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 22743 62158 574035 770000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/include/gnuplot_i.hpp"
-  "gnuplot_i.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  67990
-  '(1396 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 61681 836401 634000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/include/cling_sandbox_base_includes.hpp"
-  "cling_sandbox_base_includes.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  1502
-  '(1743 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 60205 306494 23000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 2838 587730 559000) (buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
   "/home/bemcho/.emacs.d/cling/cling.el"
@@ -125,304 +37,7 @@
   '(199 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 59391 220171 37000) (buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/armadillo-7.800.2/build/tmp/include/armadillo"
-  "armadillo"
-  'text-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  2238
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 22743 59369 443911 75000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.clingmeta"
-  "armadillo.clingmeta"
-  'text-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  1
-  '(140 nil)
-  nil
-  nil
-  '((buffer-display-time 22743 58469 831896 431000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "armadillo_sandbox"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  255
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/")
-  '((buffer-display-time 22743 53257 961016 794000)))
-
-(desktop-create-buffer 206
-  nil
-  ".emacs.d"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  357
-  '(nil nil)
-  t
-  '("/home/bemcho/.emacs.d/")
-  '((buffer-display-time 22743 53043 374549 265000)))
-
-(desktop-create-buffer 206
-  nil
-  "bemcho"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  1533
-  '(nil nil)
-  t
-  '("/home/bemcho/")
-  '((buffer-display-time 22743 53029 302006 538000)))
-
-(desktop-create-buffer 206
-  nil
-  ".steam"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  171
-  '(nil nil)
-  t
-  '("/home/bemcho/.steam/")
-  '((buffer-display-time 22743 53007 130 7000)))
-
-(desktop-create-buffer 206
-  "/usr/include/c++/4.9/stdexcept"
-  "stdexcept"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  3486
-  '(nil nil)
-  t
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 51695 653838 511000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/stansandbox/include/stanrootcling.hpp.h"
-  "stanrootcling.hpp.h"
-  'c-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  39
-  '(39 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 50087 887676 961000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "include"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  244
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/stansandbox/include/")
-  '((buffer-display-time 22743 49893 562183 485000)))
-
-(desktop-create-buffer 206
-  nil
-  "stansandbox"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  1435
-  '(37 nil)
-  t
-  '("/home/bemcho/Projects/stansandbox/")
-  '((buffer-display-time 22743 49882 763545 600000)))
-
-(desktop-create-buffer 206
-  nil
-  "ClingSandbox"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  415
-  '(415 nil)
-  t
-  '("/home/bemcho/Projects/ClingSandbox/")
-  '((buffer-display-time 22743 49882 782497 544000)))
-
-(desktop-create-buffer 206
-  nil
-  "Projects"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  3615
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/")
-  '((buffer-display-time 22743 49645 638641 516000)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
-  14175
-  '(13031 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 45393 787709 383000) (buffer-file-coding-system . prefer-utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp"
-  "gnuplot_i.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  27004
-  '(nil nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 44323 296260 749000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "trunk"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  356
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/gnuplot-cpp/trunk/")
-  '((buffer-display-time 22742 43711 120023 449000)))
-
-(desktop-create-buffer 206
-  nil
-  "gnuplot-cpp"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
-  399
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/gnuplot-cpp/")
-  '((buffer-display-time 22742 43544 42030 378000)))
-
-(desktop-create-buffer 206
-  nil
-  "tags"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  188
-  '(nil nil)
-  t
-  '("/home/bemcho/Projects/gnuplot-cpp/tags/")
-  '((buffer-display-time 22742 43542 498077 484000)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/stansandbox/mlpack.cpp"
-  "mlpack.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode rainbow-delimiters-mode)
-  670
-  '(89 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 41416 506771 675000) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/.emacs.d/ido.last"
-  "ido.last"
-  'fundamental-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
-  878
-  '(872 t)
-  nil
-  nil
-  '((buffer-display-time 22742 32859 10518 188000) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp"
-  "ClipsAdapter.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  4451
-  '(2075 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29230 419221 524000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "llvm"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  172
-  '(nil nil)
-  t
-  '("/usr/local/include/llvm/")
-  '((buffer-display-time 22742 24049 789106 167000)))
-
-(desktop-create-buffer 206
-  nil
-  "include"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  1636
-  '(nil nil)
-  t
-  '("/usr/local/include/")
-  '((buffer-display-time 22742 23945 205215 355000)))
-
-(desktop-create-buffer 206
-  nil
-  "llvm-c"
-  'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
-  176
-  '(nil nil)
-  t
-  '("/usr/local/include/llvm-c/")
-  '((buffer-display-time 22742 23943 204658 103000)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp"
-  "VisualContextAnnotator.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  944
-  '(1645 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 23253 483531 236000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/.xinitrc"
-  ".xinitrc"
-  'sh-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
-  5
-  '(nil nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 15290 138978 61000) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/stansandbox/clingroot.h"
-  "clingroot.h"
-  'c-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  244
-  '(237 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10653 353009 330000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
-  "Annotation.hpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
-  1663
-  '(1663 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22739 29534 735901 901000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 2837 697645 317000) (buffer-file-coding-system . prefer-utf-8-unix)))
 
 (desktop-create-buffer 206
   "/usr/local/share/emacs/26.0.50/lisp/comint.el.gz"
@@ -433,38 +48,423 @@
   '(95019 nil)
   t
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 32956 35002 455000) (buffer-file-coding-system . utf-8-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 2836 507653 720000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cling"
+  "armadillo.cling"
+  'text-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  227
+  '(293 nil)
+  nil
+  nil
+  '((buffer-display-time 22744 2516 31192 104000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  822
+  '(nil nil)
+  t
+  '("/home/bemcho/.emacs.d/")
+  '((buffer-display-time 22744 2322 234005 230000)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp"
+  "armadillo.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  1787
+  '(1580 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 2322 225218 102000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.cpp"
+  "opencv.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  518
+  '(518 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 64672 878044 634000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.cling"
+  "opencv.cling"
+  'text-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  455
+  '(285 nil)
+  nil
+  nil
+  '((buffer-display-time 22743 63767 477291 647000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv_sandbox.hpp"
+  "opencv_sandbox.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  220
+  '(97 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 63451 773609 407000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo_sandbox.hpp"
+  "armadillo_sandbox.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  161
+  '(63 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 63444 793309 792000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/opencv_sandbox/opencv.clingmeta"
+  "opencv.clingmeta"
+  'text-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 22743 62163 243867 389000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/include/gnuplot_i.hpp"
+  "gnuplot_i.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  67990
+  '(1396 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 61686 634711 45000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/include/cling_sandbox_base_includes.hpp"
+  "cling_sandbox_base_includes.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  1502
+  '(1743 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 60210 155193 103000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/armadillo-7.800.2/build/tmp/include/armadillo"
+  "armadillo"
+  'text-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  2238
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 22743 59374 481494 985000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.clingmeta"
+  "armadillo.clingmeta"
+  'text-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode)
+  1
+  '(140 nil)
+  nil
+  nil
+  '((buffer-display-time 22743 58474 936306 844000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "armadillo_sandbox"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  255
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/ClingSandbox/armadillo_sandbox/")
+  '((buffer-display-time 22743 53263 82013 651000)))
+
+(desktop-create-buffer 206
+  nil
+  "bemcho"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  1533
+  '(nil nil)
+  t
+  '("/home/bemcho/")
+  '((buffer-display-time 22743 53034 448879 429000)))
+
+(desktop-create-buffer 206
+  nil
+  ".steam"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  171
+  '(nil nil)
+  t
+  '("/home/bemcho/.steam/")
+  '((buffer-display-time 22743 53012 158252 235000)))
+
+(desktop-create-buffer 206
+  "/usr/include/c++/4.9/stdexcept"
+  "stdexcept"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  3486
+  '(nil nil)
+  t
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 51700 867020 885000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/include/stanrootcling.hpp.h"
+  "stanrootcling.hpp.h"
+  'c-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  39
+  '(39 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22743 50093 227137 792000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "include"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  244
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/stansandbox/include/")
+  '((buffer-display-time 22743 49898 913970 78000)))
+
+(desktop-create-buffer 206
+  nil
+  "stansandbox"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  1435
+  '(37 nil)
+  t
+  '("/home/bemcho/Projects/stansandbox/")
+  '((buffer-display-time 22743 49888 126781 393000)))
+
+(desktop-create-buffer 206
+  nil
+  "ClingSandbox"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  415
+  '(415 nil)
+  t
+  '("/home/bemcho/Projects/ClingSandbox/")
+  '((buffer-display-time 22743 49888 157400 881000)))
+
+(desktop-create-buffer 206
+  nil
+  "Projects"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  3615
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/")
+  '((buffer-display-time 22743 49651 25423 714000)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/gnuplot-cpp/trunk/gnuplot_i.hpp"
+  "gnuplot_i.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  27004
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 44329 89785 995000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "trunk"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  356
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/gnuplot-cpp/trunk/")
+  '((buffer-display-time 22742 43716 925280 505000)))
+
+(desktop-create-buffer 206
+  nil
+  "gnuplot-cpp"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode msearch-mode rainbow-delimiters-mode)
+  399
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/gnuplot-cpp/")
+  '((buffer-display-time 22742 43549 858798 974000)))
+
+(desktop-create-buffer 206
+  nil
+  "tags"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  188
+  '(nil nil)
+  t
+  '("/home/bemcho/Projects/gnuplot-cpp/tags/")
+  '((buffer-display-time 22742 43548 326446 681000)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/mlpack.cpp"
+  "mlpack.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode msearch-mode rainbow-delimiters-mode hs-minor-mode)
+  670
+  '(89 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 41422 544286 83000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/.emacs.d/ido.last"
+  "ido.last"
+  'fundamental-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  878
+  '(872 t)
+  nil
+  nil
+  '((buffer-display-time 22742 32865 117009 448000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/ClipsAdapter.hpp"
+  "ClipsAdapter.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  4451
+  '(2075 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 29236 601607 712000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "llvm"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  172
+  '(nil nil)
+  t
+  '("/usr/local/include/llvm/")
+  '((buffer-display-time 22742 24055 983504 856000)))
+
+(desktop-create-buffer 206
+  nil
+  "include"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  1636
+  '(nil nil)
+  t
+  '("/usr/local/include/")
+  '((buffer-display-time 22742 23951 411281 697000)))
+
+(desktop-create-buffer 206
+  nil
+  "llvm-c"
+  'dired-mode
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode yas-minor-mode rainbow-delimiters-mode)
+  176
+  '(nil nil)
+  t
+  '("/usr/local/include/llvm-c/")
+  '((buffer-display-time 22742 23949 422521 247000)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp"
+  "VisualContextAnnotator.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  944
+  '(1645 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 23259 806870 448000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/.xinitrc"
+  ".xinitrc"
+  'sh-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode)
+  5
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (tab-width . 4) (buffer-display-time 22742 15296 511864 515000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/stansandbox/clingroot.h"
+  "clingroot.h"
+  'c-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  244
+  '(237 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 10659 845060 645000) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp"
+  "Annotation.hpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
+  1663
+  '(1663 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (buffer-display-time 22739 29541 307636 415000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/usr/include/c++/4.9/istream"
   "istream"
   'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
   1825
   '(nil nil)
   t
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 45170 181785 240000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 45176 982144 966000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/usr/include/c++/4.9/bits/basic_ios.h"
   "basic_ios.h"
   'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
   2105
   '(nil nil)
   t
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22742 45170 380218 799000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22742 45177 244413 498000) (buffer-file-coding-system . undecided-unix)))
 
 (desktop-create-buffer 206
   "/usr/include/c++/4.9/ostream"
   "ostream"
   'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode hs-minor-mode rainbow-delimiters-mode)
+  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode auto-complete-mode yas-minor-mode smartparens-mode rainbow-delimiters-mode hs-minor-mode)
   1843
   '(nil nil)
   t
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22743 61506 503781 879000) (buffer-file-coding-system . undecided-unix)))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22744 83 691007 252000) (buffer-file-coding-system . undecided-unix)))
 

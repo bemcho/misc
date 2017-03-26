@@ -3,6 +3,17 @@
              '("melpa" . "http://melpa.org/packages/") t)
 
 (package-initialize)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
+ '(package-selected-packages
+   (quote
+    (tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -31,17 +42,7 @@
 ;; (fa-config-default)
 ;; (define-key c-mode-map  [(tab)] 'company-complete)
 ;; (define-key c++-mode-map  [(tab)] 'company-complete)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
- '(package-selected-packages
-   (quote
-    (cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -51,6 +52,9 @@
 
 ;; rainbow delimiters
 (setq rainbow-delimiters-mode t)
+;; rainbow delimiters
+(global-rainbow-delimiters-mode)
+
 
 ;; turn off bell
 (setq visible-bell t)
@@ -207,6 +211,8 @@
 (semantic-add-system-include "/usr/local/include/opencv")
 (semantic-add-system-include "/usr/local/include/opencv2")
 (semantic-add-system-include "/usr/local/include/clang")
+(semantic-add-system-include "/usr/local/include/cling")
+(semantic-add-system-include "/usr/local/include/stan")
 (semantic-add-system-include "/usr/local/include/eigen3")
 (semantic-add-system-include "/usr/local/include/tesseract")
 (global-semantic-idle-summary-mode 1)
@@ -343,4 +349,55 @@ i.e. change right window to bottom, or change bottom window to right."
 
 (add-to-list 'load-path "~/.emacs.d/msearch/")
 (require 'msearch)
-(msearch-mode)
+
+(setq-default major-mode 'text-mode)
+(add-hook 'text-mode-hook  'cua-mode)
+(add-hook 'cua-mode-hook 'msearch-mode)
+
+(line-number-mode t)
+
+(defun close-and-kill-this-pane ()
+  "If there are multiple windows, then close this pane and kill the buffer in it also."
+  (interactive)
+  (kill-this-buffer)
+  (if (not (one-window-p))
+      (delete-window)))
+
+(global-set-key (kbd "C-w") ' close-and-kill-this-pane)
+
+(defun duplicate-line (arg)
+  "Duplicate current line, leaving point in lower line."
+  (interactive "*p")
+
+  ;; save the point for undo
+  (setq buffer-undo-list (cons (point) buffer-undo-list))
+
+  ;; local variables for start and end of line
+  (let ((bol (save-excursion (beginning-of-line) (point)))
+        eol)
+    (save-excursion
+
+      ;; don't use forward-line for this, because you would have
+      ;; to check whether you are at the end of the buffer
+      (end-of-line)
+      (setq eol (point))
+
+      ;; store the line and disable the recording of undo information
+      (let ((line (buffer-substring bol eol))
+            (buffer-undo-list t)
+            (count arg))
+        ;; insert the line arg times
+        (while (> count 0)
+          (newline)         ;; because there is no newline in 'line'
+          (insert line)
+          (setq count (1- count)))
+        )
+
+      ;; create the undo information
+      (setq buffer-undo-list (cons (cons eol (point)) buffer-undo-list)))
+    ) ; end-of-let
+
+  ;; put the point in the lowest line and return
+  (next-line arg))
+(global-set-key (kbd "C-d") 'duplicate-line)
+(global-set-key (kbd "<delete>") 'delete-char)

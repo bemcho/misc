@@ -3,6 +3,17 @@
              '("melpa" . "http://melpa.org/packages/") t)
 
 (package-initialize)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
+ '(package-selected-packages
+   (quote
+    (tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -31,17 +42,7 @@
 ;; (fa-config-default)
 ;; (define-key c-mode-map  [(tab)] 'company-complete)
 ;; (define-key c++-mode-map  [(tab)] 'company-complete)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
- '(package-selected-packages
-   (quote
-    (cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -51,6 +52,9 @@
 
 ;; rainbow delimiters
 (setq rainbow-delimiters-mode t)
+;; rainbow delimiters
+(global-rainbow-delimiters-mode)
+
 
 ;; turn off bell
 (setq visible-bell t)
@@ -207,6 +211,8 @@
 (semantic-add-system-include "/usr/local/include/opencv")
 (semantic-add-system-include "/usr/local/include/opencv2")
 (semantic-add-system-include "/usr/local/include/clang")
+(semantic-add-system-include "/usr/local/include/cling")
+(semantic-add-system-include "/usr/local/include/stan")
 (semantic-add-system-include "/usr/local/include/eigen3")
 (semantic-add-system-include "/usr/local/include/tesseract")
 (global-semantic-idle-summary-mode 1)
@@ -395,3 +401,4 @@ i.e. change right window to bottom, or change bottom window to right."
   (next-line arg))
 (global-set-key (kbd "C-d") 'duplicate-line)
 (global-set-key (kbd "<delete>") 'delete-char)
+(tabbar-mode)
