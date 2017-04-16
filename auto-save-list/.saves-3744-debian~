@@ -2,10 +2,10 @@
 /home/bemcho/.emacs.d/#init.el#
 /home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cling
 /home/bemcho/Projects/ClingSandbox/armadillo_sandbox/#armadillo.cling#
-/usr/local/share/emacs/26.0.50/lisp/comint.el.gz
-/usr/local/share/emacs/26.0.50/lisp/#comint.el.gz#
 /home/bemcho/Projects/ClingSandbox/armadillo_sandbox/armadillo.cpp
 /home/bemcho/Projects/ClingSandbox/armadillo_sandbox/#armadillo.cpp#
+/usr/local/share/emacs/26.0.50/lisp/comint.el.gz
+/usr/local/share/emacs/26.0.50/lisp/#comint.el.gz#
 /home/bemcho/.emacs.d/cling/cling.el
 /home/bemcho/.emacs.d/cling/#cling.el#
 /home/bemcho/Projects/ClingSandbox/gnuplot-cpp/gnuplot_i.hpp
@@ -40,8 +40,6 @@
 /home/bemcho/Projects/home-ai-reloaded-cmake/homeai/#ClipsAdapter.hpp#
 /home/bemcho/Projects/home-ai-reloaded-cmake/homeai/VisualContextAnnotator.hpp
 /home/bemcho/Projects/home-ai-reloaded-cmake/homeai/#VisualContextAnnotator.hpp#
-/home/bemcho/.xinitrc
-/home/bemcho/#.xinitrc#
 /home/bemcho/Projects/stansandbox/clingroot.h
 /home/bemcho/Projects/stansandbox/#clingroot.h#
 /home/bemcho/Projects/home-ai-reloaded-cmake/homeai/Annotation.hpp

@@ -182,6 +182,7 @@
                                (setq ansi-term-color-vector
                                      (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
                                                             ,magenta ,cyan ,base2))))))
+
 (setq-default mode-line-buffer-identification
               '(:eval default-directory))
 
