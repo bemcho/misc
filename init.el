@@ -1,6 +1,10 @@
+
 (require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+ (add-to-list 'package-archives
+              '("melpa" . "http://melpa.org/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("stablemelpa" . "http://stable.melpa.org/packages") t)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t) ; Org-mode's repository
 
 (package-initialize)
 (custom-set-variables
@@ -8,12 +12,24 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(auto-save-default nil)
+ '(backup-inhibited t t)
+ '(column-number-mode t)
+ '(cursor-type (quote bar))
  '(custom-safe-themes
    (quote
     ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
+ '(delete-selection-mode t)
+ '(inhibit-startup-screen t)
+ '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
+<<<<<<< HEAD
     (company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
+=======
+    (ggtags function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
+ '(tool-bar-mode nil)
+>>>>>>> d1d59cf4cb3b385e1660e3b61e78fdbc620cc676
  '(vlf-application (quote dont-ask)))
 
 (when (not package-archive-contents)
@@ -26,6 +42,9 @@
 (setq use-package-always-ensure t)
 
 (add-to-list 'load-path "~/.emacs.d/custom")
+
+
+
 
 (require 'setup-general)
 (if (version< emacs-version "24.4")
@@ -191,6 +210,7 @@
 (setq speedbar-show-unknown-files t)
 (global-set-key (kbd "C-c C-t") 'sr-speedbar-toggle)
 
+(require 'cc-mode)
 (require 'irony)
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
@@ -199,8 +219,7 @@
 (define-key c-mode-map  [(tab)] 'company-complete)
 (define-key c++-mode-map  [(tab)] 'company-complete)
 (add-to-list 'company-backends 'company-c-headers 'company-irony)
-(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm")
-(add-to-list 'company-c-headers-path-system "/usr/local/include/armadillo")
+
 
 
 (add-hook 'c++-mode-hook 'irony-mode)
@@ -222,7 +241,7 @@
 (add-hook 'irony-mode-hook 'my-irony-mode-hook)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
-(require 'cc-mode)
+
 (require 'semantic)
 
 (global-semanticdb-minor-mode 1)
@@ -368,6 +387,7 @@ i.e. change right window to bottom, or change bottom window to right."
 (global-set-key (kbd "C-x 5") 'window-toggle-split-direction)
 (global-set-key (kbd "C-x 4") 'toggle-window-split)
 
+
 (cua-mode t)
 (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
 (transient-mark-mode 1) ;; No region when it is not highlighted
@@ -404,9 +424,8 @@ i.e. change right window to bottom, or change bottom window to right."
     (save-excursion
 
       ;; don't use forward-line for this, because you would have
-      ;; to check whether you are at the end of the buffer
-      (end-of-line)
-      (setq eol (point))
+
+
 
       ;; store the line and disable the recording of undo information
       (let ((line (buffer-substring bol eol))
@@ -424,7 +443,10 @@ i.e. change right window to bottom, or change bottom window to right."
     ) ; end-of-let
 
   ;; put the point in the lowest line and return
-  (next-line arg))
+  (forward-line arg))
 (global-set-key (kbd "C-d") 'duplicate-line)
 (global-set-key (kbd "<delete>") 'delete-char)
 (tabbar-mode)
+
+;(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm")
+;(add-to-list 'company-c-headers-path-system "/usr/local/include/armadillo")

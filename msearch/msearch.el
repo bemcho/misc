@@ -1,4 +1,4 @@
-;;; msearch.el --- Highlight all occurences of mouse selection
+cd;;; msearch.el --- Highlight all occurences of mouse selection
 
 ;; Copyright (C) 2010  Tobias.Naehring
 
