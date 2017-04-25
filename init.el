@@ -24,13 +24,11 @@
  '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
-<<<<<<< HEAD
-    (company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
-=======
-    (ggtags function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
+
+    (ggtags company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
  '(tool-bar-mode nil)
->>>>>>> d1d59cf4cb3b385e1660e3b61e78fdbc620cc676
- '(vlf-application (quote dont-ask)))
+
+ '(vlf-application (quote dont-ask))
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -83,7 +81,7 @@
 ;; (add-hook 'clojure-mode-hook 'paredit-mode)
 ;;(add-hook 'nrepl-mode-hook 'paredit-mode)
 ;;(global-set-key [f7] 'paredit-mode)
-
+ 
 ;; clojure-mode
 ;;(global-set-key [f9] 'nrepl-jack-in)
 
@@ -304,13 +302,18 @@
 (require 'smartparens-config)
 (show-smartparens-global-mode +1)
 (smartparens-global-mode 1)
-
+  (eval-after-load 'smartparens
+    '(progn
+       (sp-pair "(" nil :actions '(:rem insert))
+       (sp-pair "[" nil :actions '(:rem insert))
+       (sp-pair "'" nil :actions '(:rem insert))
+       (sp-pair "\"" nil :actions '(:rem insert))
+       (sp-pair "{" nil :post-handlers '(:add ("||\n[i]" "RET")))
+       )
+    )
 ;; when you press RET, the curly braces automatically
 ;; add another newline
-(sp-with-modes '(c-mode c++-mode)
-  (sp-local-pair "{" nil :post-handlers '(("||\n[i]" "RET")))
-  (sp-local-pair "/*" "*/" :post-handlers '((" | " "SPC")
-                                            ("* ||\n[i]" "RET"))))
+(sp-with-modes '(c-mode c++-mode erlang-mode))
 
 (global-set-key (kbd "<f5>") (lambda ()
                                (interactive)
@@ -323,10 +326,9 @@
  gdb-many-windows t
 
  ;; Non-nil means display source file containing the main routine at startup
- gdb-show-main t
  )
 
-(add-to-list 'load-path "~/.emacs.d/vlfi")
+(add-to-list 'load-path "~/.emacs.d/vlf")
 
 (require 'vlf)
 ;; SHOW FILE PATH IN FRAME TITLE
@@ -450,3 +452,9 @@ i.e. change right window to bottom, or change bottom window to right."
 
 ;(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm")
 ;(add-to-list 'company-c-headers-path-system "/usr/local/include/armadillo")
+
+ (setq load-path (cons  "/usr/lib/erlang/lib/tools-2.9.1/emacs"
+      load-path))
+      (setq erlang-root-dir "/usr/lib/erlang")
+      (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
+      (require 'erlang-start)

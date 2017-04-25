@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-automake-mode
+      :tags 
+        '( ("ACLOCAL_AMFLAGS" variable (:default-value ("-I" "m4")) nil [1 25])
+            ("SUBDIRS" variable (:default-value ("src" "test")) nil [26 45])
+            ("clean-local" function nil nil [46 70]))          
+      :file "Makefile.am"
+      :pointmax 70
+      :fsize 69
+      :lastmodtime '(22780 36865 635987 712000)
+      :unmatched-syntax '((shell-command 61 . 69) (bol 60 . 60)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags nil
+      :file "Makefile.in"
+      :pointmax 24994
+      :fsize 24993
+      :lastmodtime '(22780 36865 635987 712000)
+      :unmatched-syntax nil))
+  :file "!home!bemcho!Projects!hal-flash!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

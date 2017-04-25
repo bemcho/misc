@@ -1,1 +1,1 @@
-nil
+("~/" "~/Projects/hal-flash/" "~/.emacs.d/")
