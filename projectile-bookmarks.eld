@@ -1,1 +1,1 @@
-("~/" "~/Projects/hal-flash/" "~/.emacs.d/")
+("~/Projects/elixir-koans/" "~/.emacs.d/" "~/" "~/Projects/hal-flash/")

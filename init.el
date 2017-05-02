@@ -458,3 +458,5 @@ i.e. change right window to bottom, or change bottom window to right."
       (setq erlang-root-dir "/usr/lib/erlang")
       (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
       (require 'erlang-start)
+
+(add-to-list 'auto-mode-alist '("\\.ex\\'" . erlang-mode))
