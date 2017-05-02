@@ -2,43 +2,55 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Apr 26 19:22:29 2017
+;; Created Tue May  2 10:20:16 2017
 ;; Desktop file format version 208
 ;; Emacs version 26.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22784 51525 486035 964000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "1367-018D-2C6A-49CB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 56) (width . 203) (left . 1) (top . 6)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1859) (pixel-height . 990) (total-width . 207) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 932) (pixel-height . 990) (total-width . 104) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "02_strings.ex" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 131) (start . 1))) (leaf (last . t) (pixel-width . 927) (pixel-height . 990) (total-width . 103) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "*shell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 3853) (start . 3853)))))])
+(setq desktop-saved-frameset [frameset 1 (22792 13104 998126 714000) (desktop . "208") "bemcho@debian" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "1367-018D-2C6A-49CB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 56) (width . 203) (left . 1) (top . 6)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1859) (pixel-height . 990) (total-width . 207) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 932) (pixel-height . 990) (total-width . 104) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "MERGE_MSG" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 927) (pixel-height . 990) (total-width . 103) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 359) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("recorpaipai" "recor" "smart" "pareparen" "paren" "record"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,18 (get-buffer ,"*shell*")))) mk))))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk))))
 (setq file-name-history '("~/Projects/elixir-koans/lib/koans/02_strings.ex" "~/.emacs.d/init.el" "~/Projects/hal-flash/Makefile.in"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
+  "/home/bemcho/.emacs.d/.git/MERGE_MSG"
+  "MERGE_MSG"
+  'fundamental-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 22792 13094 519312 758000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
   "/home/bemcho/Projects/elixir-koans/lib/koans/02_strings.ex"
   "02_strings.ex"
-  'erlang-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode msearch-mode)
+  'fundamental-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode)
   131
   '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22784 51478 198802 153000) (buffer-file-coding-system . undecided-unix))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22792 13094 295286 839000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/bemcho/Projects/elixir-koans/lib/koans/01_equalities.ex"
   "01_equalities.ex"
-  'erlang-mode
-  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode msearch-mode)
+  'fundamental-mode
+  '(override-global-mode company-mode projectile-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode)
   857
   '(356 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 22784 51477 840286 871000) (buffer-file-coding-system . undecided-unix))
+  '((show-trailing-whitespace . 1) (buffer-display-time 22792 13045 914594 481000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring (367 356 554))))
 
 (desktop-create-buffer 208
@@ -50,7 +62,7 @@
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/lib/koans/")
-  '((buffer-display-time 22783 37711 980121 239000))
+  '((buffer-display-time 22790 64816 106601 238000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -62,7 +74,7 @@
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/lib/")
-  '((buffer-display-time 22783 37708 539749 963000))
+  '((buffer-display-time 22790 64812 675504 294000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -74,7 +86,7 @@
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/")
-  '((buffer-display-time 22783 37706 573109 477000))
+  '((buffer-display-time 22790 64810 717924 24000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -86,7 +98,7 @@
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/test/")
-  '((buffer-display-time 22783 37704 363268 165000))
+  '((buffer-display-time 22790 64808 517264 767000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -98,19 +110,19 @@
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/test/koans/")
-  '((buffer-display-time 22783 37701 331352 496000))
+  '((buffer-display-time 22790 64805 494992 158000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
   nil
   "config"
   'dired-mode
-  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode rainbow-delimiters-mode yas-minor-mode msearch-mode)
+  '(override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode anzu-mode rainbow-delimiters-mode yas-minor-mode)
   191
   '(nil nil)
   t
   '("/home/bemcho/Projects/elixir-koans/config/")
-  '((buffer-display-time 22783 37631 344883 279000))
+  '((buffer-display-time 22790 64735 518947 928000))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -122,7 +134,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 22783 37321 911206 880000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 22790 64426 488853 71000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -134,7 +146,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 22783 37309 791819 375000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 22790 64414 383546 846000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -146,7 +158,7 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 22783 37309 831928 105000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 22790 64414 436940 629000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -158,6 +170,6 @@
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 22783 37560 276646 936000) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 22792 13094 294418 278000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
