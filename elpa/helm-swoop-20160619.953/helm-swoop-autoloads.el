@@ -3,7 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "helm-swoop" "helm-swoop.el" (0 0 0 0))
+;;;### (autoloads nil "helm-swoop" "helm-swoop.el" (22887 8109 285120
+;;;;;;  439000))
 ;;; Generated autoloads from helm-swoop.el
 
 (autoload 'helm-swoop-back-to-last-point "helm-swoop" "\
@@ -69,8 +70,6 @@ Start helm-swoop without pre input query.
 
 
 \(fn)" t nil)
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-swoop" '("helm-" "get-buffers-matching-mode")))
 
 ;;;***
 

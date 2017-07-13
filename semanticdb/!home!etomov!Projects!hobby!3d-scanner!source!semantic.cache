@@ -1,0 +1,89 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ExtractContours.h" include nil nil [44 72])
+            ("opencvbox" type
+               (:members 
+                  ( ("cv" using (:type ("cv" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [99 118])
+                    ("frame" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [124 155])
+                    ("dst" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [124 155])
+                    ("detected_edges" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [124 155])
+                    ("edgeThresh" variable
+                       (:default-value "1"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [160 179])
+                    ("lowThreshold" variable (:type "int") (reparse-symbol namespacesubparts) [184 201])
+                    ("max_lowThreshold" variable
+                       (:default-value "100"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [206 239])
+                    ("ratio" variable
+                       (:default-value "3"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [244 258])
+                    ("kernel_size" variable
+                       (:default-value "3"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [263 283])
+                    ("CannyThreshold" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [316 320])
+                            ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [321 328]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [289 768])
+                    ("extractEdges" function
+                       (:arguments 
+                          ( ("src" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [792 807])
+                            ("edged" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [808 819]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [774 914])
+                    ("showFrame" function
+                       (:arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [935 952])
+                            ("frame" variable (:type ("cv::Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [953 967]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [920 1036])
+                    ("initTrackBar" function
+                       (:arguments 
+                          ( ("name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1060 1077]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [1042 1182])
+                    ("startVisualLoop" function
+                       (:arguments 
+                          ( ("camIndex" variable (:type "int") (reparse-symbol arg-sub-list) [1208 1221])
+                            ("window_name" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1222 1246]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [1188 1926]))                  
+                :type "namespace")
+                nil [73 1928]))          
+      :file "ExtractContours.cpp"
+      :pointmax 1928
+      :fsize 1927
+      :lastmodtime '(22883 40395 104588 102000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "ExtractContours.h"
+      :fsize 578
+      :lastmodtime '(22883 40395 104588 102000)))
+  :file "!home!etomov!Projects!hobby!3d-scanner!source!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

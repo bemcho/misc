@@ -3,7 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "helm-gtags" "helm-gtags.el" (0 0 0 0))
+;;;### (autoloads nil "helm-gtags" "helm-gtags.el" (22887 8109 877118
+;;;;;;  904000))
 ;;; Generated autoloads from helm-gtags.el
 
 (autoload 'helm-gtags-clear-all-cache "helm-gtags" "\
@@ -141,8 +142,6 @@ the mode if ARG is omitted or nil, and toggle it if ARG is `toggle'.
 \\{helm-gtags-mode-map}
 
 \(fn &optional ARG)" t nil)
-
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "helm-gtags" '("helm-")))
 
 ;;;***
 

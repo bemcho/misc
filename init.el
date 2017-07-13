@@ -24,8 +24,7 @@
  '(initial-scratch-message nil)
  '(package-selected-packages
    (quote
-
-    (ggtags company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
+    (magit ggtags company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang))))
  '(tool-bar-mode nil)
 
  '(vlf-application (quote dont-ask))
@@ -460,3 +459,4 @@ i.e. change right window to bottom, or change bottom window to right."
       (require 'erlang-start)
 
 (add-to-list 'auto-mode-alist '("\\.ex\\'" . erlang-mode))
+(setq indent-tabs-mode nil)
