@@ -5,6 +5,10 @@
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives '("stablemelpa" . "http://stable.melpa.org/packages") t)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t) ; Org-mode's repository
+(add-to-list 'load-path "~/.emacs.d/custom")
+
+(require 'volatile-highlights)
+(volatile-highlights-mode t)
 
 (package-initialize)
 (custom-set-variables
@@ -18,7 +22,7 @@
  '(cursor-type (quote bar))
  '(custom-safe-themes
    (quote
-    ("f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
+    ("67e998c3c23fe24ed0fb92b9de75011b92f35d3e89344157ae0d544d50a63a72" "f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
  '(delete-selection-mode t)
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
@@ -38,19 +42,14 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
-(add-to-list 'load-path "~/.emacs.d/custom")
-
-
-
-
 (require 'setup-general)
 (if (version< emacs-version "24.4")
     (require 'setup-ivy-counsel)
-  (require 'setup-helm)
-  (require 'setup-helm-gtags))
+  (require 'setup-helm))
+  ;(require 'setup-helm-gtags))
 ;; (require 'setup-ggtags)
 (require 'setup-cedet)
-(require 'setup-editing)
+;(require 'setup-editing)
 
 
 
@@ -460,3 +459,31 @@ i.e. change right window to bottom, or change bottom window to right."
 
 (add-to-list 'auto-mode-alist '("\\.ex\\'" . erlang-mode))
 (setq indent-tabs-mode nil)
+
+      (let ((my-slime-directory (expand-file-name "~/.emacs.d/custom/slime")))
+(add-to-list 'load-path my-slime-directory)
+(setq slime-backend (expand-file-name "swank-loader.lisp" my-slime-directory)))
+
+;; If you installed your CL in a "standard place", such as /opt/local/bin,
+;; you can delete the following form/6 lines. If you have multiple CLs installed,
+;; this is an example of how you enumerate them; C-u M-x slime then lets
+;; select one by name. Default is the first CL implementation in the list.
+(setf slime-lisp-implementations
+   `((ccl64 (,(expand-file-name "~/.local/bin/ccl64"))
+             :env (,(concat "CCL_DEFAULT_DIRECTORY=" (expand-file-name "~/ccl"))))
+     (clisp ("clisp"))
+     (ecl (,(expand-file-name "~/ecl-experimental/bin/ecl")))
+     (sbcl (,(expand-file-name "~/.local/bin/sbcl")))))
+
+;; Mac OSX owns C-up and C-down, so arrange for history
+;; navigation to do something useful via C-c p and C-c n.
+(eval-after-load 'slime
+  `(progn
+     (define-key slime-prefix-map "p" 'slime-repl-backward-input)
+     (define-key slime-prefix-map "n" 'slime-reply-forward-input)))
+
+;; Useful slime custribs
+(require 'slime-autoloads)
+(add-to-list 'slime-contribs 'slime-repl)
+(add-to-list 'slime-contribs 'slime-autodoc)
+(add-to-list 'slime-contribs 'slime-fancy)

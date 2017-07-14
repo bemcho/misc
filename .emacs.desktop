@@ -2,30 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jul 13 12:23:30 2017
+;; Created Fri Jul 14 07:06:44 2017
 ;; Desktop file format version 208
-;; Emacs version 25.2.2
+;; Emacs version 25.2.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22887 18978 749361 657000) (desktop . "208") "etomov@etomov-ThinkPad-P50" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (minibuffer . t) (undecorated) (override-redirect) (inhibit-double-buffering) (no-focus-on-map) (no-accept-focus) (visibility . t) (skip-taskbar) (z-group) (frameset--id . "1367-018D-2C6A-49CB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 55) (width . 209) (left . 0) (top . 25)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1920) (pixel-height . 984) (total-width . 213) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (buffer "ExtractContours.cpp" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 1417) (start . 720))))])
+(setq desktop-saved-frameset [frameset 1 (22888 20836 418453 0) (desktop . "208") "bemcho@surfer-172-29-16-129-hotspot.internet-for-guests.com" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "259E-C29D-13FC-30A2") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "surfer-172-29-16-129-hotspot.internet-for-guests.com") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 64) (width . 200) (left . 2) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 49) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1431) (pixel-height . 882) (total-width . 204) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 3 t nil 0 nil) (vscroll . 0) (dedicated) (point . 17549) (start . 16286))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("recorpaipai" "recor" "smart" "pareparen" "paren" "record"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk))))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1538 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk))))
 (setq file-name-history '("~/.emacs.d/init.el" "~/Projects/hobby/3d-scanner/source/ExtractContours.cpp" "~/Projects/elixir-koans/lib/koans/02_strings.ex" "~/Projects/hal-flash/Makefile.in"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/etomov/Projects/hobby/3d-scanner/source/ExtractContours.cpp"
-  "ExtractContours.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode projectile-mode helm-mode helm-gtags-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode function-args-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode msearch-mode hs-minor-mode)
-  1417
-  '(1694 nil)
+  "/Users/bemcho/.emacs.d/init.el"
+  "init.el"
+  'slitex-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode msearch-mode)
+  17549
+  '(16473 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1694 1443 1444))))
+  '((indent-tabs-mode) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (16466))))
 
