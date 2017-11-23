@@ -6,7 +6,12 @@
 (add-to-list 'package-archives '("stablemelpa" . "http://stable.melpa.org/packages") t)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t) ; Org-mode's repository
 (add-to-list 'load-path "~/.emacs.d/custom")
-
+;; packages
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  )
 (require 'volatile-highlights)
 (volatile-highlights-mode t)
 
@@ -140,12 +145,12 @@
 
 
 ;; ;; Use variable width font faces in current buffer
-(defun my-buffer-face-mode-variable ()
-  ;;   "Set font to a variable width (proportional) fonts in current buffer"
-  (interactive)
-  (setq buffer-face-mode-face '(:family "Menlo For Powerline" :height 100))
-  (text-scale-adjust 1)
-  (buffer-face-mode))
+;; (defun my-buffer-face-mode-variable ()
+;;   ;;   "Set font to a variable width (proportional) fonts in current buffer"
+;;   (interactive)
+;;   (setq buffer-face-mode-face '(:family "Menlo For Powerline" :height 100))
+;;   (text-scale-adjust 1)
+;;   (buffer-face-mode))
 
 (setq system-uses-terminfo nil)
 (add-hook 'term-mode-hook

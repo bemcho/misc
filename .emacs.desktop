@@ -2,30 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Jul 14 07:06:44 2017
+;; Created Thu Nov 23 15:11:58 2017
 ;; Desktop file format version 208
-;; Emacs version 25.2.1
+;; Emacs version 25.3.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22888 20836 418453 0) (desktop . "208") "bemcho@surfer-172-29-16-129-hotspot.internet-for-guests.com" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "259E-C29D-13FC-30A2") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "surfer-172-29-16-129-hotspot.internet-for-guests.com") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 64) (width . 200) (left . 2) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 49) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1431) (pixel-height . 882) (total-width . 204) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 3 t nil 0 nil) (vscroll . 0) (dedicated) (point . 17549) (start . 16286))))])
+(setq desktop-saved-frameset [frameset 1 (23062 51486 513943 95000) (desktop . "208") "etomov@etomov-ThinkPad-P50" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "C15B-E936-D5A8-EC0A") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (visibility . t) (height . 64) (width . 194) (left . 140) (top . 0)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 6) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 144) (min-pixel-width . 90) (min-pixel-height-ignore . 108) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 36) (min-pixel-width-safe . 18)) vc (pixel-width . 1780) (pixel-height . 1148) (total-width . 198) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1780) (pixel-height . 572) (total-width . 198) (total-height . 31) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 15448) (start . 15006))) (leaf (last . t) (pixel-width . 1780) (pixel-height . 576) (total-width . 198) (total-height . 32) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 366) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("recorpaipai" "recor" "smart" "pareparen" "paren" "record"))
+(setq search-ring '("cd" "CD" "recorpaipai" "recor" "smart" "pareparen" "paren" "record"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1538 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk))))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"*scratch*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
 (setq file-name-history '("~/.emacs.d/init.el" "~/Projects/hobby/3d-scanner/source/ExtractContours.cpp" "~/Projects/elixir-koans/lib/koans/02_strings.ex" "~/Projects/hal-flash/Makefile.in"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/bemcho/.emacs.d/init.el"
+  "/home/etomov/.emacs.d/init.el"
   "init.el"
-  'slitex-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode rainbow-delimiters-mode irony-mode yas-minor-mode smartparens-mode msearch-mode)
-  17549
-  '(16473 nil)
+  'emacs-lisp-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode rainbow-delimiters-mode yas-minor-mode smartparens-mode msearch-mode)
+  15448
+  '(15415 t)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (16466))))
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (15308 15331 15387 15429 5220 5219 10102 1968 10104 10102 5219 15391 15387 15332 15331 15250))))
 
