@@ -1,0 +1,128 @@
+git push
+git add .
+git commit -m "Saving node-number in xelf node"
+git push
+git add .
+git commit -m "xelf node to lol node"
+git add .
+git commit -m "wumpus-hunter is now moveable"
+git push
+git add .
+git commit -m "Indentation, captions"
+git push
+git push
+git add .
+git commit -m "Readme updated"
+git push
+git status
+git diff wumpus.lisp
+git stash
+cd ..
+git add .
+git commit -m "project files orginized in folders"
+git push
+git push
+git add .
+git commit -m "clean up"
+git push
+cd ..
+git add .
+git commit -m "clean up 2"
+git push
+git add .
+git commit -m "Tune up nodes size"
+git push
+git add .
+git commit -m "more refactoring"
+git add .
+git commit -m "mist.png added"
+git add .
+git commit -m "Mist background first try"
+git add .
+git commit -m "Clouds added"
+cd ..
+git add .
+git commit -m "Mist improved"
+ll
+ls
+git add .
+git commit -m "Refactored pipulate city"
+git add .
+git commit -m "Only known edges are shown now"
+git push
+git add .
+git commit -m "wumpus-hunter now visible"
+git add .
+git commit -m "some progress"
+git show
+git status
+git add .
+git commit -m "some progress"
+git add .
+git commit -m "pics retouched"
+git push
+git status
+git status
+git status
+git add .gitignore
+git commit -m "added gitignore"
+git add .
+git commit -m "saving progress"
+git add .
+git commit -m "All nodes from (known-city-edges) and their connections are drawn now"
+git push
+git status
+git add .
+git commit -m "police cars shown when police in transitions"
+git push
+git add .
+git commit -m "node numbers now shown"
+git  status
+git add .
+git add .
+git commit -m "Fixed duplicate police car"
+git push
+git add .
+git commit -m "some progress"
+cd ..
+git pull
+git stash
+git pull
+ll
+ls -la
+cat .gitignore
+cd generated/
+rm 
+rm -f  
+cd ..
+git pull
+git add .
+git commit -m "Empty generated"
+git pull
+ls generated/
+git add .
+git status
+cd ..
+git add .
+git commit -m "Only visited nodes shows its contents"
+git push
+git add .
+git commit -m "Game instructions added"
+git push
+git add .
+git commit -m "quastion mark retouched"
+git push
+git add .
+git commit -m "Refactored nodes quering"
+cd ..
+git add .
+git commit -m "Fix	ing hunter disappeared"
+git add .
+git commit -m "gitignore added .#"
+git push
+git pull
+git add .
+git commit -m "reseting game on 'r'"
+git add .
+git commit -m "ignore"
+git push
