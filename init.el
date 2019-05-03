@@ -16,33 +16,7 @@
 (volatile-highlights-mode t)
 
 (package-initialize)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(auto-save-default nil)
- '(backup-inhibited t t)
- '(column-number-mode t)
- '(cua-mode t nil (cua-base))
- '(cursor-type (quote bar))
- '(custom-safe-themes
-   (quote
-    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "67e998c3c23fe24ed0fb92b9de75011b92f35d3e89344157ae0d544d50a63a72" "f5512c02e0a6887e987a816918b7a684d558716262ac7ee2dd0437ab913eaec6" "38e64ea9b3a5e512ae9547063ee491c20bd717fe59d9c12219a0b1050b439cdd" default)))
- '(delete-selection-mode t)
- '(inhibit-startup-screen t)
- '(initial-scratch-message nil)
- '(package-selected-packages
-   (quote
-    (swift3-mode dash-at-point rainbow-identifiers magithub common-lisp-snippets spacemacs-theme ada-mode multiple-cursors ac-slime paredit magit ggtags company-irony-c-headers function-args company-irony irony tabbar cuda-mode toggle-window srefactor stickyfunc-enhance company-ycm sr-speedbar cyberpunk-theme zenburn-theme solarized-theme rainbow-delimiters helm exec-path-from-shell auto-complete-clang)))
- '(safe-local-variable-values (quote ((Syntax . Common-Lisp))))
- '(select-active-regions t)
- '(show-paren-mode t)
- '(tabbar-separator (quote (0.5)))
- '(tool-bar-mode nil))
-'(tool-bar-mode nil)
 
-'(vlf-application (quote dont-ask))
 
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -75,143 +49,23 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Source Code Pro" :foundry "ADBO" :slant normal :weight semi-bold :height 113 :width normal)))))
-
-;; rainbow delimiters
-(setq rainbow-delimiters-mode t)
-
-;; rainbow delimiters
-(rainbow-delimiters-mode)
+ )
 
 ;; turn off bell
 (setq visible-bell t)
 ;; misc. settings
 (global-font-lock-mode)
 (show-paren-mode 1)
-;; paredit
-;; (add-hook 'clojure-mode-hook 'paredit-mode)
-;;(add-hook 'nrepl-mode-hook 'paredit-mode)
-;;(global-set-key [f7] 'paredit-mode)
-
-;; clojure-mode
-;;(global-set-key [f9] 'nrepl-jack-in)
-
-;; nrepl
-;;(add-hook 'nrepl-interaction-mode-hook 'nrepl-turn-on-eldoc-mode)
-                                        ;(setq nrepl-popup-stacktraces nil)
-                                        ;(add-to-list 'same-window-buffer-names "*nrepl*")
-                                        ;(add-hook 'nrepl-mode-hook 'paredit-mode)
-
-;; Auto complete
-;;(require 'auto-complete-config)
-;;(ac-config-default)
-;;(define-key ac-completing-map "\M-/" 'ac-stop)
-
-
 
 (add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)
-
-
-
-;; ac-nrepl
-                                        ;(require 'ac-nrepl)
-                                        ; (add-hook 'nrepl-mode-hook 'ac-nrepl-setup)
-                                        ; (add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)
-                                        ; (eval-after-load "auto-complete" '(add-to-list 'ac-modes 'nrepl-mode))
-
-;; theme
-(load-theme 'zenburn)
-
 (desktop-save-mode t)
 (ido-mode )
-;;(clojure-mode)
-
-                                        ;(put 'upcase-region 'disabled nil)
-                                        ;
-;;(defun nrepl-reset ()
-                                        ; (interactive)
-                                        ;(save-some-buffers)
-                                        ;(set-buffer "*nrepl*")
-                                        ;(goto-char (point-max))
-                                        ;(insert "(user/reset)")
-                                        ;(nrepl-return)
-;;  )
-
-;;(add-to-list 'load-path "/Users/bemcho/Projects/slime-master")
-;;(require 'slime)
-;;(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))
-;;(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))
-;; Optionally, specify the lisp program you are using. Default is "lisp"
-;;(setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 (exec-path-from-shell-initialize)
 
 ;;;;Clang Cling REPL
 (add-to-list 'load-path "~/.emacs.d/cling/")
 (require 'cling)
-
-
-
-;; ;; Use variable width font faces in current buffer
-;; (defun my-buffer-face-mode-variable ()
-;;   ;;   "Set font to a variable width (proportional) fonts in current buffer"
-;;   (interactive)
-;;   (setq buffer-face-mode-face '(:family "Menlo For Powerline" :height 100))
-;;   (text-scale-adjust 1)
-;;   (buffer-face-mode))
-
-(setq system-uses-terminfo nil)
-(add-hook 'term-mode-hook
-          '(lambda ()
-             (linum-mode 0)
-             (term-set-escape-char ?\C-z)
-             (term-set-escape-char ?\C-x)
-             (define-key term-raw-map "\C-c" 'term-interrupt-subjob)
-             (define-key term-raw-map (kbd "M-x") 'execute-extended-command)
-             (setq autopair-dont-activate t)
-             (setq ac-auto-start nil)
-             (visual-line-mode -1)
-             ;; (my-buffer-face-mode-variable)
-             ))
-
-(defun my-term-paste (&optional string)
-  (interactive)
-  (process-send-string
-   (get-buffer-process (current-buffer))
-   (if string string (current-kill 0))))
-
-(defun my-term-pasteboard-paste ()
-  (interactive)
-  (process-send-string
-   (get-buffer-process (current-buffer))
-   (ns-get-pasteboard)))
-
-(add-hook 'term-exec-hook '(lambda ()
-                             (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)
-                             (goto-address-mode)
-                             (define-key term-raw-map (kbd "C-y") 'my-term-paste)
-                             (define-key term-raw-map (kbd "s-v") 'my-term-pasteboard-paste)
-                             (let ((base03 "#002b36")
-                                   (base02 "#073642")
-                                   (base01 "#586e75")
-                                   (base00 "#657b83")
-                                   (base0 "#839496")
-                                   (base1 "#93a1a1")
-                                   (base2 "#eee8d5")
-                                   (base3 "#fdf6e3")
-                                   (yellow "#b58900")
-                                   (orange "#cb4b16")
-                                   (red "#dc322f")
-                                   (magenta "#d33682")
-                                   (violet "#6c71c4")
-                                   (blue "#268bd2")
-                                   (cyan "#2aa198")
-                                   (green "#859900"))
-                               (setq ansi-term-color-vector
-                                     (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
-                                                            ,magenta ,cyan ,base2))))))
-(setq-default mode-line-buffer-identification
-              '(:eval default-directory))
 
 (setq-local imenu-create-index-function #'ggtags-build-imenu-index)
 
@@ -418,47 +272,10 @@ i.e. change right window to bottom, or change bottom window to right."
 (defun close-and-kill-this-pane ()
   "If there are multiple windows, then close this pane and kill the buffer in it also."
   (interactive)
-  (kill-this-buffer)
-  (if (not (one-window-p))
-      (delete-window)))
-
-(global-set-key (kbd "C-w") ' close-and-kill-this-pane)
-
-(defun duplicate-line (arg)
-  "Duplicate current line, leaving point in lower line."
-  (interactive "*p")
-
-  ;; save the point for undo
-  (setq buffer-undo-list (cons (point) buffer-undo-list))
-
-  ;; local variables for start and end of line
-  (let ((bol (save-excursion (beginning-of-line) (point)))
-        eol)
-    (save-excursion
-
-      ;; don't use forward-line for this, because you would have
+  (kill-this-buffer))
+(global-set-key (kbd "C-W") ' close-and-kill-this-pane)
 
 
-
-      ;; store the line and disable the recording of undo information
-      (let ((line (buffer-substring bol eol))
-            (buffer-undo-list t)
-            (count arg))
-        ;; insert the line arg times
-        (while (> count 0)
-          (newline)         ;; because there is no newline in 'line'
-          (insert line)
-          (setq count (1- count)))
-        )
-
-      ;; create the undo information
-      (setq buffer-undo-list (cons (cons eol (point)) buffer-undo-list)))
-    ) ; end-of-let
-
-  ;; put the point in the lowest line and return
-  (forward-line arg))
-(global-set-key (kbd "C-d") 'duplicate-line)
-(global-set-key (kbd "<delete>") 'delete-char)
 (tabbar-mode)
 
                                         ;(add-to-list 'company-c-headers-path-system "/usr/local/include/llvm")
@@ -472,15 +289,6 @@ i.e. change right window to bottom, or change bottom window to right."
 
 (add-to-list 'auto-mode-alist '("\\.ex\\'" . erlang-mode))
 (setq indent-tabs-mode nil)
-
-(defun dotspacemacs/user-init ()
-  "Initialization function for user code.
-It is called immediately after `dotspacemacs/init', before layer configuration
-executes.
- This function is mostly useful for variables that need to be set
-before packages are loaded. If you are unsure, you should try in setting them in
-`dotspacemacs/user-config' first."
-  )
 
 (defun close-and-kill-this-pane ()
   "If there are multiple windows, then close this pane and kill the buffer in it also."
@@ -750,31 +558,7 @@ you should place your code here."
   (linum-mode)
   (ac-config-default)
   (ido-mode)
-
-  (add-hook 'term-exec-hook '(lambda ()
-                               (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)
-                               (goto-address-mode)
-                               (define-key term-raw-map (kbd "C-y") 'my-term-paste)
-                               (define-key term-raw-map (kbd "s-v") 'my-term-pasteboard-paste)
-                               (let ((base03 "#002b36")
-                                     (base02 "#073642")
-                                     (base01 "#586e75")
-                                     (base00 "#657b83")
-                                     (base0 "#839496")
-                                     (base1 "#93a1a1")
-                                     (base2 "#eee8d5")
-                                     (base3 "#fdf6e3")
-                                     (yellow "#b58900")
-                                     (orange "#cb4b16")
-                                     (red "#dc322f")
-                                     (magenta "#d33682")
-                                     (violet "#6c71c4")
-                                     (blue "#268bd2")
-                                     (cyan "#2aa198")
-                                     (green "#859900"))
-                                 (setq ansi-term-color-vector
-                                       (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
-                                                              ,magenta ,cyan ,base2))))))
+ 
   (desktop-save-mode t)
   (setq-default mode-line-buffer-identification
                 '(:eval default-directory))
@@ -876,8 +660,7 @@ That is, a string used to represent it on the tab bar."
                 ("\\.sch$" . scheme-mode)
                 )auto-mode-alist))
 (put 'lisp-mode 'derived-mode-paren 'prog-mode)
-(add-hook 'lisp-mode-hook 'rainbow-identifiers-mode)
-(add-hook 'lisp-mode-hook 'rainbow-delimiters-mode)
+
 (add-hook 'lisp-mode-hook 'paredit-mode)
 
 (defun slime-enable-concurrent-hints ()
@@ -885,12 +668,42 @@ That is, a string used to represent it on the tab bar."
   (setf slime-inhibit-pipelining nil))
 
 (user-config)
+;;;;;;;;;;;;;;;Lisp;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;; Assembler
+(require 'nasm-mode)
+(add-to-list 'auto-mode-alist '("\\.\\(asm\\|s\\)$" . nasm-mode))
+;;;;;;;;;;;;;;;; Assembler
+
+
+;;;;;;;;;;;;;;;Julia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq julia-repl-executable-records
+      '((default "/home/bemcho/Apps/julia/bin/julia")                  ; in the executable path
+        (master "/home/bemcho/Apps/julia/bin/julia"))) ; compiled from the repository
+
+
+(add-to-list 'load-path "/home/bemcho/.emacs.d/julia-repl")
+(require 'julia-repl)
+(add-hook 'julia-mode-hook 'julia-repl-mode) ;; always use minor mode
+
+(add-to-list 'load-path "/home/bemcho/.emacs.d/julia-emacs")
+(require 'julia-mode)
+(add-to-list 'auto-mode-alist '("\\.\\(jl\\)$" . julia-mode))
+;;;;;;;;;;;;;;;Julia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 
 
-
-
-
-
-
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Generated by emacs ;;;;;;;;;;;;;;;;;;
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes nil)
+ '(package-selected-packages
+   (quote
+    (zygospore ws-butler use-package undo-tree treemacs-icons-dired toggle-window tabbar swift3-mode stickyfunc-enhance srefactor sr-speedbar smartparens rtags rainbow-mode rainbow-identifiers rainbow-delimiters paredit nasm-mode multiple-cursors markdown-mode magit julia-repl iedit helm-w3m helm-swoop helm-projectile goto-chg ghub+ ggtags function-args flycheck exec-path-from-shell ess erlang elm-yasnippets dtrt-indent dic-lookup-w3m dash-at-point cuda-mode counsel-projectile company-ycm company-statistics company-irony-c-headers company-irony company-go company-c-headers common-lisp-snippets clean-aindent-mode cedit auto-complete-clang auto-complete-c-headers anzu anything ada-mode ac-slime)))
+ '(tabbar-separator (quote (0.5))))

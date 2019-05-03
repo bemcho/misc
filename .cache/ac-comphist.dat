@@ -1,0 +1,62 @@
+((("partitions" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("make-instance" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("topics" .
+   [0 0 0 0 0 1])
+  ("consumer_start" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("consumer" .
+   [0 0 0 0 0 0 0 1])
+  (":cl-librdkafka" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  (":GLobal" .
+   [0 0 0 0 0 0 1])
+  ("*FOREIGN-LIBRARY-DIRECTORIES*" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("defun" .
+   [1 0 0 0 0])
+  (":rest" .
+   [1 0 0 0 0])
+  (":rest-server" .
+   [1 0 0 0 0 0 1 0 0 0 0 0])
+  ("api-test" .
+   [1 0 0 0 0 0 0 0])
+  ("rest-server:start-api" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("rest-server" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("require" .
+   [1 0 0 0 1 0 0])
+  ("learn-you-some-lisp:" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("in-package" .
+   [0 0 0 1 0 0 0 0 0 0])
+  (":sb-posix" .
+   [1 0 0 0 0 0 0 0 0])
+  ("asdf:find-system" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("ql:quickload" .
+   [0 0 0 0 0 1 1 0 1 0 0 0])
+  ("*" .
+   [1])
+  (":gsll" .
+   [1 0 0 0 0])
+  ("ql:update-all-dists" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("asdf:test-system" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  (":g" .
+   [1 0])
+  (":cl-ana" .
+   [0 0 0 0 1 0 0])
+  ("auto-complete" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("append" .
+   [0 0 0 1 0 0])
+  ("butlast" .
+   [0 0 0 0 1 0 0])
+  ("remove-if-not" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("include" .
+   [0 0 1 0 1 0 0])))

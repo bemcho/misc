@@ -1,3 +1,6 @@
 *.elc
 *.lock
 *.desktop
+*session*
+*~
+semanticdb/*.cache

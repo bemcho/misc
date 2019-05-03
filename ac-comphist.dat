@@ -1,260 +1,272 @@
-((("list" .
+((("node" .
    [1 0 0 0])
-  ("def" .
-   [1 0 0])
-  ("tcsh" .
-   [0 0 0 1])
-  ("cyberpunk-theme" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("company" .
-   [2 0 0 0 0 0 0])
-  ("vector" .
-   [0 0 1 0 0 0])
-  ("plot_xyz" .
-   [1 0 0 0 0 0 0 0])
-  ("text" .
+  ("listp" .
+   [1 0 0 0 0])
+  ("char" .
    [1 0 0 0])
-  ("gnu" .
-   [2 0 0])
-  ("p" .
-   [2])
-  ("randNY" .
-   [2 0 0 0 0 0])
-  ("plotName" .
-   [0 0 0 0 0 1 0 0])
-  ("std" .
-   [1 0 0])
-  ("rand" .
+  ("draw" .
    [1 0 0 0])
-  ("in" .
-   [2 0])
-  ("plot" .
-   [2 0 0 0])
-  ("gnuploti" .
-   [2 0 0 0 0 0 0 0])
-  ("arma" .
-   [3 0 0 0])
-  ("g1" .
-   [6 0])
-  ("cua-mode" .
-   [1 0 0 0 0 0 0 0])
-  ("msearch" .
-   [2 0 0 0 0 0 0])
-  ("cua-base" .
-   [0 0 0 0 0 1 0 0])
-  ("save-current-buffer" .
+  ("do" .
+   [1 0])
+  ("company-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("semantic-mode" .
+   [0 0 0 0 0 0 0 0 0 1 0 1 0])
+  ("semantic" .
+   [2 0 0 0 0 0 0 1])
+  ("irony-mode" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("irony" .
+   [1 0 0 0 0])
+  ("iostream" .
+   [0 0 0 0 0 0 0 1])
+  ("msearch-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("toggle-window-split" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("save-selected-window" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("current-buffer" .
-   [0 0 0 0 0 0 0 0 1 1 0 0 0 0])
-  ("with-current-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("switch" .
+  ("window-toggle-split-direction" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("define" .
    [1 0 0 0 0 0])
-  ("cling-process-name" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("get-process" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("erase-buffer" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("clear" .
-   [1 0 0 0 0])
-  ("clea" .
-   [0 0 0 1])
-  ("a" .
-   [1])
-  ("progn" .
-   [1 0 0 0 0])
-  ("set-buffer" .
-   [2 0 0 0 0 0 1 0 0 0])
-  ("switch-to-buffer" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0])
-  ("debugger" .
-   [0 0 0 0 0 1 0 0])
-  ("cling-clear-buffer" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("c" .
-   [1])
-  ("trace" .
-   [1 0 0 0 0])
-  ("o" .
-   [1])
-  ("cling-buffer-name" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("save-excursion" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("comint-clear-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("display-buffer-at-bottom" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("defvar" .
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("buffer-substring" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("buffer" .
+   [0 0 0 0 1 0])
+  ("display-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("display" .
+   [0 0 0 0 0 1 0])
+  ("set" .
+   [1 0 0])
+  ("switch-to-buffer-other-window" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("get-other-frame" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("window" .
+   [0 0 0 0 0 1])
+  ("set-window-buffer" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0])
+  ("other-buffer" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("other-window" .
+   [2 0 0 0 1 0 1 0 0 0 0 1])
+  ("bemcho" .
    [1 0 0 0 0 0])
-  ("defun" .
+  ("h" .
+   [2])
+  ("home" .
+   [2 0 0 0])
+  ("src" .
+   [4 0 0])
+  ("cpp" .
+   [1 0 0])
+  ("cling" .
    [3 0 0 0 0])
-  ("funcall" .
+  ("stansandbox" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("p0" .
+   [1 0])
+  ("p1" .
+   [2 0])
+  ("Point" .
+   [4 0 0 0 0])
+  ("string" .
+   [2 0 0 0 0 0])
+  ("quick-copy-line" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("string-or-null-p" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("the-line" .
+   [1 0 0 0 0 0 0 0])
+  ("let" .
+   [2 0 0])
+  ("or" .
+   [4 0])
+  ("kill-ring" .
+   [2 0 0 0 0 0 0 0 0])
+  ("car" .
+   [7 0 0])
+  ("require" .
+   [3 0 0 0 0 0 0])
+  ("setq" .
+   [5 0 0 0])
+  ("inferior-cling" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("s" .
+   [1])
+  ("cling-send-buffer" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("first" .
+   [1 0 0 0 0])
+  ("kill-ring." .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pop" .
+   [2 0 0])
+  ("usr" .
+   [4 0 0])
+  ("nth" .
+   [1 0 0])
+  ("type-of" .
+   [0 0 0 0 1 0 0])
+  ("format" .
+   [1 0 0 0 0 0])
+  ("vtk6" .
+   [2 0 0 0])
+  ("lib" .
+   [2 0 0])
+  ("vtk" .
+   [4 0 0])
+  ("and" .
+   [4 0 0])
+  ("yank" .
+   [2 0 0 0])
+  ("comint-send-input" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cling-send-string" .
+   [2 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
+  ("comint-send-string" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [3 0 0 0 0 0 0 0])
+  ("exec-path-from-shell" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("exec-path-from-shell-initialize" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("opencv2" .
    [1 0 0 0 0 0 0])
-  ("apply" .
-   [2 0 0 0 0])
-  ("lambda" .
+  ("Point3" .
+   [2 0 0 0 0 0])
+  ("so" .
+   [1 0])
+  ("alist" .
+   [0 0 0 1 0])
+  ("inhibit-switch-frame" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("n" .
+   [1])
+  ("nil" .
+   [4 0 0])
+  ("display-buffer-below-selected" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("t" .
+   [1])
+  ("get-buffer" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("local" .
+   [1 0 0 0 0])
+  ("stan" .
+   [3 0 0 0])
+  ("math" .
+   [1 0 0 0])
+  ("hpp" .
+   [2 0 0])
+  ("e" .
+   [1])
+  ("eigen3" .
    [1 0 0 0 0 0])
   ("ac-config-default" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("eigen3" .
+  ("lambda" .
    [1 0 0 0 0 0])
-  ("e" .
-   [1])
-  ("hpp" .
-   [2 0 0])
-  ("math" .
-   [1 0 0 0])
-  ("stan" .
-   [3 0 0 0])
-  ("local" .
-   [1 0 0 0 0])
-  ("get-buffer" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("t" .
-   [1])
-  ("display-buffer-below-selected" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("nil" .
-   [4 0 0])
-  ("n" .
-   [1])
-  ("inhibit-switch-frame" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("alist" .
-   [0 0 0 1 0])
-  ("so" .
-   [1 0])
-  ("Point3" .
-   [2 0 0 0 0 0])
-  ("opencv2" .
+  ("apply" .
+   [2 0 0 0 0])
+  ("funcall" .
    [1 0 0 0 0 0 0])
-  ("exec-path-from-shell-initialize" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("exec-path-from-shell" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [3 0 0 0 0 0 0 0])
-  ("comint-send-string" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cling-send-string" .
-   [2 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0])
-  ("comint-send-input" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("yank" .
-   [2 0 0 0])
-  ("and" .
-   [4 0 0])
-  ("vtk" .
-   [4 0 0])
-  ("lib" .
-   [2 0 0])
-  ("vtk6" .
-   [2 0 0 0])
-  ("format" .
-   [1 0 0 0 0 0])
-  ("type-of" .
-   [0 0 0 0 1 0 0])
-  ("nth" .
-   [1 0 0])
-  ("usr" .
-   [4 0 0])
-  ("pop" .
-   [2 0 0])
-  ("kill-ring." .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("first" .
-   [1 0 0 0 0])
-  ("cling-send-buffer" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("s" .
-   [1])
-  ("inferior-cling" .
-   [1 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("setq" .
-   [5 0 0 0])
-  ("require" .
-   [3 0 0 0 0 0 0])
-  ("car" .
-   [7 0 0])
-  ("kill-ring" .
-   [2 0 0 0 0 0 0 0 0])
-  ("or" .
-   [4 0])
-  ("let" .
-   [1 0 0])
-  ("the-line" .
-   [1 0 0 0 0 0 0 0])
-  ("string-or-null-p" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("quick-copy-line" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("string" .
-   [2 0 0 0 0 0])
-  ("Point" .
-   [4 0 0 0 0])
-  ("p1" .
-   [2 0])
-  ("p0" .
-   [1 0])
-  ("stansandbox" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("cling" .
+  ("defun" .
    [3 0 0 0 0])
-  ("cpp" .
-   [1 0 0])
-  ("src" .
-   [4 0 0])
-  ("home" .
-   [2 0 0 0])
-  ("h" .
-   [2])
-  ("bemcho" .
+  ("defvar" .
    [1 0 0 0 0 0])
-  ("other-window" .
-   [2 0 0 0 1 0 1 0 0 0 0 1])
-  ("other-buffer" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("set-window-buffer" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0])
-  ("window" .
-   [0 0 0 0 0 1])
-  ("get-other-frame" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("switch-to-buffer-other-window" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("set" .
-   [1 0 0])
-  ("display" .
-   [0 0 0 0 0 1 0])
-  ("display-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("buffer" .
-   [0 0 0 0 1 0])
-  ("buffer-substring" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("global-set-key" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("define" .
-   [1 0 0 0 0 0])
-  ("window-toggle-split-direction" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("toggle-window-split" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("msearch-mode" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("iostream" .
-   [0 0 0 0 0 0 0 1])
-  ("irony" .
+  ("display-buffer-at-bottom" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("comint-clear-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("save-excursion" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("cling-buffer-name" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("o" .
+   [1])
+  ("trace" .
    [1 0 0 0 0])
-  ("irony-mode" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("semantic" .
-   [2 0 0 0 0 0 0 1])
-  ("semantic-mode" .
-   [0 0 0 0 0 0 0 0 0 1 0 1 0])
-  ("company-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])))
+  ("c" .
+   [1])
+  ("cling-clear-buffer" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("debugger" .
+   [0 0 0 0 0 1 0 0])
+  ("switch-to-buffer" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0])
+  ("set-buffer" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("a" .
+   [1])
+  ("clea" .
+   [0 0 0 1])
+  ("clear" .
+   [1 0 0 0 0])
+  ("erase-buffer" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("get-process" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("cling-process-name" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("switch" .
+   [1 0 0 0 0 0])
+  ("with-current-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("current-buffer" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0])
+  ("save-selected-window" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("save-current-buffer" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("cua-base" .
+   [0 0 0 0 0 1 0 0])
+  ("msearch" .
+   [2 0 0 0 0 0 0])
+  ("cua-mode" .
+   [1 0 0 0 0 0 0 0])
+  ("g1" .
+   [6 0])
+  ("arma" .
+   [3 0 0 0])
+  ("gnuploti" .
+   [2 0 0 0 0 0 0 0])
+  ("plot" .
+   [2 0 0 0])
+  ("in" .
+   [2 0])
+  ("rand" .
+   [1 0 0 0])
+  ("std" .
+   [1 0 0])
+  ("plotName" .
+   [0 0 0 0 0 1 0 0])
+  ("randNY" .
+   [2 0 0 0 0 0])
+  ("p" .
+   [2])
+  ("gnu" .
+   [2 0 0])
+  ("text" .
+   [1 0 0 0])
+  ("plot_xyz" .
+   [1 0 0 0 0 0 0 0])
+  ("vector" .
+   [0 0 1 0 0 0])
+  ("company" .
+   [2 0 0 0 0 0 0])
+  ("cyberpunk-theme" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("tcsh" .
+   [0 0 0 1])
+  ("def" .
+   [1 0 0])
+  ("list" .
+   [1 0 0 0])
+  (":init" .
+   [1 0 0 0 0])))

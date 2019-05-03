@@ -1,128 +1,128 @@
-git push
-git add .
-git commit -m "Saving node-number in xelf node"
-git push
-git add .
-git commit -m "xelf node to lol node"
-git add .
-git commit -m "wumpus-hunter is now moveable"
-git push
-git add .
-git commit -m "Indentation, captions"
-git push
-git push
-git add .
-git commit -m "Readme updated"
-git push
-git status
-git diff wumpus.lisp
-git stash
-cd ..
-git add .
-git commit -m "project files orginized in folders"
-git push
-git push
-git add .
-git commit -m "clean up"
-git push
-cd ..
-git add .
-git commit -m "clean up 2"
-git push
-git add .
-git commit -m "Tune up nodes size"
-git push
-git add .
-git commit -m "more refactoring"
-git add .
-git commit -m "mist.png added"
-git add .
-git commit -m "Mist background first try"
-git add .
-git commit -m "Clouds added"
-cd ..
-git add .
-git commit -m "Mist improved"
+make ex1
+make clean
+make ex1
+make ex1
+./ex1 
+make clean
+make ex1
+./ex1 
+pwd
+ll
+ls
+cd ~/Projects/CWorld/LearnCTheHardWay/
+ls
+make
+./configure 
+make
+make
+make all
+make clean
+./configure 
+make
+git init
 ll
 ls
 git add .
-git commit -m "Refactored pipulate city"
+git commit -m "I	nitial commit"
+./configure
+make
+make clean
+make all
+make program
+./configure
+make all
+make clean
+make all
+./ex1 
 git add .
-git commit -m "Only known edges are shown now"
-git push
-git add .
-git commit -m "wumpus-hunter now visible"
-git add .
-git commit -m "some progress"
+git commit -m "Fixed Makefile.in(illegall space) "
+make ex3
+cc -v
+./ex3
+make clean
+./configure
+make clean
+make all
+./ex3
 git show
 git status
 git add .
-git commit -m "some progress"
-git add .
-git commit -m "pics retouched"
-git push
-git status
-git status
-git status
-git add .gitignore
-git commit -m "added gitignore"
-git add .
-git commit -m "saving progress"
-git add .
-git commit -m "All nodes from (known-city-edges) and their connections are drawn now"
-git push
-git status
-git add .
-git commit -m "police cars shown when police in transitions"
-git push
-git add .
-git commit -m "node numbers now shown"
-git  status
-git add .
-git add .
-git commit -m "Fixed duplicate police car"
-git push
-git add .
-git commit -m "some progress"
-cd ..
-git pull
-git stash
-git pull
+git commit -m "ex3"
+cc -v
+make clean
+make ex7
+./ex7
 ll
+ls
+./configure
+./make all
+make all
+./ex7
+make clean
+make ex7
+./ex7 
+make clean
+make all
+./ex7
+git add .
+git commit -m "ex7"
+./configure
+make clean
+make all
+./ex9
+make clean
+make ex9
+make ex9
+make ex9
+./ex9
+./ex9 hello world froooom ccccc
+make clean
+make ex9
+./ex9 hello world froooom ccccc
+git add .
+git commit -m "ex9"
+cd ../../AssemblerWorld/AssemblerX86StepByStepLinux
+ls
+cd chapter5/eatsyscall/
+ls
+make
+ls
+cd..
+lcd ..
+cd ..
+ls
+cd ..
+ls
+cd chapter7
+ls
+cd sandbox/
+ls
+make clean
+make
+make clean
+make
+cd ../kangaroo/
+make
+make
+make
+./hexdump2 
+make
+make
+./hexdump2 
+./hexdump2 
+make
+./hexdump2 
+./hexdump2 
+make
+./vidbuff1 
+cd..
+cd ..
+cd showchar/
+make
+ll
+ls
+./showchar
+ls =la
 ls -la
-cat .gitignore
-cd generated/
-rm 
-rm -f  
-cd ..
-git pull
-git add .
-git commit -m "Empty generated"
-git pull
-ls generated/
-git add .
-git status
-cd ..
-git add .
-git commit -m "Only visited nodes shows its contents"
-git push
-git add .
-git commit -m "Game instructions added"
-git push
-git add .
-git commit -m "quastion mark retouched"
-git push
-git add .
-git commit -m "Refactored nodes quering"
-cd ..
-git add .
-git commit -m "Fix	ing hunter disappeared"
-git add .
-git commit -m "gitignore added .#"
-git push
-git pull
-git add .
-git commit -m "reseting game on 'r'"
-git add .
-git commit -m "ignore"
-git push
+chmod +x showchar
+./showchar 
