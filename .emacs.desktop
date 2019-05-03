@@ -2,78 +2,102 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri May  3 12:00:17 2019
+;; Created Fri May  3 12:48:58 2019
 ;; Desktop file format version 208
 ;; Emacs version 26.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23756 801 373557 433000) (desktop . "208") "bemcho@ubuntu-desktop" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "C15B-E936-D5A8-EC0A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (fullscreen-restore) (height . 57) (width . 197) (left . 115) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 144) (min-pixel-width . 180) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 36) (min-pixel-width-safe . 36)) hc (pixel-width . 1805) (pixel-height . 1008) (total-width . 201) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 438) (pixel-height . 1008) (total-width . 49) (total-height . 56) (normal-height . 1.0) (normal-width . 0.24306326304106549) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 342) (start . 147))) (vc (last . t) (pixel-width . 1367) (pixel-height . 1008) (total-width . 152) (total-height . 56) (normal-height . 1.0) (normal-width . 0.7569367369589343) (combination-limit) (leaf (pixel-width . 1367) (pixel-height . 504) (total-width . 152) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "julia-mode.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 20352) (start . 19866))) (leaf (last . t) (pixel-width . 1367) (pixel-height . 504) (total-width . 152) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 85) (start . 1))))))])
+(setq desktop-saved-frameset [frameset 1 (23756 3722 152405 728000) (desktop . "208") "bemcho@ubuntu-desktop" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "C15B-E936-D5A8-EC0A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (fullscreen-restore) (height . 57) (width . 197) (left . 115) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 8) (min-width-ignore . 15) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 144) (min-pixel-width . 180) (min-pixel-height-ignore . 144) (min-pixel-width-ignore . 135) (min-pixel-height-safe . 36) (min-pixel-width-safe . 36)) hc (pixel-width . 1805) (pixel-height . 1008) (total-width . 201) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 432) (pixel-height . 1008) (total-width . 48) (total-height . 56) (normal-height . 1.0) (normal-width . 0.23933518005540166) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 438) (start . 1))) (vc (last . t) (pixel-width . 1373) (pixel-height . 1008) (total-width . 153) (total-height . 56) (normal-height . 1.0) (normal-width . 0.7606648199445983) (combination-limit) (leaf (pixel-width . 1373) (pixel-height . 504) (total-width . 153) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 10215) (start . 9676))) (leaf (last . t) (pixel-width . 1373) (pixel-height . 504) (total-width . 153) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 85) (start . 1))))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("pane" "rainbow-identifiers-mode" "theme" "term" "user-config" "theme" "zenburn" "zen" "use-home" "defun (args)" "reset" "resta" "reset-ga" "bipp" "bip.wav" "./"))
+(setq search-ring '("kill-this" "pane" "f8" "pane" "rainbow-identifiers-mode" "theme" "term" "user-config" "theme" "zenburn" "zen" "use-home" "defun (args)" "reset" "resta" "reset-ga"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,1 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . " solarized-them") (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
-(setq file-name-history '("~/.emacs.d/julia-repl/julia-repl.el" "~/.emacs.d/julia-emacs/julia-mode.el" "~/.emacs.d/init.el" "~/Projects/JuliaWorld/StatsWithJuliaBook/2_chapter/independence.jl" "~/quicklisp/setup.lisp" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter10/hexdump2/hexdump2.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/hexdump1.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/hexdump1" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/uppercaser2OPTIMAL.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/uppercaser2.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser1/uppercaser1.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser1/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/kangaroo/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/kangaroo/kangaroo.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/sandbox.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/newsandbox.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/movsbdemo.asm~" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter5/eatsyscall/eatsyscall.asm" "~/Projects/AssemblerWorld/misc/hello.s" "~/Projects/AssemblerWorld/misc/hello" "~/Projects/CWorld/LearnCTheHardWay/.gitignore" "~/Projects/LispWorld/foo-lisp/.gitignore" "~/Projects/CWorld/LearnCTheHardWay/Makefile.in" "~/Projects/CWorld/LearnCTheHardWay/Makefile" "~/Projects/CWorld/LearnCTheHardWay/ex1.c" "~/Projects/LispWorld/foo-lisp/city-node.png" "~/.config/common-lisp/source-registry.conf" "~/Projects/LispWorld/ENA/init.el" "~/.spacemacs" "~/Projects/AdaWorld/ada-v4l/adav4l.gpr" "~/Projects/hobby/3d-scanner/source/ExtractContours.cpp" "~/Projects/elixir-koans/lib/koans/02_strings.ex" "~/Projects/hal-flash/Makefile.in"))
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,9602 (get-buffer ,"init.el")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) '(48 . " solarized-them") (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk)) (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,nil (get-buffer ," *temp*")))) mk))))
+(setq file-name-history '("~/.emacs.d/init.el" "~/.emacs.d/julia-repl/julia-repl.el" "~/.emacs.d/julia-emacs/julia-mode.el" "~/Projects/JuliaWorld/StatsWithJuliaBook/2_chapter/independence.jl" "~/quicklisp/setup.lisp" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter10/hexdump2/hexdump2.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/hexdump1.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter9/hexdump1/hexdump1" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/uppercaser2OPTIMAL.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser2/uppercaser2.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser1/uppercaser1.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter8/uppercaser1/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/kangaroo/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/makefile" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/kangaroo/kangaroo.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/sandbox.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/newsandbox.asm" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter7/sandbox/movsbdemo.asm~" "~/Projects/AssemblerWorld/AssemblerX86StepByStepLinux/chapter5/eatsyscall/eatsyscall.asm" "~/Projects/AssemblerWorld/misc/hello.s" "~/Projects/AssemblerWorld/misc/hello" "~/Projects/CWorld/LearnCTheHardWay/.gitignore" "~/Projects/LispWorld/foo-lisp/.gitignore" "~/Projects/CWorld/LearnCTheHardWay/Makefile.in" "~/Projects/CWorld/LearnCTheHardWay/Makefile" "~/Projects/CWorld/LearnCTheHardWay/ex1.c" "~/Projects/LispWorld/foo-lisp/city-node.png" "~/.config/common-lisp/source-registry.conf" "~/Projects/LispWorld/ENA/init.el" "~/.spacemacs" "~/Projects/AdaWorld/ada-v4l/adav4l.gpr" "~/Projects/hobby/3d-scanner/source/ExtractContours.cpp" "~/Projects/elixir-koans/lib/koans/02_strings.ex" "~/Projects/hal-flash/Makefile.in"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/home/bemcho/.emacs.d/julia-emacs/julia-mode.el"
-  "julia-mode.el"
-  'emacs-lisp-mode
-  '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  20352
-  '(20352 t)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 23756 801 283509 96000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring nil)))
-
 (desktop-create-buffer 208
   "/home/bemcho/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  9700
-  '(25377 nil)
+  '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  10215
+  '(10215 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 23756 726 998100 946000) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (25339 25338 9727 22756 25169 25168 1975 1974 1974 1855 1821 1821 1756 1655 732 9631))))
+  '((show-trailing-whitespace . 1) (buffer-display-time 23756 3722 91092 94000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (9603 9603 9587 9590 23946 20043 9590 9590 9590 9590 9634 9659 9570 9590 9602 9590))))
 
 (desktop-create-buffer 208
-  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/2_chapter/sets.jl"
-  "sets.jl"
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/distributionDescriptors.jl"
+  "distributionDescriptors.jl"
   'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
   1
   '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 667 881876 580000) (buffer-file-coding-system . undecided-unix))
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3580 777267 11000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/hypergeometric.jl"
-  "hypergeometric.jl"
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/expGeom.jl"
+  "expGeom.jl"
   'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode linum-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  319
-  '(319 nil)
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 657 703784 683000) (buffer-file-coding-system . undecided-unix))
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3446 400152 697000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/gammafunctionIntegration.jl"
+  "gammafunctionIntegration.jl"
+  'julia-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3445 429508 378000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/mgf.jl"
+  "mgf.jl"
+  'julia-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3408 309856 23000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/discreteDists.jl"
+  "discreteDists.jl"
+  'julia-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  340
+  '(340 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3361 851343 738000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/gammaDist.jl"
   "gammaDist.jl"
   'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode linum-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  105
-  '(105 t)
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode linum-mode rainbow-delimiters-mode rainbow-identifiers-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 635 50538 146000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (105))))
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 3341 721442 781000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 

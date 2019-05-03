@@ -267,15 +267,12 @@ i.e. change right window to bottom, or change bottom window to right."
                                         ;(add-hook 'text-mode-hook  'cua-mode)
                                         ;(add-hook 'cua-mode-hook 'msearch-mode)
 
-(line-number-mode t)
-
 (defun close-and-kill-this-pane ()
   "If there are multiple windows, then close this pane and kill the buffer in it also."
   (interactive)
-  (tabbar-delete-tab (tabbar-selected-tab (tabbar-current-tabset)))
-  (tabbar-buffer-quit))
+  (kill-buffer))
 
-  (global-set-key (kbd "C-W") ' close-and-kill-this-pane)
+(global-set-key (kbd "C-W") 'close-and-kill-this-pane)
 
 
 (tabbar-mode)
@@ -291,15 +288,6 @@ i.e. change right window to bottom, or change bottom window to right."
 
 (add-to-list 'auto-mode-alist '("\\.ex\\'" . erlang-mode))
 (setq indent-tabs-mode nil)
-
-(defun close-and-kill-this-pane ()
-  "If there are multiple windows, then close this pane and kill the buffer in it also."
-  (interactive)
-  (kill-this-buffer)
-  (if (not (one-window-p))
-      (delete-window)))
-
-
 
 (defun window-toggle-split-direction ()
   "Switch window split from horizontally to vertically, or vice versa.
@@ -556,8 +544,6 @@ you should place your code here."
   (speedbar-add-supported-extension ".lisp")
   ;;speedbar end
 
-
-  (linum-mode)
   (ac-config-default)
   (ido-mode)
  
