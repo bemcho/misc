@@ -274,8 +274,7 @@ i.e. change right window to bottom, or change bottom window to right."
   (interactive)
   (tabbar-delete-tab (tabbar-selected-tab))
   (tabbar-buffer-quit))
-
-  (global-set-key (kbd "C-W") ' close-and-kill-this-pane)
+(global-set-key (kbd "C-W") ' close-and-kill-this-pane)
 
 
 (tabbar-mode)
