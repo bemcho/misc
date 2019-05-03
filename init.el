@@ -272,7 +272,7 @@ i.e. change right window to bottom, or change bottom window to right."
 (defun close-and-kill-this-pane ()
   "If there are multiple windows, then close this pane and kill the buffer in it also."
   (interactive)
-  (tabbar-delete-tab (tabbar-selected-tab))
+  (tabbar-delete-tab (tabbar-selected-tab (tabbar-current-tabset)))
   (tabbar-buffer-quit))
 
   (global-set-key (kbd "C-W") ' close-and-kill-this-pane)
@@ -696,6 +696,7 @@ That is, a string used to represent it on the tab bar."
 
 (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'prog-mode-hook 'linum-mode)
 
 
 

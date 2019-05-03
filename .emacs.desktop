@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri May  3 11:48:20 2019
+;; Created Fri May  3 12:00:17 2019
 ;; Desktop file format version 208
 ;; Emacs version 26.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23756 84 52900 549000) (desktop . "208") "bemcho@ubuntu-desktop" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "C15B-E936-D5A8-EC0A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (fullscreen-restore) (height . 57) (width . 197) (left . 115) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 90) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 54) (min-pixel-height-safe . 18) (min-pixel-width-safe . 18)) leaf (pixel-width . 1805) (pixel-height . 1008) (total-width . 201) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 9752) (start . 9469))))])
+(setq desktop-saved-frameset [frameset 1 (23756 801 373557 433000) (desktop . "208") "bemcho@ubuntu-desktop" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (frameset--id . "C15B-E936-D5A8-EC0A") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0.0") (explicit-name) (fullscreen-restore) (height . 57) (width . 197) (left . 115) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 7) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 144) (min-pixel-width . 180) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 36) (min-pixel-width-safe . 36)) hc (pixel-width . 1805) (pixel-height . 1008) (total-width . 201) (total-height . 56) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 438) (pixel-height . 1008) (total-width . 49) (total-height . 56) (normal-height . 1.0) (normal-width . 0.24306326304106549) (buffer "*SPEEDBAR*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 342) (start . 147))) (vc (last . t) (pixel-width . 1367) (pixel-height . 1008) (total-width . 152) (total-height . 56) (normal-height . 1.0) (normal-width . 0.7569367369589343) (combination-limit) (leaf (pixel-width . 1367) (pixel-height . 504) (total-width . 152) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "julia-mode.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 20352) (start . 19866))) (leaf (last . t) (pixel-width . 1367) (pixel-height . 504) (total-width . 152) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 85) (start . 1))))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -18,64 +18,28 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/bemcho/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  9752
-  '(9703 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 23756 19 810236 970000) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (22732 25145 25144 1975 1974 1974 1855 1821 1821 1756 1655 732 732 1655 1756 9752))))
-
-(desktop-create-buffer 208
   "/home/bemcho/.emacs.d/julia-emacs/julia-mode.el"
   "julia-mode.el"
   'emacs-lisp-mode
   '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  20783
-  '(nil nil)
+  20352
+  '(20352 t)
   nil
   nil
-  '((show-trailing-whitespace . 1) (buffer-display-time 23755 65523 327066 994000) (buffer-file-coding-system . utf-8-unix))
+  '((show-trailing-whitespace . 1) (buffer-display-time 23756 801 283509 96000) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/bivariateNormal.jl"
-  "bivariateNormal.jl"
-  'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  555
-  '(141 nil)
+  "/home/bemcho/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode auto-complete-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
+  9700
+  '(25377 nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode . t) (buffer-display-time 23755 64675 923781 973000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (555))))
-
-(desktop-create-buffer 208
-  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/multiDimensionalIntegration.jl"
-  "multiDimensionalIntegration.jl"
-  'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23755 64669 224881 802000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/2_chapter/catalan.jl"
-  "catalan.jl"
-  'julia-mode
-  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
-  1077
-  '(630 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23755 64579 210972 822000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1288 1077))))
+  '((show-trailing-whitespace . 1) (buffer-display-time 23756 726 998100 946000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (25339 25338 9727 22756 25169 25168 1975 1974 1974 1855 1821 1821 1756 1655 732 9631))))
 
 (desktop-create-buffer 208
   "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/2_chapter/sets.jl"
@@ -86,6 +50,30 @@
   '(nil nil)
   nil
   nil
-  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23755 64579 248822 97000) (buffer-file-coding-system . undecided-unix))
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 667 881876 580000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/hypergeometric.jl"
+  "hypergeometric.jl"
+  'julia-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode linum-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
+  319
+  '(319 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 657 703784 683000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bemcho/Projects/JuliaWorld/StatsWithJuliaBook/3_chapter/gammaDist.jl"
+  "gammaDist.jl"
+  'julia-mode
+  '(volatile-highlights-mode override-global-mode company-mode projectile-mode helm-mode yas-minor-mode smartparens-mode linum-mode julia-repl-mode rainbow-delimiters-mode rainbow-identifiers-mode auto-revert-mode)
+  105
+  '(105 t)
+  nil
+  nil
+  '((show-trailing-whitespace . 1) (indent-tabs-mode) (buffer-display-time 23756 635 50538 146000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (105))))
 
