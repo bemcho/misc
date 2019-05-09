@@ -666,8 +666,8 @@ That is, a string used to represent it on the tab bar."
 
 ;;;;;;;;;;;;;;;Julia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (setq julia-repl-executable-records
-      '((default "/home/bemcho/Apps/julia/bin/julia")                  ; in the executable path
-        (master "/home/bemcho/Apps/julia/bin/julia"))) ; compiled from the repository
+      '((default "/home/etomov/Apps/julia/bin/julia")                  ; in the executable path
+        (master "/home/etomov/Apps/julia/bin/julia"))) ; compiled from the repository
 
 
 (add-to-list 'load-path "/home/bemcho/.emacs.d/julia-repl")
@@ -693,7 +693,8 @@ That is, a string used to represent it on the tab bar."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes nil)
+ '(custom-safe-themes
+   '("04232a0bfc50eac64c12471607090ecac9d7fd2d79e388f8543d1c5439ed81f5" default))
  '(package-selected-packages
-   (quote
-    (zygospore ws-butler use-package undo-tree treemacs-icons-dired toggle-window tabbar swift3-mode stickyfunc-enhance srefactor sr-speedbar smartparens rtags rainbow-mode rainbow-identifiers rainbow-delimiters paredit nasm-mode multiple-cursors markdown-mode magit julia-repl iedit helm-w3m helm-swoop helm-projectile goto-chg ghub+ ggtags function-args flycheck exec-path-from-shell ess erlang elm-yasnippets dtrt-indent dic-lookup-w3m dash-at-point cuda-mode counsel-projectile company-ycm company-statistics company-irony-c-headers company-irony company-go company-c-headers common-lisp-snippets clean-aindent-mode cedit auto-complete-clang auto-complete-c-headers anzu anything ada-mode ac-slime)))
- '(tabbar-separator (quote (0.5))))
+   '(zenburn-theme zygospore ws-butler use-package undo-tree treemacs-icons-dired toggle-window tabbar swift3-mode stickyfunc-enhance srefactor sr-speedbar smartparens rtags rainbow-mode rainbow-identifiers rainbow-delimiters paredit nasm-mode multiple-cursors markdown-mode magit julia-repl iedit helm-w3m helm-swoop helm-projectile goto-chg ghub+ ggtags function-args flycheck exec-path-from-shell ess erlang elm-yasnippets dtrt-indent dic-lookup-w3m dash-at-point cuda-mode counsel-projectile company-ycm company-statistics company-irony-c-headers company-irony company-go company-c-headers common-lisp-snippets clean-aindent-mode cedit auto-complete-clang auto-complete-c-headers anzu anything ada-mode ac-slime))
+ '(tabbar-separator '(0.5)))
